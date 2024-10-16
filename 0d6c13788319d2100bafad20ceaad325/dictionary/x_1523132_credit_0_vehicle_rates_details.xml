@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ef78885839916100bafad20ceaad363" label="Vehicle Rates Details" max_length="40" name="x_1523132_credit_0_vehicle_rates_details" type="collection">
+        <element label="Date Registered" max_length="40" name="date_registered" type="glide_date"/>
+        <element label="Vehicle Category" max_length="40" name="vehicle_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Vehicle Rate Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Vehicle Type" max_length="40" name="vehicle_type" type="string"/>
+        <element label="Engine" max_length="40" name="engine" type="string"/>
+        <element label="GTA Group" max_length="40" name="gta_group" type="string"/>
+        <element label="GTA Rate" max_length="38" name="gta_rate" type="decimal"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="51588885839916100bafad20ceaad340" sys_domain="global" table="x_1523132_credit_0_claim_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-15 07:07:39</sys_created_on>
+            <sys_id>19588885839916100bafad20ceaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">51588885839916100bafad20ceaad340</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:07:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1523132_credit_0_claim_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-15 07:07:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51588885839916100bafad20ceaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_claim_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_51588885839916100bafad20ceaad340</sys_update_name>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:07:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_section_51588885839916100bafad20ceaad340</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="51588885839916100bafad20ceaad340" sys_domain="global" table="x_1523132_credit_0_claim_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-15 07:07:39</sys_created_on><sys_id>19588885839916100bafad20ceaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">51588885839916100bafad20ceaad340</sys_ui_section><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-15 07:07:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1523132_credit_0_claim_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-15 07:07:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51588885839916100bafad20ceaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_credit_0_claim_details</sys_name><sys_overrides/><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ui_section_51588885839916100bafad20ceaad340</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-15 07:07:39</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-721515664</payload_hash>
+        <record_name>CH_CLAIM_DETAILS</record_name>
+        <reverted_from/>
+        <source>4d6c13788319d2100bafad20ceaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 07:07:39</sys_created_on>
+        <sys_id>5d5884c5839916100bafad20ceaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f00fba70000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:07:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>155884c524991610423d2f3df3f8bbf3</update_guid>
+        <update_guid_history>155884c524991610423d2f3df3f8bbf3:-721515664,11588885f69916107848fcc45cee3b43:-305047744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 10:27:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2e2476337e734d2e9ee0d34b4fb34004</sys_id>
+        <sys_metadata>51588885839916100bafad20ceaad340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_claim_details</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="">a45844c5839916100bafad20ceaad3dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ui_section_51588885839916100bafad20ceaad340</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_51588885839916100bafad20ceaad340">5d5884c5839916100bafad20ceaad3f3</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 10:27:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

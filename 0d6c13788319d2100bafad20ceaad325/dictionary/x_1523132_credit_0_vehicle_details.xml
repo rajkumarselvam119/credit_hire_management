@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0ecf730839516100bafad20ceaad3e5" label="Vehicle Details" max_length="40" name="x_1523132_credit_0_vehicle_details" type="collection">
+        <element label="Transmission" max_length="40" name="transmission" type="string"/>
+        <element label="Claim Number" max_length="32" name="claim_number" read_only="true" reference="x_1523132_credit_0_claim_details" type="reference"/>
+        <element label="Vehicle Number" max_length="40" name="vehicle_number" type="string"/>
+        <element label="Body Type" max_length="40" name="body_type" type="string"/>
+        <element label="Total Loss" max_length="40" name="total_loss" type="integer"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Pre-Condition Category" max_length="40" name="pre_condition_category" type="string"/>
+        <element label="Group" max_length="40" name="group" type="string"/>
+        <element label="Engine Size" max_length="40" name="engine_size" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Indicative_BHR" max_length="40" name="indicative_bhr" type="decimal"/>
+        <element label="Vehicle Rate" max_length="40" name="vehicle_rate" type="decimal"/>
+        <element label="BHR" max_length="40" name="bhr" type="string"/>
+        <element label="Vehicle VRN" max_length="40" name="vehicle_vrn" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Vehicle Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>

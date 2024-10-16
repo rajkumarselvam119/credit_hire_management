@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="462e0dcd835d56100bafad20ceaad300" label="CHM_MISCELLANEOUS_CHARGE_DETAILS" max_length="40" name="x_1523132_credit_0_miscellaneous_charge_details" type="collection">
+        <element label=" Is Setteled" max_length="40" name="is_setteled" type="boolean"/>
+        <element label="Added On" max_length="40" name="added_on" type="glide_date_time"/>
+        <element label="Created by" max_length="40" name="created_by" type="string"/>
+        <element label="Defendant Offer Misc Value" max_length="40" name="defendant_offer_misc_value" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="MCD Id" max_length="40" name="number" type="string"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Updated On" max_length="40" name="updated_on" type="glide_date_time"/>
+        <element label="From Entity" max_length="40" name="from_entity" type="string"/>
+        <element label="MISC Value" max_length="40" name="misc_value" type="decimal"/>
+        <element label="MISC Value Without Vat" max_length="40" name="misc_value_without_vat" type="decimal"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Added By" max_length="40" name="added_by" type="string"/>
+        <element label="Vat" max_length="40" name="vat" type="decimal"/>
+        <element label="Is Vat Applied" max_length="40" name="is_vat_applied" type="boolean"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="integer"/>
+    </element>
+</database>

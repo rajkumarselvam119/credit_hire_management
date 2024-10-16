@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Miscellaneous Charge Details">0bfb490d835d56100bafad20ceaad370</application>
+        <filter/>
+        <name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1523132_credit_0.chm_miscellaneous_charge_details_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-15 12:03:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47fb490d835d56100bafad20ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ui_module_47fb490d835d56100bafad20ceaad373</sys_update_name>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-15 12:03:13</sys_updated_on>
+        <table>x_1523132_credit_0_chm_miscellaneous_charge_details</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_module_47fb490d835d56100bafad20ceaad373</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Miscellaneous Charge Details">0bfb490d835d56100bafad20ceaad370</application><filter/><name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1523132_credit_0.chm_miscellaneous_charge_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>babafakruddin.singanamala</sys_created_by><sys_created_on>2024-10-15 12:03:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>47fb490d835d56100bafad20ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ui_module_47fb490d835d56100bafad20ceaad373</sys_update_name><sys_updated_by>babafakruddin.singanamala</sys_updated_by><sys_updated_on>2024-10-15 12:03:13</sys_updated_on><table>x_1523132_credit_0_chm_miscellaneous_charge_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>2083785737</payload_hash>
+        <record_name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</record_name>
+        <reverted_from/>
+        <source>4d6c13788319d2100bafad20ceaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-15 12:03:13</sys_created_on>
+        <sys_id>cbfb490d835d56100bafad20ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192900f96830000001</sys_recorded_at>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-15 12:03:13</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8ffb490da35d561078b8d4837df94474</update_guid>
+        <update_guid_history>8ffb490da35d561078b8d4837df94474:2083785737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-15 12:12:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>17a720765e304394be4662bd1cd5fbc4</sys_id>
+        <sys_metadata>47fb490d835d56100bafad20ceaad373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHM_MISCELLANEOUS_CHARGE_DETAILSs</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ui_module_47fb490d835d56100bafad20ceaad373</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_47fb490d835d56100bafad20ceaad373">cbfb490d835d56100bafad20ceaad375</sys_update_version>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-15 12:12:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>CH_NEGOTIATION_DETAILS</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CH_NEGOTIATION_DETAILS</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4c4cbf2af832021008dd9cfea425ac61</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 07:57:13</sys_created_on>
+        <sys_id>aba3dc05839d16100bafad20ceaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CH_NEGOTIATION_DETAILS</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_wizard_answer_aba3dc05839d16100bafad20ceaad3b8</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:57:13</sys_updated_on>
+        <table/>
+        <target_url>x_1523132_credit_0_ch_negotiation_details.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_wizard_answer_aba3dc05839d16100bafad20ceaad3b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>CH_NEGOTIATION_DETAILS</answer><button_label/><dependent_value/><element/><name>CH_NEGOTIATION_DETAILS</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">4c4cbf2af832021008dd9cfea425ac61</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-15 07:57:13</sys_created_on><sys_id>aba3dc05839d16100bafad20ceaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CH_NEGOTIATION_DETAILS</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_wizard_answer_aba3dc05839d16100bafad20ceaad3b8</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-15 07:57:13</sys_updated_on><table/><target_url>x_1523132_credit_0_ch_negotiation_details.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1385128135</payload_hash>
+        <record_name>CH_NEGOTIATION_DETAILS</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 08:28:31</sys_created_on>
+        <sys_id>4ada9c45835156100bafad20ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f4b057f0000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:28:31</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>0ada9c45ac5156106dcedda9445648af</update_guid>
+        <update_guid_history>0ada9c45ac5156106dcedda9445648af:-1385128135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 08:28:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>0e1dbb22aca049bc88e12be323b70190</sys_id>
+        <sys_metadata>aba3dc05839d16100bafad20ceaad3b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CH_NEGOTIATION_DETAILS</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="Task">4c4cbf2af832021008dd9cfea425ac61</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_aba3dc05839d16100bafad20ceaad3b8</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_aba3dc05839d16100bafad20ceaad3b8">4ada9c45835156100bafad20ceaad3af</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:28:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_service_channel">
+    <awa_service_channel action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced_condition>false</advanced_condition>
+        <assign_to_field>assigned_to</assign_to_field>
+        <assignment_group_field>assignment_group</assignment_group_field>
+        <condition/>
+        <default_capacity>4</default_capacity>
+        <default_size>1</default_size>
+        <description/>
+        <enable_logging>false</enable_logging>
+        <inbox_alert_audio/>
+        <log_level>none</log_level>
+        <message_alert_audio/>
+        <name>Test</name>
+        <order>100</order>
+        <stop_logging_at/>
+        <stop_logging_schedule/>
+        <sys_class_name>awa_service_channel</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 18:05:56</sys_created_on>
+        <sys_id>075e52098355d6100bafad20ceaad34b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>awa_service_channel_075e52098355d6100bafad20ceaad34b</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 18:27:00</sys_updated_on>
+        <type/>
+        <utilization_condition table="x_1523132_credit_0_claim_details">numberISNOTEMPTY^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </utilization_condition>
+        <workitem_table>x_1523132_credit_0_claim_details</workitem_table>
+    </awa_service_channel>
+</record_update>

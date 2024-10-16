@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_queue">
+    <awa_queue action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <average_wait_time>1970-01-01 00:00:30</average_wait_time>
+        <condition/>
+        <condition_mode>simple</condition_mode>
+        <condition_script><![CDATA[(function executeCondition(/* glide record */ current) {  
+	// customize condition logic here, return true or false  
+	return false;
+})(current);]]></condition_script>
+        <evaluation_scope>document</evaluation_scope>
+        <external>false</external>
+        <external_id/>
+        <initial_agent_response>Thank you for contacting support. I am looking into your question now and will be with you shortly.</initial_agent_response>
+        <max_wait_time/>
+        <max_wait_time_message>No agents are available to chat right now. Check back later.</max_wait_time_message>
+        <name>teat</name>
+        <number>QUE00001</number>
+        <order>100</order>
+        <schedule/>
+        <service_channel display_value="Test">075e52098355d6100bafad20ceaad34b</service_channel>
+        <short_description/>
+        <subflow/>
+        <sys_class_name>awa_queue</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 18:06:38</sys_created_on>
+        <sys_id>701f524d8355d6100bafad20ceaad3db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>teat</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>awa_queue_701f524d8355d6100bafad20ceaad3db</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 18:06:50</sys_updated_on>
+        <target_wait_time/>
+        <use_condition>true</use_condition>
+    </awa_queue>
+</record_update>

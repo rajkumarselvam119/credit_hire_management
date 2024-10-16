@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_inbox_layout">
+    <awa_inbox_layout action="INSERT_OR_UPDATE">
+        <card_layout><![CDATA[<img src="awa_card_layout_guide.png" width="349" height="300" />]]></card_layout>
+        <condition/>
+        <field_1>number</field_1>
+        <field_2/>
+        <field_3/>
+        <field_4/>
+        <field_5/>
+        <is_default>true</is_default>
+        <name>Default Test layout</name>
+        <order>1000000</order>
+        <service_channel display_value="Test">075e52098355d6100bafad20ceaad34b</service_channel>
+        <short_description>Default inbox layout for the Test Service Channel</short_description>
+        <sys_class_name>awa_inbox_layout</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 18:05:56</sys_created_on>
+        <sys_id>040f1a0d8355d6100bafad20ceaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Test layout</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>awa_inbox_layout_040f1a0d8355d6100bafad20ceaad365</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 18:05:56</sys_updated_on>
+    </awa_inbox_layout>
+</record_update>

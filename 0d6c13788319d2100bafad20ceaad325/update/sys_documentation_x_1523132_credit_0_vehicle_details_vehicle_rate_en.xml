@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vehicle_rate" label="Vehicle Rate" language="en" table="x_1523132_credit_0_vehicle_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vehicle_rate</element>
+            <help/>
+            <hint/>
+            <label>Vehicle Rate</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_vehicle_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-15 07:13:43</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Vehicle Rate</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_documentation_x_1523132_credit_0_vehicle_details_vehicle_rate_en</sys_update_name>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:49:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="84dfe449839956100bafad20ceaad39d" label="CHM_LITIGATION_DETAILS" max_length="40" name="x_1523132_credit_0_litigation_details" type="collection">
+        <element label="Decision" max_length="40" name="decision" type="string"/>
+        <element label="Created By" max_length="40" name="created_by" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Lit Id" max_length="40" name="number" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="integer"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Reference Number" max_length="38" name="reference_number" type="integer"/>
+        <element label="Defendant Panel Reserved amount" max_length="38" name="defendant_panel_reserved_amount" type="decimal"/>
+        <element label="Updated On" max_length="40" name="updated_on" type="string"/>
+        <element label=" Panel Reserved Amount" max_length="38" name="panel_reserved_amount" type="decimal"/>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>200</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 18:05:56</sys_created_on>
+        <sys_id>140f1a0d8355d6100bafad20ceaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>awa_work_item</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_db_view_table_140f1a0d8355d6100bafad20ceaad3c3</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 18:05:56</sys_updated_on>
+        <table>awa_work_item</table>
+        <variable_prefix>wi</variable_prefix>
+        <view display_value="u_awa_075e52098355d6100bafad20ceaad34b_work_item">540f1a0d8355d6100bafad20ceaad369</view>
+        <where_clause>wi_queue = q_sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

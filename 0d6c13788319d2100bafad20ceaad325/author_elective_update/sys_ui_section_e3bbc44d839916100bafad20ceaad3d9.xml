@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="e3bbc44d839916100bafad20ceaad3d9" sys_domain="global" table="x_1523132_credit_0_ch_repair_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-15 07:22:33</sys_created_on>
+            <sys_id>6bbbc44d839916100bafad20ceaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_ch_repair_details" sys_domain="global" view="Default view">e3bbc44d839916100bafad20ceaad3d9</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:22:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1523132_credit_0_ch_repair_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-15 07:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3bbc44d839916100bafad20ceaad3d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_ch_repair_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_e3bbc44d839916100bafad20ceaad3d9</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:22:33</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_section_e3bbc44d839916100bafad20ceaad3d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="e3bbc44d839916100bafad20ceaad3d9" sys_domain="global" table="x_1523132_credit_0_ch_repair_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-15 07:22:33</sys_created_on><sys_id>6bbbc44d839916100bafad20ceaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_ch_repair_details" sys_domain="global" view="Default view">e3bbc44d839916100bafad20ceaad3d9</sys_ui_section><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-15 07:22:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1523132_credit_0_ch_repair_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-15 07:22:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e3bbc44d839916100bafad20ceaad3d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_credit_0_ch_repair_details</sys_name><sys_overrides/><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ui_section_e3bbc44d839916100bafad20ceaad3d9</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-15 07:22:33</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>996567162</payload_hash>
+        <record_name>CH_REPAIR_DETAILS</record_name>
+        <reverted_from/>
+        <source>4d6c13788319d2100bafad20ceaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 07:22:33</sys_created_on>
+        <sys_id>ebbbc44d839916100bafad20ceaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f0ea07c0000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:22:33</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a3bbc44dba991610d84ab208bb1170de</update_guid>
+        <update_guid_history>a3bbc44dba991610d84ab208bb1170de:996567162,63bbc44d9c991610e9a1bbd44b11cddc:1456143297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 08:36:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1dde85bb195f4218800327058ff74a91</sys_id>
+        <sys_metadata>e3bbc44d839916100bafad20ceaad3d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_ch_repair_details</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="">8bbb4c4d839916100bafad20ceaad3ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e3bbc44d839916100bafad20ceaad3d9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e3bbc44d839916100bafad20ceaad3d9">ebbbc44d839916100bafad20ceaad3de</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:36:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

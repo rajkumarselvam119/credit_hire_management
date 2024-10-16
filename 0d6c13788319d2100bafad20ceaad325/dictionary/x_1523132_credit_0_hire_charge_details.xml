@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8dae8c8983d916100bafad20ceaad32e" label="Hire Charge Details" max_length="40" name="x_1523132_credit_0_hire_charge_details" type="collection">
+        <element label="Unit Price Per Day" max_length="38" name="unit_price_per_day" type="decimal"/>
+        <element label="Total Due Amount" max_length="38" name="total_due_amount" type="decimal"/>
+        <element label="Is Extra Charge" max_length="40" name="is_extra_charge" type="boolean"/>
+        <element label="Group" max_length="40" name="group" type="string"/>
+        <element label="Defendant Offer Per Day Value" max_length="38" name="defendant_offer_per_day_value" type="decimal"/>
+        <element label="Number Of Days Vehicle Hired" max_length="38" name="number_of_days_vehicle_hired" type="decimal"/>
+        <element label="Defendant Total Due Amount" max_length="38" name="defendant_total_due_amount" type="decimal"/>
+        <element label="Desc" max_length="40" name="desc" type="string"/>
+        <element label="Hire Number" max_length="32" name="hire_number" reference="x_1523132_credit_0_hire_details" type="reference"/>
+        <element label="Charge Type" max_length="40" name="charge_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="HCD Number" max_length="40" name="number" type="string"/>
+        <element label="Reg Number" max_length="40" name="reg_number" type="string"/>
+        <element label="Defendant Offer Per Day Unit Price" max_length="38" name="defendant_offer_per_day_unit_price" type="decimal"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <index name="index">
+            <element name="hire_number"/>
+        </index>
+    </element>
+</database>

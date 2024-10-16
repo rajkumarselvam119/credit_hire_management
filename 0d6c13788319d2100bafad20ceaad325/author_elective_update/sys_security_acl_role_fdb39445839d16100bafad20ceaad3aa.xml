@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 07:57:23</sys_created_on>
+        <sys_id>fdb39445839d16100bafad20ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.user</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_security_acl display_value="x_1523132_credit_0_ch_negotiation_details">31b39445839d16100bafad20ceaad3a7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fdb39445839d16100bafad20ceaad3aa</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:57:23</sys_updated_on>
+        <sys_user_role display_value="x_1523132_credit_0.user" name="x_1523132_credit_0.user">996c13788319d2100bafad20ceaad3f9</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_security_acl_role_fdb39445839d16100bafad20ceaad3aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-15 07:57:23</sys_created_on><sys_id>fdb39445839d16100bafad20ceaad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.user</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_security_acl display_value="x_1523132_credit_0_ch_negotiation_details">31b39445839d16100bafad20ceaad3a7</sys_security_acl><sys_update_name>sys_security_acl_role_fdb39445839d16100bafad20ceaad3aa</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-15 07:57:23</sys_updated_on><sys_user_role display_value="x_1523132_credit_0.user" name="x_1523132_credit_0.user">996c13788319d2100bafad20ceaad3f9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>369982535</payload_hash>
+        <record_name>x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.user</record_name>
+        <reverted_from/>
+        <source>4d6c13788319d2100bafad20ceaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 07:57:23</sys_created_on>
+        <sys_id>f9b39445839d16100bafad20ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f2e84b70000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:57:23</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fdb39445489d16109a50b06768276fac</update_guid>
+        <update_guid_history>fdb39445489d16109a50b06768276fac:369982535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.user">7bca1845835156100bafad20ceaad33c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-15 08:28:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>850194d68a7d4098a204aafaa088b990</sys_id>
+        <sys_metadata>fdb39445839d16100bafad20ceaad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.user</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="">31b39445839d16100bafad20ceaad3a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fdb39445839d16100bafad20ceaad3aa</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fdb39445839d16100bafad20ceaad3aa">f9b39445839d16100bafad20ceaad3ad</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:28:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

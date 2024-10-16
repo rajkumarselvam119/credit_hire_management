@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 07:07:41</sys_created_on>
+        <sys_id>c25808c5839916100bafad20ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_claim_details.x_1523132_credit_0.admin</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_security_acl display_value="x_1523132_credit_0_claim_details">865808c5839916100bafad20ceaad31f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c25808c5839916100bafad20ceaad322</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:07:41</sys_updated_on>
+        <sys_user_role display_value="x_1523132_credit_0.admin" name="x_1523132_credit_0.admin">d56c13788319d2100bafad20ceaad3f6</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_security_acl_role_c25808c5839916100bafad20ceaad322</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-15 07:07:41</sys_created_on><sys_id>c25808c5839916100bafad20ceaad322</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_credit_0_claim_details.x_1523132_credit_0.admin</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_security_acl display_value="x_1523132_credit_0_claim_details">865808c5839916100bafad20ceaad31f</sys_security_acl><sys_update_name>sys_security_acl_role_c25808c5839916100bafad20ceaad322</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-15 07:07:41</sys_updated_on><sys_user_role display_value="x_1523132_credit_0.admin" name="x_1523132_credit_0.admin">d56c13788319d2100bafad20ceaad3f6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1483699207</payload_hash>
+        <record_name>x_1523132_credit_0_claim_details.x_1523132_credit_0.admin</record_name>
+        <reverted_from/>
+        <source>4d6c13788319d2100bafad20ceaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 07:07:41</sys_created_on>
+        <sys_id>8e5808c5839916100bafad20ceaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928f01059e0000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 07:07:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>825808c520991610b1157a91fed8b524</update_guid>
+        <update_guid_history>825808c520991610b1157a91fed8b524:-1483699207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1523132_credit_0_claim_details.x_1523132_credit_0.admin">1716748983d956100bafad20ceaad372</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-15 10:27:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>688dd5fdb3da454abd3f6156405e1984</sys_id>
+        <sys_metadata>c25808c5839916100bafad20ceaad322</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_claim_details.x_1523132_credit_0.admin</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="">865808c5839916100bafad20ceaad31f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c25808c5839916100bafad20ceaad322</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c25808c5839916100bafad20ceaad322">8e5808c5839916100bafad20ceaad324</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-15 10:27:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

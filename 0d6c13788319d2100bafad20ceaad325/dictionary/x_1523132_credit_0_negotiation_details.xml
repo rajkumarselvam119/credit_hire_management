@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4d3bdc09835156100bafad20ceaad3f3" extends="task" label="CHM_NEGOTIATION_DETAILS" max_length="40" name="x_1523132_credit_0_negotiation_details" type="collection">
+        <element label="Communication Method" max_length="40" name="communication_method" type="string"/>
+        <element label="Counter Decision" max_length="40" name="counter_decision" type="string"/>
+        <element label="Comments" max_length="40" name="comment0" type="string"/>
+        <element label="Counter Offer" max_length="38" name="counter_offer" type="decimal"/>
+        <element label="Deductions" max_length="38" name="deductions" type="decimal"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Walk Away" sequence="3" value="walk_away"/>
+                <element inactive_on_update="false" label="Final Agreement" sequence="2" value="final_agreement"/>
+                <element inactive_on_update="false" label="Mediation" sequence="4" value="mediation"/>
+                <element inactive_on_update="false" label="Initial Offer" sequence="0" value="initial_offer"/>
+                <element inactive_on_update="false" label="Counter Offer" sequence="1" value="counter_offer"/>
+            </choice>
+        </element>
+        <element label="Previous Offer Amount" max_length="38" name="previous_offer_amount" type="decimal"/>
+        <element label="Offer Amount" max_length="38" name="offer_amount" type="decimal"/>
+    </element>
+</database>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91f94889839916100bafad20ceaad349" label="Hire Details" max_length="40" name="x_1523132_credit_0_hire_details" type="collection">
+        <element label="Group" max_length="40" name="group" type="string"/>
+        <element label="Claim Number" max_length="40" name="claim_number" read_only="true" type="string"/>
+        <element label="Allocated Amount" max_length="38" name="allocated_amount" type="decimal"/>
+        <element label="Defendant Offer Penalty" max_length="38" name="defendant_offer_penalty" type="decimal"/>
+        <element label="Hire Status" max_length="40" name="hire_status" type="string"/>
+        <element label="Is Settled" max_length="40" name="is_settled" type="boolean"/>
+        <element label="Signed By" max_length="40" name="signed_by" type="string"/>
+        <element label="Defendant Offer Net Price" max_length="38" name="defendant_offer_net_price" type="decimal"/>
+        <element label="VAT" max_length="38" name="vat" type="decimal"/>
+        <element label="Vehicle Category" max_length="40" name="vehicle_category" type="string"/>
+        <element label="Hire Decision" max_length="40" name="hire_decision" type="string"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Discount" max_length="38" name="discount" type="decimal"/>
+        <element label="Is VHA Signed" max_length="40" name="is_vha_signed" type="boolean"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Is Hire Reviewed" max_length="40" name="is_hire_reviewed" type="boolean"/>
+        <element label="Final Estimated Amount" max_length="38" name="final_estimated_amount" type="decimal"/>
+        <element label="Penalty Amount Added" max_length="38" name="penalty_amount_added" type="decimal"/>
+        <element label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1523132_credit_0_vehicle_details" type="reference"/>
+        <element label="Signed On" max_length="40" name="signed_on" type="glide_date_time"/>
+        <element label="Hire Invoice" max_length="40" name="hire_invoice" type="glide_date"/>
+        <element label="Gross Amount" max_length="38" name="gross_amount" type="decimal"/>
+        <element label="Rate" max_length="38" name="rate" type="decimal"/>
+        <element label="Transmission" max_length="40" name="transmission" type="string"/>
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element label="Defendant Offered Final Amount" max_length="38" name="defendant_offered_final_amount" type="decimal"/>
+        <element label="Net Amount" max_length="38" name="net_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Hire Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Defendant Offer VAT" max_length="38" name="defendant_offer_vat" type="decimal"/>
+        <element label="VHA Commercial Rate" max_length="38" name="vha_commercial_rate" type="decimal"/>
+        <element label="Engine Size" max_length="40" name="engine_size" type="string"/>
+        <element label="Invoice Number" max_length="40" name="invoice_number" type="string"/>
+        <element label="Reviewed On" max_length="40" name="reviewed_on" type="glide_date_time"/>
+        <element label="Body Type" max_length="40" name="body_type" type="string"/>
+        <element label="Claimed Days" max_length="40" name="claimed_days" type="integer"/>
+        <element label="Hire Net Price" max_length="38" name="hire_net_price" type="decimal"/>
+        <element label="Reviewed By" max_length="40" name="reviewed_by" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Hire Vehicle Type" max_length="40" name="hire_vehicle_type" type="string"/>
+        <element label="Vehicle VRN" max_length="40" name="vehicle_vrn" type="string"/>
+        <index name="index">
+            <element name="vehicle_number"/>
+        </index>
+    </element>
+</database>

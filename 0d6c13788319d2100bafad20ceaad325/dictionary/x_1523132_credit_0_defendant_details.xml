@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f66a5081835156100bafad20ceaad3e1" label="CHM_DEFENDANT_DETAILS" max_length="40" name="x_1523132_credit_0_defendant_details" type="collection">
+        <element label="Claim Source" max_length="255" name="claim_source" type="string"/>
+        <element label="Name" max_length="255" name="name" type="string"/>
+        <element label="Insurer" max_length="255" name="insurer" type="string"/>
+        <element label="Insurer Team" max_length="255" name="insurer_team" type="string"/>
+        <element label="Defendant Agent" max_length="255" name="defendant_agent" type="string"/>
+        <element label="Insurer Reference" max_length="255" name="insurer_reference" type="string"/>
+        <element label="Insurer Reserve" max_length="40" name="insurer_reserve" type="string"/>
+        <element label="Solicitor Reference" max_length="255" name="solicitor_reference" type="string"/>
+        <element label="Solicitor" max_length="255" name="solicitor" type="string"/>
+        <element label="Solicitor Branch" max_length="255" name="solicitor_branch" type="string"/>
+        <element label="Insurer Policy Number" max_length="40" name="insurer_policy_number" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Defendant ID" max_length="40" name="number" type="string"/>
+        <element label="Insurer Sub Brand" max_length="255" name="insurer_sub_brand" type="string"/>
+        <element label="Vehicle VRN" max_length="255" name="vehicle_vrn" type="string"/>
+    </element>
+</database>
