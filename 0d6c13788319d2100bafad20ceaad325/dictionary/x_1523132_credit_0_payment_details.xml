@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e7a7188983dd16100bafad20ceaad3f6" label="CHM_PAYMENT_DETAILS" max_length="40" name="x_1523132_credit_0_payment_details" type="collection">
-        <element label="Amount" max_length="38" name="amount" type="decimal"/>
-        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+    <element db_object_id="e7a7188983dd16100bafad20ceaad3f6" label="CHM_PAYMENT_DETAILS" max_length="40" name="x_1523132_credit_0_payment_details" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="PAYMENT ID" max_length="40" name="number" type="string"/>
+        <element label="Total Reserved Amount" max_length="20" name="total_reserved_amount" type="currency"/>
         <element choice="1" label="Type Of Payment" max_length="40" name="type_of_payment" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="Partial Payment" sequence="0" value="partial_payment"/>
+                <element inactive_on_update="false" label="Full Payment" sequence="1" value="full_payment"/>
             </choice>
         </element>
         <element label="Balance Amount" max_length="38" name="balance_amount" type="decimal"/>
-        <element label="Payment Towards" max_length="40" name="payment_towards" type="string"/>
+        <element label="Amount" max_length="38" name="amount" type="decimal"/>
+        <element label="Release Amount" max_length="255" name="release_amount" type="currency2"/>
+        <element choice="1" label="Payment Towards" max_length="40" name="payment_towards" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hire" sequence="0" value="hire"/>
+                <element inactive_on_update="false" label="Repair" sequence="1" value="repair"/>
+                <element inactive_on_update="false" label="Miscellaneous" sequence="2" value="miscellaneous"/>
+            </choice>
+        </element>
+        <element label="Defendant Offered Amount" max_length="40" name="defendant_offered_amount" type="currency"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Initial Amount" max_length="38" name="initial_amount" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="PAYMENT ID" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="release_amount"/>
+        </index>
     </element>
 </database>

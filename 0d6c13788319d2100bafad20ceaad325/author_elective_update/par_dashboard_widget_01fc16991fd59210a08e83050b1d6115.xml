@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">c1fc169986d5921067455229885a2015</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1523132_credit_0_claim_details","fixedQuery":"","listTitle":"My Work","columns":"","query":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":""}</component_props>
+        <h>19</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 12:35:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01fc16991fd59210a08e83050b1d6115</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>par_dashboard_widget_01fc16991fd59210a08e83050b1d6115</sys_update_name>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-18 05:03:32</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>38</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>par_dashboard_widget_01fc16991fd59210a08e83050b1d6115</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">c1fc169986d5921067455229885a2015</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_1523132_credit_0_claim_details","fixedQuery":"","listTitle":"My Work","columns":"","query":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":""}</component_props><h>19</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-16 12:35:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>01fc16991fd59210a08e83050b1d6115</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>par_dashboard_widget_01fc16991fd59210a08e83050b1d6115</sys_update_name><sys_updated_by>babafakruddin.singanamala</sys_updated_by><sys_updated_on>2024-10-18 05:03:32</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>38</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1995001494</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-18 05:03:32</sys_created_on>
+        <sys_id>6cb8c3bdc3959210521ad72d05013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929e026ebc0000001</sys_recorded_at>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-18 05:03:32</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e0b8c3bddd95921020b47dce5f9cfb21</update_guid>
+        <update_guid_history>e0b8c3bddd95921020b47dce5f9cfb21:1995001494,f0c7cff9eb959210bdab5d6354050587:1411667831,9efc5699e0d592107c59becdb59f35cb:-2142386438,56fc5699f3d59210d1e8f1b4a30902ca:-542074310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">87114142c3d1d210521ad72d05013128</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-18 13:49:38</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>3683920dfd4f4014bb4da3e511fb4124</sys_id>
+        <sys_metadata>01fc16991fd59210a08e83050b1d6115</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_01fc16991fd59210a08e83050b1d6115</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_01fc16991fd59210a08e83050b1d6115">6cb8c3bdc3959210521ad72d05013121</sys_update_version>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-18 13:49:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config">
+    <cxs_res_context_config action="DELETE">
+        <active>true</active>
+        <cxs_context_config display_value="CHM_Contextual Search">439903fac3551210521ad72d050131b6</cxs_context_config>
+        <cxs_search_res_config display_value="Catalog Items">61ef7904eb53210070a9666cd206fe2d</cxs_search_res_config>
+        <default_search>false</default_search>
+        <name>catalog</name>
+        <order>100</order>
+        <search_operator>IR_AND_OR_QUERY</search_operator>
+        <sys_class_name>cxs_res_context_config</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:03:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8becbf2c3951210521ad72d050131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHM_Contextual Search.Catalog Items</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>cxs_res_context_config_f8becbf2c3951210521ad72d050131a0</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:03:42</sys_updated_on>
+    </cxs_res_context_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>cxs_res_context_config_f8becbf2c3951210521ad72d050131a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config"><cxs_res_context_config action="INSERT_OR_UPDATE"><active>true</active><cxs_context_config display_value="CHM_Contextual Search">439903fac3551210521ad72d050131b6</cxs_context_config><cxs_search_res_config display_value="Catalog Items">61ef7904eb53210070a9666cd206fe2d</cxs_search_res_config><default_search>false</default_search><name>catalog</name><order>100</order><search_operator>IR_AND_OR_QUERY</search_operator><sys_class_name>cxs_res_context_config</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-21 08:03:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8becbf2c3951210521ad72d050131a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CHM_Contextual Search.Catalog Items</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>cxs_res_context_config_f8becbf2c3951210521ad72d050131a0</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-21 08:03:42</sys_updated_on></cxs_res_context_config></record_update>]]></payload>
+        <payload_hash>-650998963</payload_hash>
+        <record_name>catalog</record_name>
+        <reverted_from/>
+        <source>df4ed6ddc3d59210521ad72d0501319d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:03:42</sys_created_on>
+        <sys_id>41becbf2c3951210521ad72d050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ae1a76950000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:03:42</sys_updated_on>
+        <type>Resource Configuration</type>
+        <update_guid>45becbf222951210157609b012d44aa2</update_guid>
+        <update_guid_history>45becbf222951210157609b012d44aa2:-650998963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="catalog">84401fb6c3951210521ad72d0501313f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:10:29</sys_created_on>
+        <sys_db_object display_value="" name="cxs_res_context_config">cxs_res_context_config</sys_db_object>
+        <sys_id>05ae7574d1df425780cd350e9576d769</sys_id>
+        <sys_metadata>f8becbf2c3951210521ad72d050131a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHM_Contextual Search.Catalog Items</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>cxs_res_context_config_f8becbf2c3951210521ad72d050131a0</sys_update_name>
+        <sys_update_version display_value="cxs_res_context_config_f8becbf2c3951210521ad72d050131a0">41becbf2c3951210521ad72d050131a3</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:10:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

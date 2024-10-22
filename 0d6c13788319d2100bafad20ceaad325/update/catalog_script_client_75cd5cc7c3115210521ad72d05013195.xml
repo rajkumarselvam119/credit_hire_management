@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="New Claim Request">bf168b6dc3dd1210521ad72d05013152</cat_item>
+        <cat_variable>IO:4ac68badc3dd1210521ad72d0501316f</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CHM: On Change of Fields</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    function getRandomValue(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    // List of values for each field
+    var representativeNames = ['John Doe', 'Jane Smith', 'Robert Johnson', 'Emily Davis'];
+    var claimantNames = ['Alice Brown', 'Michael White', 'Linda Green', 'Chris Black'];
+    var claimantInsurers = ['XYZ Insurance', 'ABC Insure', 'SafeGuard', 'SecureCo'];
+    var claimantReferenceNumbers = ['REF1234', 'CLM5678', 'CN12345', 'CLAIM6789'];
+    var damagesClaimed = ['$500', '$1,000', '$2,500', '$5,000'];
+    var vehicleConditions = ['New', 'Used - Good Condition', 'Damaged - Repairable', 'Total Loss'];
+    var needTypes = ['Replacement Vehicle', 'Repair Only', 'Both', 'Investigation'];
+    var repairFacilityNames = ['AutoFix Center', 'Rapid Repair', 'QuickFix Garage', 'Premier Auto Services'];
+    var defendantInsurerNames = ['Defender Insurance', 'InsureNow', 'CoverPlus', 'ShieldGuard'];
+    var percentClaimantLiable = ['0%', '25%', '50%', '75%', '100%'];
+    var dates = ['2023-06-15', '2023-07-20', '2023-08-25', '2023-09-30']; // Example dates in YYYY-MM-DD
+    var hireDocuments = ['HDOC-001', 'HDOC-002', 'HDOC-003', 'HDOC-004'];
+    var representativeReferenceNumbers = ['REP-101', 'REP-102', 'REP-103', 'REP-104'];
+    var claimantVRNs = ['VRN-AB123', 'VRN-CD456', 'VRN-EF789', 'VRN-GH012'];
+    var claimantInsurerReferences = ['INS-7890', 'INS-4567', 'INS-1234', 'INS-9876'];
+    var accidentLocations = ['New York', 'Los Angeles', 'Chicago', 'Houston'];
+    var defendantVRNs = ['VRN-XY123', 'VRN-ZY456', 'VRN-WX789', 'VRN-VU012'];
+    var groups = ['Group A', 'Group B', 'Group C', 'Group D'];
+    var dealingParties = ['Party 1', 'Party 2', 'Party 3', 'Party 4'];
+    var defendantNames = ['David King', 'Laura Brown', 'Sam Wilson', 'Nina Roberts'];
+    var defendantInsuranceReferences = ['DINS-001', 'DINS-002', 'DINS-003', 'DINS-004'];
+    var percentDefendantLiable = ['0%', '25%', '50%', '75%', '100%'];
+    var incidentDescriptions = [
+        'Rear-end collision at intersection.',
+        'Side impact on left side of the vehicle.',
+        'Minor fender bender in parking lot.',
+        'Collision with stationary object.'
+    ];
+    var repairDocuments = ['RDOC-001', 'RDOC-002', 'RDOC-003', 'RDOC-004'];
+
+    // Map field names to their random value lists
+    var randomValues = {
+        'representative_name': getRandomValue(representativeNames),
+        'claimant_name': getRandomValue(claimantNames),
+        'claimant_insurer': getRandomValue(claimantInsurers),
+        'claimant_reference_number': getRandomValue(claimantReferenceNumbers),
+        'damage_claimed': getRandomValue(damagesClaimed),
+        'vehicle_condition': getRandomValue(vehicleConditions),
+        'need_type': getRandomValue(needTypes),
+        'repair_facility_name': getRandomValue(repairFacilityNames),
+        'defendant_insurer_name': getRandomValue(defendantInsurerNames),
+        'percent_claimant_liable': getRandomValue(percentClaimantLiable),
+        'incident_reported_on': getRandomValue(dates),
+        'hire_document': getRandomValue(hireDocuments),
+        'representative_reference_number': getRandomValue(representativeReferenceNumbers),
+        'claimant_vrn': getRandomValue(claimantVRNs),
+        'claimant_insurer_reference': getRandomValue(claimantInsurerReferences),
+        'place_of_accident': getRandomValue(accidentLocations),
+        'defendant_vrn': getRandomValue(defendantVRNs),
+        'group': getRandomValue(groups),
+        'dealing_party': getRandomValue(dealingParties),
+        'defendant_name': getRandomValue(defendantNames),
+        'defendant_insurance_reference': getRandomValue(defendantInsuranceReferences),
+        'percent_defendant_liable': getRandomValue(percentDefendantLiable),
+        'date_of_accident': getRandomValue(dates),
+        'repair_document': getRandomValue(repairDocuments),
+        'accident_description': getRandomValue(incidentDescriptions)
+    };
+
+    // Loop through each field and update its value
+    for (var field in randomValues) {
+        if (randomValues.hasOwnProperty(field)) {
+            g_form.setValue(field, randomValues[field]);
+        }
+    }
+
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-10-21 13:55:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75cd5cc7c3115210521ad72d05013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHM: On Change of Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>catalog_script_client_75cd5cc7c3115210521ad72d05013195</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:55:33</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>75cd5cc7c3115210521ad72d05013195</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-10-21 13:55:32</sys_created_on>
+        <sys_id>e63f5487c3115210521ad72d05013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:55:32</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

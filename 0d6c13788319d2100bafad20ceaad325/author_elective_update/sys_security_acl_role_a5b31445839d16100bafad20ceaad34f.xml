@@ -41,7 +41,7 @@
         <update_guid_history>e1b35445b79d1610b2716e1eafce0695:-1286456000</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1523132_credit_0_ch_negotiation_details.x_1523132_credit_0.claim_handler">c8da5845835156100bafad20ceaad372</sys_audit_delete>
+        <sys_audit_delete display_value="">c8da5845835156100bafad20ceaad372</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sreeranjani.s</sys_created_by>
         <sys_created_on>2024-10-15 08:28:23</sys_created_on>

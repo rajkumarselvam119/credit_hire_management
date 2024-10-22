@@ -1,245 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="bdecb774831516100bafad20ceaad365" sys_domain="global" table="x_1523132_credit_0_vehicle_details" version="3" view="">
+    <sys_ui_section caption="Model Details" section_id="bdecb774831516100bafad20ceaad365" sys_domain="global" table="x_1523132_credit_0_vehicle_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>model</element>
             <position>0</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad38b</sys_id>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>a720f219c3599210521ad72d050131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle_number</element>
-            <position>1</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad38c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>2</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad38c</sys_id>
+            <position>1</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>2f20f219c3599210521ad72d050131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>model</element>
-            <position>3</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad38d</sys_id>
+            <element>vehicle_vrn</element>
+            <position>2</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>a320f219c3599210521ad72d050131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>engine_size</element>
+            <position>3</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>2b20f219c3599210521ad72d050131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bhr</element>
             <position>4</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad38d</sys_id>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>af20f219c3599210521ad72d050131c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>group</element>
-            <position>5</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>a19a3c91831d9a100bafad20ceaad38e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>make</element>
-            <position>6</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>ed9a3c91831d9a100bafad20ceaad3b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pre_condition_category</element>
-            <position>7</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>299a3c91831d9a100bafad20ceaad3b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>219a3c91831d9a100bafad20ceaad3b5</sys_id>
+            <position>5</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>2720f219c3599210521ad72d050131c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>claim_number</element>
-            <position>9</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad3b5</sys_id>
+            <element>make</element>
+            <position>6</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>ab20f219c3599210521ad72d050131c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle_vrn</element>
-            <position>10</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad3b6</sys_id>
+            <element>vehicle_number</element>
+            <position>7</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>2320f219c3599210521ad72d050131ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>body_type</element>
-            <position>11</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad3b6</sys_id>
+            <position>8</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>a720f219c3599210521ad72d050131ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>engine_size</element>
-            <position>12</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad3b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>indicative_bhr</element>
-            <position>13</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad3b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>transmission</element>
-            <position>14</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad3b8</sys_id>
+            <position>9</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>2f20f219c3599210521ad72d050131ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle_rate</element>
-            <position>15</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>699a3c91831d9a100bafad20ceaad3b8</sys_id>
+            <element>indicative_bhr</element>
+            <position>10</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:59:29</sys_created_on>
+            <sys_id>a320f219c3599210521ad72d050131cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_loss</element>
-            <position>16</position>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-16 05:25:41</sys_created_on>
-            <sys_id>619a3c91831d9a100bafad20ceaad3b9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-16 05:25:41</sys_updated_on>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:59:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Model Details</caption>
             <header>false</header>
             <name>x_1523132_credit_0_vehicle_details</name>
             <roles/>
@@ -249,15 +165,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bdecb774831516100bafad20ceaad365</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_1523132_credit_0_vehicle_details</sys_name>
             <sys_overrides/>
             <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
             <sys_policy/>
             <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
             <sys_update_name>sys_ui_section_bdecb774831516100bafad20ceaad365</sys_update_name>
-            <sys_updated_by>nauman.ansari</sys_updated_by>
-            <sys_updated_on>2024-10-15 06:17:42</sys_updated_on>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:28:55</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

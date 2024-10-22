@@ -1,64 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9f9674c983d956100bafad20ceaad314" extends="task" label="CHM_CLAIM_DETAILS" max_length="40" name="x_1523132_credit_0_claim_details" type="collection">
-        <element label="Incident Reported On" max_length="40" name="incident_reported_on" type="glide_date_time"/>
+    <element audit="true" db_object_id="9f9674c983d956100bafad20ceaad314" extends="task" label="CHM_CLAIM_DETAILS" max_length="40" name="x_1523132_credit_0_claim_details" text_index="true" type="collection">
+        <element label="Claim Amount" max_length="38" name="claim_amount" type="decimal"/>
+        <element label="Claim Handler" max_length="255" name="claim_handler" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Accident ID" max_length="32" name="accident_id" reference="x_1523132_credit_0_accident_details" type="reference"/>
+        <element label="Claimant ID" max_length="32" name="claimant_id" reference="x_1523132_credit_0_claimant_details" type="reference"/>
+        <element label="Accident Description" max_length="1000" name="accident_description" type="string"/>
+        <element label="Claim Reserve Amount" max_length="38" name="claim_reserve_amount" type="decimal"/>
         <element choice="1" label="Claim Type" max_length="40" name="claim_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Reimbursement" sequence="0" value="reimbursement"/>
+                <element inactive_on_update="false" label="Credit Hire in MOJ Portal" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Credit Repair / Hire" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Credit Hire" sequence="1" value="2"/>
             </choice>
         </element>
-        <element label="Repair Final Estimate" max_length="38" name="repair_final_estimate" type="decimal"/>
+        <element label="Payment ID" max_length="32" name="payment_id" reference="x_1523132_credit_0_payment_details" type="reference"/>
+        <element label="Receipt" max_length="40" name="receipt" type="file_attachment"/>
+        <element label="Credit Hire Notified On" max_length="255" name="credit_hire_notified_on" type="glide_date"/>
+        <element label="Date of Accident" max_length="40" name="date_of_accident" type="glide_date"/>
+        <element label="Is Repair Reviewed" max_length="40" name="is_repair_reviewed" type="boolean"/>
+        <element label="Is Recovery Received" max_length="40" name="is_recovery_received" type="boolean"/>
+        <element label="Repair Reviewed On" max_length="40" name="repair_reviewed_on" type="glide_date_time"/>
+        <element label="Salvage Value" max_length="40" name="salvage_value" type="string"/>
+        <element label="Negotiation ID" max_length="32" name="negotiation_id" reference="x_1523132_credit_0_negotiation_details" type="reference"/>
+        <element label="Hire Reviewed On" max_length="40" name="hire_reviewed_on" type="glide_date_time"/>
         <element choice="1" label="Hire Status" max_length="40" name="hire_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="In Progress" sequence="0" value="in_progress"/>
+                <element inactive_on_update="false" label="Hire Decision" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Invoice Submitted" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Hire vehicle identified" sequence="0" value="1"/>
             </choice>
         </element>
-        <element label="Claim Handler" max_length="255" name="claim_handler" type="string"/>
-        <element label="Date of Accident" max_length="40" name="date_of_accident" type="glide_date"/>
-        <element label="Repair Reviewed On" max_length="40" name="repair_reviewed_on" type="glide_date_time"/>
-        <element label="Indemnity" max_length="255" name="indemnity" type="string"/>
-        <element label="Claim Amount" max_length="38" name="claim_amount" type="decimal"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element label="Incident Reported On" max_length="40" name="incident_reported_on" type="glide_date_time"/>
+        <element label="Liability Investigator" max_length="255" name="liability_investigator" type="string"/>
+        <element label="Liability Reviewed By" max_length="255" name="liability_reviewed_by" type="string"/>
+        <element label="Liability Decision" max_length="40" name="liability_decision" type="string"/>
+        <element choice="1" default="2" label="Stage" max_length="40" name="stage" type="choice">
             <choice>
-                <element inactive_on_update="false" label="In Draft" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Initiated" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Analysis" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Payment" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="Closed Complete" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="Rejected" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="Indemnity Investigation" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Negotiation" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Pending Approval" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="Closed Cancelled" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Indemnity and Liability Investigation" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Payment" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Settled" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Analysis" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Negotiation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Request Initiated" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="5" value="6"/>
             </choice>
         </element>
-        <element label="Is Repair Reviewed" max_length="40" name="is_repair_reviewed" type="boolean"/>
-        <element label="Liability Reviewed On" max_length="255" name="liability_reviewed_on" type="glide_date_time"/>
-        <element label="Hire Reviewed By" max_length="255" name="hire_reviewed_by" type="string"/>
+        <element choice="1" label="Repair Status" max_length="40" name="repair_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Engineering team review" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Repair details added" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Repair decision" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" default="2" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Negotiation" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="In Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Closed Cancelled" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Analysis" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Indemnity Investigation" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Payment" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Initiated" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Is Hire Reviewed" max_length="40" name="is_hire_reviewed" type="boolean"/>
         <element choice="1" label="Estimate Type" max_length="40" name="estimate_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Basic" sequence="0" value="basic"/>
             </choice>
         </element>
-        <element label="Liability Decision" max_length="40" name="liability_decision" type="string"/>
-        <element label="Repair Decision" max_length="40" name="repair_decision" type="string"/>
-        <element label="Credit Hire Notified On" max_length="255" name="credit_hire_notified_on" type="glide_date"/>
-        <element label="Repair Reserve Estimate" max_length="38" name="repair_reserve_estimate" type="decimal"/>
-        <element label="Is Liability Reviewed" max_length="40" name="is_liability_reviewed" type="boolean"/>
-        <element label="Is Hire Reviewed" max_length="40" name="is_hire_reviewed" type="boolean"/>
-        <element choice="1" label="Repair Status" max_length="40" name="repair_status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="In Progress" sequence="0" value="in_progress"/>
-            </choice>
-        </element>
-        <element label="Liability Investigator" max_length="255" name="liability_investigator" type="string"/>
+        <element label="Settled Amount" max_length="15" name="u_settled_amount" type="decimal"/>
+        <element label="Defendant ID" max_length="32" name="defendant_id" reference="x_1523132_credit_0_defendant_details" type="reference"/>
+        <element label="Hire Reviewed By" max_length="255" name="hire_reviewed_by" type="string"/>
+        <element label="Indemnity" max_length="255" name="indemnity" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="string"/>
-        <element label="Salvage Value" max_length="40" name="salvage_value" type="string"/>
+        <element label="Liability Reviewed On" max_length="255" name="liability_reviewed_on" type="glide_date_time"/>
+        <element label="Repair Decision" max_length="40" name="repair_decision" type="string"/>
+        <element label="Repair Final Estimate" max_length="38" name="repair_final_estimate" type="decimal"/>
         <element label="Place of Accident" max_length="255" name="place_of_accident" type="string"/>
-        <element label="Liability Reviewed By" max_length="255" name="liability_reviewed_by" type="string"/>
-        <element label="Is Recovery Received" max_length="40" name="is_recovery_received" type="boolean"/>
-        <element label="Accident Description" max_length="1000" name="accident_description" type="string"/>
-        <element label="Hire Reviewed On" max_length="40" name="hire_reviewed_on" type="glide_date_time"/>
+        <element label="Liability ID" max_length="32" name="liability_id" reference="x_1523132_credit_0_liability_details" type="reference"/>
+        <element label="Repair ID" max_length="32" name="repair_id" reference="x_1523132_credit_0_repair_details" type="reference"/>
+        <element label="Vehicle ID" max_length="32" name="vehicle_id" reference="x_1523132_credit_0_vehicle_details" type="reference"/>
+        <element label="Is Liability Reviewed" max_length="40" name="is_liability_reviewed" type="boolean"/>
+        <element label="Hire ID" max_length="32" name="hire_id" reference="x_1523132_credit_0_hire_details" type="reference"/>
+        <element label="Repair Reserve Estimate" max_length="38" name="repair_reserve_estimate" type="decimal"/>
         <element label="Repair Reviewed By" max_length="40" name="repair_reviewed_by" type="string"/>
-        <element label="Claim Reserve Amount" max_length="38" name="claim_reserve_amount" type="decimal"/>
+        <element default="1878ebbdc3599210521ad72d05013140" label="Template" max_length="32" name="template" reference="x_1523132_credit_0_templates" type="reference"/>
     </element>
 </database>

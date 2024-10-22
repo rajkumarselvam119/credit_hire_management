@@ -4,6 +4,7 @@
         <active>true</active>
         <description>Test</description>
         <designer_state/>
+        <engine_major_version/>
         <label>Test</label>
         <name>test</name>
         <now_assist_prompt/>
@@ -12,6 +13,7 @@
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
+        <start_non_blocking>false</start_non_blocking>
         <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
@@ -33,6 +35,7 @@
         <active>true</active>
         <description>Test</description>
         <designer_state/>
+        <engine_major_version/>
         <label>Test</label>
         <name>test</name>
         <now_assist_prompt/>
@@ -41,6 +44,7 @@
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
+        <start_non_blocking>false</start_non_blocking>
         <status>draft</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
@@ -107,6 +111,7 @@
         <sys_updated_on>2024-10-15 11:37:09</sys_updated_on>
         <type_vals/>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_translated_text action="delete_multiple" query="documentkey=e4dccd0e4db930e4deaf0e4dc260e4de"/>
     <sys_variable_value action="delete_multiple" query="document_key=e4dccd0e4db930e4deaf0e4dc260e4de"/>

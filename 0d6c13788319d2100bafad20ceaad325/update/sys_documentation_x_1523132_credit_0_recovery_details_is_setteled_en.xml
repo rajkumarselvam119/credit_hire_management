@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="is_setteled" label="Is Setteled" language="en" table="x_1523132_credit_0_recovery_details">
+    <sys_documentation element="is_setteled" label="Is Settled" language="en" table="x_1523132_credit_0_recovery_details">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>is_setteled</element>
             <help/>
             <hint/>
-            <label>Is Setteled</label>
+            <label>Is Settled</label>
             <language>en</language>
             <name>x_1523132_credit_0_recovery_details</name>
-            <plural>Is Setteled</plural>
+            <plural>Is Settled</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>babafakruddin.singanamala</sys_created_by>
             <sys_created_on>2024-10-15 13:16:23</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Is Setteled</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Is Settled</sys_name>
             <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
             <sys_policy/>
             <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
             <sys_update_name>sys_documentation_x_1523132_credit_0_recovery_details_is_setteled_en</sys_update_name>
-            <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
-            <sys_updated_on>2024-10-15 13:16:23</sys_updated_on>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 14:00:18</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

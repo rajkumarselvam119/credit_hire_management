@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_field_config">
+    <cxs_table_field_config action="DELETE">
+        <cxs_table_config display_value="CHM_CLAIM_DETAILS [x_1523132_credit_0_claim_details]">df03933ec3951210521ad72d05013174</cxs_table_config>
+        <default_config>true</default_config>
+        <field>short_description</field>
+        <name>Short description [short_description]</name>
+        <order>100</order>
+        <sys_class_name>cxs_table_field_config</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:29:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee849bbec3951210521ad72d05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description [short_description]</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>cxs_table_field_config_ee849bbec3951210521ad72d05013118</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:29:13</sys_updated_on>
+    </cxs_table_field_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>cxs_table_field_config_ee849bbec3951210521ad72d05013118</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_table_field_config"><cxs_table_field_config action="INSERT_OR_UPDATE"><cxs_table_config display_value="CHM_CLAIM_DETAILS [x_1523132_credit_0_claim_details]">df03933ec3951210521ad72d05013174</cxs_table_config><default_config>true</default_config><field>short_description</field><name>Short description [short_description]</name><order>100</order><sys_class_name>cxs_table_field_config</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-21 08:29:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ee849bbec3951210521ad72d05013118</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Short description [short_description]</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>cxs_table_field_config_ee849bbec3951210521ad72d05013118</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-21 08:29:13</sys_updated_on></cxs_table_field_config></record_update>]]></payload>
+        <payload_hash>464006906</payload_hash>
+        <record_name>Short description [short_description]</record_name>
+        <reverted_from/>
+        <source>df4ed6ddc3d59210521ad72d0501319d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:29:13</sys_created_on>
+        <sys_id>36849bbec3951210521ad72d0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ae31d2960000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:29:13</sys_updated_on>
+        <type>Search Field</type>
+        <update_guid>3a849bbe75951210533dc0365bdf341b</update_guid>
+        <update_guid_history>3a849bbe75951210533dc0365bdf341b:464006906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Short description [short_description]">7ef79776c3d51210521ad72d050131c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:44:15</sys_created_on>
+        <sys_db_object display_value="" name="cxs_table_field_config">cxs_table_field_config</sys_db_object>
+        <sys_id>372cc5babae34a6cb0331f6aaebc7004</sys_id>
+        <sys_metadata>ee849bbec3951210521ad72d05013118</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Short description [short_description]</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>cxs_table_field_config_ee849bbec3951210521ad72d05013118</sys_update_name>
+        <sys_update_version display_value="cxs_table_field_config_ee849bbec3951210521ad72d05013118">36849bbec3951210521ad72d0501311c</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:44:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

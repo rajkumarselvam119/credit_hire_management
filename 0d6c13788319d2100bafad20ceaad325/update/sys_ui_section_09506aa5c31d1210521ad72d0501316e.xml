@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Negotiation Details" section_id="09506aa5c31d1210521ad72d0501316e" sys_domain="global" table="x_1523132_credit_0_negotiation_details" version="3" view="workspace-claim-handler-workspace-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>0</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4150aaa5c31d1210521ad72d05013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>previous_offer_amount</element>
+            <position>1</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>c5506aa5c31d1210521ad72d05013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>counter_offer</element>
+            <position>2</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4950aaa5c31d1210521ad72d05013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4150aaa5c31d1210521ad72d05013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4150aaa5c31d1210521ad72d05013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offer_amount</element>
+            <position>5</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4950aaa5c31d1210521ad72d0501311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>counter_decision</element>
+            <position>6</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4950aaa5c31d1210521ad72d05013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4150aaa5c31d1210521ad72d0501311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>4950aaa5c31d1210521ad72d05013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>9</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_id>cd506aa5c31d1210521ad72d0501316f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiation Details" display_value="Negotiation Details" name="x_1523132_credit_0_negotiation_details" sys_domain="global" view="af302e65ad1d1210fdfe87fda656d442">09506aa5c31d1210521ad72d0501316e</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Negotiation Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_negotiation_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-17 07:28:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09506aa5c31d1210521ad72d0501316e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_negotiation_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_09506aa5c31d1210521ad72d0501316e</sys_update_name>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-17 07:28:41</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Claim Handler Workspace 1" name="workspace-claim-handler-workspace-1">af302e65ad1d1210fdfe87fda656d442</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

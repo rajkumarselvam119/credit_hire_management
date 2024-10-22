@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Group</column_label>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1523132_credit_0_hire_invoice_details</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_dictionary_x_1523132_credit_0_hire_invoice_details_group</sys_update_name>
         <sys_updated_by>sreeranjani.s</sys_updated_by>
-        <sys_updated_on>2024-10-15 08:25:56</sys_updated_on>
+        <sys_updated_on>2024-10-21 11:48:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

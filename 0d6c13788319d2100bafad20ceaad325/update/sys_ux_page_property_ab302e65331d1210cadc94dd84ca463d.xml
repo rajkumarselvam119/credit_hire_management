@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Claim Handler Workspace">27302e65531d1210ec2c7d2aa4c22a4d</page>
+        <required_translations>[ {
+  "message" : "New CHM_ACCIDENT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_CLAIMANT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_CLAIM_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_DEFENDANT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_HIRE_INVOICE_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_LIABILITY_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_LITIGATION_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_NEGOTIATION_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_PAYMENT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_RECOVERY_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_REPAIR_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New Hire Charge Details",
+  "comment" : ""
+}, {
+  "message" : "New Hire Details",
+  "comment" : ""
+}, {
+  "message" : "New Vehicle Details",
+  "comment" : ""
+}, {
+  "message" : "New Vehicle Rates Details",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-17 07:28:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ab302e65331d1210cadc94dd84ca463d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_page_property_ab302e65331d1210cadc94dd84ca463d</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-17 07:28:27</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1523132_credit_0.27302e65531d1210ec2c7d2aa4c22a4d.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New CHM_CLAIM_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_claim_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_claim_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_CLAIMANT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_claimant_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_claimant_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_DEFENDANT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_defendant_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_defendant_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_HIRE_INVOICE_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_invoice_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_invoice_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_LIABILITY_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_liability_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_liability_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_LITIGATION_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_litigation_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_litigation_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_NEGOTIATION_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_negotiation_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_negotiation_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_PAYMENT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_payment_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_payment_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_RECOVERY_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_recovery_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_recovery_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_REPAIR_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_repair_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_repair_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Hire Charge Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_charge_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_charge_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Hire Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Vehicle Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_vehicle_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_vehicle_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Vehicle Rates Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_vehicle_rates_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_vehicle_rates_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_ACCIDENT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_accident_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_accident_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab302e65331d1210cadc94dd84ca463d"/>
+</record_update>

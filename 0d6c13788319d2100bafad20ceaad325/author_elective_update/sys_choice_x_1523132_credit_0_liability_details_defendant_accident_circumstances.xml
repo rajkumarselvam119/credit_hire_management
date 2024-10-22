@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="defendant_accident_circumstances" table="x_1523132_credit_0_liability_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>defendant_accident_circumstances</element>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>defendant_accident_circumstances</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_choice_x_1523132_credit_0_liability_details_defendant_accident_circumstances</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant hit pedastrian from near side</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_hit_pedastrian_from_near_side</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant passed through red light</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_passed_through_red_light</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant pulled of from parked</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_pulled_of_from_parked</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant reserved into claimant</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_reserved_into_claimant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant swerved and hit animal / object</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_swerved_and_hit_animal_object</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant turned across claimant path</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_turned_across_claimant_path</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant turned right across oncoming claimant</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_turned_right_across_oncoming_claimant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant was turning right / Claimant was over taking</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_was_turning_right_claimant_was_over_taking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant hit pedestrian from outside</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_hit_pedestrian_from_outside</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>defendant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defendant pulled out of line traffic</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>defendant_pulled_out_of_line_traffic</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

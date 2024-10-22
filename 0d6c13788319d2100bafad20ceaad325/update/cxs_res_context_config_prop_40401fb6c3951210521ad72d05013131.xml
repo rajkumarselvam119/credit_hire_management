@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config_prop">
+    <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choices/>
+        <cxs_res_context_config display_value="catalog">c0401fb6c3951210521ad72d0501311f</cxs_res_context_config>
+        <default_value>IR_AND_OR_QUERY</default_value>
+        <description>Instructs Zing how to interegate the search string. The value may only be one of the following: 'IR_AND_QUERY', 'IR_AND_OR_QUERY' or 'IR_OR_QUERY'</description>
+        <id>catalog_sr.search_operator</id>
+        <name>Search Operator</name>
+        <sys_class_name>cxs_res_context_config_prop</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:10:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40401fb6c3951210521ad72d05013131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Operator</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>cxs_res_context_config_prop_40401fb6c3951210521ad72d05013131</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:10:28</sys_updated_on>
+        <type>choice</type>
+        <value>IR_AND_OR_QUERY</value>
+    </cxs_res_context_config_prop>
+</record_update>

@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="197d1849839156100bafad20ceaad310" label="CHM_REPAIR_DETAILS" max_length="40" name="x_1523132_credit_0_repair_details" type="collection">
-        <element label="Repair Facility Name" max_length="40" name="repair_facility_name" type="string"/>
+    <element db_object_id="197d1849839156100bafad20ceaad310" label="CHM_REPAIR_DETAILS" max_length="40" name="x_1523132_credit_0_repair_details" text_index="true" type="collection">
+        <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Defendant Offer Engineer Fees" max_length="38" name="defendant_offer_engineer_fees" type="decimal"/>
-        <element label="Repair Decision" max_length="40" name="repair_decision" type="string"/>
-        <element label="Is Settled" max_length="40" name="is_settled" type="boolean"/>
-        <element label="Repair Reserve Estimate" max_length="38" name="repair_reserve_estimate" type="decimal"/>
         <element label="Authorized Hours" max_length="40" name="authorized_hours" type="integer"/>
-        <element label="Estimate Type" max_length="40" name="estimate_type" type="string"/>
-        <element label="Repair Reviewed By" max_length="40" name="repair_reviewed_by" type="string"/>
-        <element label="Temporary Repair" max_length="40" name="temporary_repair" type="boolean"/>
         <element label="Defendant Offer Repair VAT" max_length="38" name="defendant_offer_repair_vat" type="decimal"/>
-        <element label="Repair Invoice Amount" max_length="38" name="repair_invoice_amount" type="decimal"/>
-        <element label="Final Amount" max_length="38" name="final_amount" type="decimal"/>
-        <element label="Salvage Value" max_length="38" name="salvage_value" type="decimal"/>
         <element label="Discount" max_length="38" name="discount" type="decimal"/>
-        <element label="Salvage Category" max_length="40" name="salvage_category" type="string"/>
-        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="REPAIR ID" max_length="40" name="number" type="string"/>
         <element choice="1" label="Repair Status" max_length="40" name="repair_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Not Required" sequence="3" value="not_required"/>
-                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
-                <element inactive_on_update="false" label="In Repair" sequence="1" value="in_repair"/>
-                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Engineering Team Review" sequence="1" value="engineering_team_review"/>
+                <element inactive_on_update="false" label="Repair Decision" sequence="2" value="repair_decision"/>
+                <element inactive_on_update="false" label="Repair Details Added" sequence="0" value="repair_details_added"/>
             </choice>
         </element>
-        <element label="Repair Reviewed On" max_length="40" name="repair_reviewed_on" type="glide_date_time"/>
-        <element label="Defendant Offer Final Amount" max_length="38" name="defendant_offer_final_amount" type="decimal"/>
-        <element label="Engineer Fees" max_length="38" name="engineer_fees" type="decimal"/>
         <element label="Engineer Decision" max_length="40" name="engineer_decision" type="string"/>
-        <element label="Is Repair Reviewed" max_length="40" name="is_repair_reviewed" type="boolean"/>
-        <element label="Repair Report Amount" max_length="40" name="repair_report_amount" type="decimal"/>
-        <element label="Repair VAT" max_length="38" name="repair_vat" type="decimal"/>
         <element label="VAT Applied" max_length="40" name="vat_applied" type="boolean"/>
+        <element label="Repair Decision" max_length="40" name="repair_decision" type="string"/>
+        <element label="Estimate Type" max_length="40" name="estimate_type" type="string"/>
+        <element label="Repair Invoice Amount" max_length="38" name="repair_invoice_amount" type="decimal"/>
+        <element label="Salvage Category" max_length="40" name="salvage_category" type="string"/>
+        <element label="Repair Reviewed On" max_length="40" name="repair_reviewed_on" type="glide_date_time"/>
+        <element label="Is Repair Reviewed" max_length="40" name="is_repair_reviewed" type="boolean"/>
         <element label="Authorized Limit" max_length="40" name="authorized_limit" type="integer"/>
+        <element label="Is Settled" max_length="40" name="is_settled" type="boolean"/>
+        <element label="Repair Reviewed By" max_length="40" name="repair_reviewed_by" type="string"/>
+        <element label="Final Amount" max_length="38" name="final_amount" type="decimal"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Defendant Offer Final Amount" max_length="38" name="defendant_offer_final_amount" type="decimal"/>
+        <element label="Repair Report Amount" max_length="40" name="repair_report_amount" type="decimal"/>
+        <element label="Repair Facility Name" max_length="40" name="repair_facility_name" type="string"/>
+        <element label="Repair Reserve Estimate" max_length="38" name="repair_reserve_estimate" type="decimal"/>
+        <element label="Temporary Repair" max_length="40" name="temporary_repair" type="boolean"/>
+        <element label="Salvage Value" max_length="38" name="salvage_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="REPAIR ID" max_length="40" name="number" type="string"/>
+        <element label="Engineer Fees" max_length="38" name="engineer_fees" type="decimal"/>
+        <element label="Repair VAT" max_length="38" name="repair_vat" type="decimal"/>
+        <element label="Repair Document" max_length="40" name="repair_document" type="file_attachment"/>
+        <index name="index">
+            <element name="claim_id"/>
+        </index>
     </element>
 </database>

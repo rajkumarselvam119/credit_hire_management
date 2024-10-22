@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Other Details" section_id="181c0621c3991210521ad72d05013118" sys_domain="global" table="x_1523132_credit_0_vehicle_details" version="3" view="workspace-credit-hire-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_rate</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_id>941c0621c3991210521ad72d0501311b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="d1fb82ed2a591210a43deadd8490a939">181c0621c3991210521ad72d05013118</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_years_used</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_id>9c1c0621c3991210521ad72d0501311b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="d1fb82ed2a591210a43deadd8490a939">181c0621c3991210521ad72d05013118</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_id>9c1c0621c3991210521ad72d0501311a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="d1fb82ed2a591210a43deadd8490a939">181c0621c3991210521ad72d05013118</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_loss</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_id>941c0621c3991210521ad72d0501311c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="d1fb82ed2a591210a43deadd8490a939">181c0621c3991210521ad72d05013118</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pre_condition_category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_id>941c0621c3991210521ad72d0501311a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="d1fb82ed2a591210a43deadd8490a939">181c0621c3991210521ad72d05013118</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_vehicle_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-17 06:00:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>181c0621c3991210521ad72d05013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_vehicle_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_181c0621c3991210521ad72d05013118</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-17 06:00:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Credit Hire Management 0" name="workspace-credit-hire-management-0">d1fb82ed2a591210a43deadd8490a939</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

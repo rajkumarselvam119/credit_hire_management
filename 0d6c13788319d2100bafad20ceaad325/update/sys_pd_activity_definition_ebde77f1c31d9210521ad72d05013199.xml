@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences>claim=all;payment=all;</input_display_preferences>
+        <inputs/>
+        <label>Payment Final Approval</label>
+        <name>_span_u_paymen_u_t_final_approval_span_</name>
+        <outputs/>
+        <required_roles/>
+        <source>de3c77bdc3d99210521ad72d05013146</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 09:00:13</sys_created_on>
+        <sys_id>ebde77f1c31d9210521ad72d05013199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payment Final Approval</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_ebde77f1c31d9210521ad72d05013199</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 09:00:13</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ebde77f1c31d9210521ad72d05013199"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ebde77f1c31d9210521ad72d05013199"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_de3c77bdc3d99210521ad72d05013146^id=ebde77f1c31d9210521ad72d05013199"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_de3c77bdc3d99210521ad72d05013146^id=ebde77f1c31d9210521ad72d05013199"/>
+</record_update>

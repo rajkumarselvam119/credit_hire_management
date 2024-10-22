@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2bd5594d839d56100bafad20ceaad342" label="CHM_RECOVERY_DETAILS" max_length="40" name="x_1523132_credit_0_recovery_details" type="collection">
-        <element label="Company Name" max_length="100" name="company_name" type="string"/>
-        <element label="Defendant Vat" max_length="40" name="defendant_vat" type="decimal"/>
+    <element db_object_id="2bd5594d839d56100bafad20ceaad342" label="CHM_RECOVERY_DETAILS" max_length="40" name="x_1523132_credit_0_recovery_details" text_index="true" type="collection">
+        <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Vat" max_length="40" name="vat" type="decimal"/>
-        <element label="Defendant Offer Recovery Amount" max_length="40" name="defendant_offer_recovery_amount" type="decimal"/>
-        <element label="Is Setteled" max_length="40" name="is_setteled" type="boolean"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="RD Id" max_length="40" name="number" type="string"/>
-        <element label=" Start Date" max_length="40" name="start_date" type="glide_date"/>
-        <element label="Created by" max_length="40" name="created_by" type="string"/>
-        <element label="Updated" max_length="40" name="updated" type="string"/>
-        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="Gross Amount" max_length="40" name="gross_amount" type="decimal"/>
-        <element label="Storage Head" max_length="40" name="storage_head" type="string"/>
-        <element label=" Claimant Payee Reference" max_length="40" name="claimant_payee_reference" type="string"/>
-        <element label="Is Vat Applied" max_length="40" name="is_vat_applied" type="boolean"/>
         <element label="Updated On" max_length="40" name="updated_on" type="glide_date_time"/>
-        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
-        <element label=" Claimant Representative" max_length="100" name="claimant_representative" type="string"/>
-        <element label="Net Amount" max_length="40" name="net_amount" type="decimal"/>
         <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Defendant Offer Recovery Amount" max_length="40" name="defendant_offer_recovery_amount" type="decimal"/>
+        <element label="Created by" max_length="40" name="created_by" type="string"/>
+        <element label="Storage Head" max_length="40" name="storage_head" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Post Code" max_length="40" name="post_code" type="string"/>
+        <element label="Company Name" max_length="100" name="company_name" type="string"/>
+        <element label="Is Settled" max_length="40" name="is_setteled" type="boolean"/>
+        <element label="Updated" max_length="40" name="updated" type="string"/>
+        <element label="Claimant Payee Reference" max_length="40" name="claimant_payee_reference" type="string"/>
+        <element label="Claimant Representative" max_length="100" name="claimant_representative" type="string"/>
         <element label="Is Recovery Reviewed" max_length="40" name="is_recovery_reviewed" type="boolean"/>
+        <element label="Defendant Vat" max_length="40" name="defendant_vat" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="RD Id" max_length="40" name="number" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Is Vat Applied" max_length="40" name="is_vat_applied" type="boolean"/>
+        <element label="Net Amount" max_length="40" name="net_amount" type="decimal"/>
+        <index name="index">
+            <element name="claim_id"/>
+        </index>
     </element>
 </database>

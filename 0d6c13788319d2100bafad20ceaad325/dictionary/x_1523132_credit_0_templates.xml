@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e132b35c3599210521ad72d05013163" label="CHM_TEMPLATES" max_length="40" name="x_1523132_credit_0_templates" type="collection">
+        <element label="Template" max_length="6000" name="template" type="html"/>
+        <element label="Template Name" max_length="255" name="template_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e6d5a1dc3d59210521ad72d05013164" label="CHM_LIABILITY_DETAILS" max_length="40" name="x_1523132_credit_0_liability_details" text_index="true" type="collection">
+        <element label="Claimant Comments" max_length="40" name="claimant_comments" type="string"/>
+        <element label="Claimant Suggested Percent" max_length="40" name="claimant_suggested_percent" type="string"/>
+        <element choice="1" label="Indemnity" max_length="40" name="indemnity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RTA" sequence="1" value="rta"/>
+                <element inactive_on_update="false" label="Denied" sequence="5" value="denied"/>
+                <element inactive_on_update="false" label="Article 75" sequence="2" value="article_75"/>
+                <element inactive_on_update="false" label="Contractual" sequence="0" value="contractual"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="pending"/>
+                <element inactive_on_update="false" label="Unreported" sequence="4" value="unreported"/>
+            </choice>
+        </element>
+        <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
+        <element label="Defendant Suggested Percent" max_length="40" name="defendant_suggested_percent" type="string"/>
+        <element choice="1" label="Liability Decision" max_length="40" name="liability_decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" sequence="0" value="accepted"/>
+                <element inactive_on_update="false" label="Partially Accepted" sequence="3" value="partially_accepted"/>
+                <element inactive_on_update="false" label="Accepted WOP" sequence="4" value="accepted_wop"/>
+                <element inactive_on_update="false" label="Denied" sequence="1" value="denied"/>
+                <element inactive_on_update="false" label="Partially Accepted WOP" sequence="5" value="partially_accepted_wop"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+            </choice>
+        </element>
+        <element choice="1" label="Defendant Accident Circumstances" max_length="40" name="defendant_accident_circumstances" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Defendant passed through red light" sequence="1" value="defendant_passed_through_red_light"/>
+                <element inactive_on_update="false" label="Defendant turned right across oncoming claimant" sequence="6" value="defendant_turned_right_across_oncoming_claimant"/>
+                <element inactive_on_update="false" label="Defendant was turning right / Claimant was over taking" sequence="7" value="defendant_was_turning_right_claimant_was_over_taking"/>
+                <element inactive_on_update="false" label="Defendant pulled of from parked" sequence="2" value="defendant_pulled_of_from_parked"/>
+                <element inactive_on_update="false" label="Defendant hit pedestrian from outside" sequence="8" value="defendant_hit_pedestrian_from_outside"/>
+                <element inactive_on_update="false" label="Defendant reserved into claimant" sequence="3" value="defendant_reserved_into_claimant"/>
+                <element inactive_on_update="false" label="Defendant swerved and hit animal / object" sequence="4" value="defendant_swerved_and_hit_animal_object"/>
+                <element inactive_on_update="false" label="Defendant hit pedastrian from near side" sequence="0" value="defendant_hit_pedastrian_from_near_side"/>
+                <element inactive_on_update="false" label="Defendant turned across claimant path" sequence="5" value="defendant_turned_across_claimant_path"/>
+                <element inactive_on_update="false" label="Defendant pulled out of line traffic" sequence="9" value="defendant_pulled_out_of_line_traffic"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Defendant Comments" max_length="40" name="defendant_comments" type="string"/>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Defendant Person Liable" max_length="40" name="defendant_person_liable" type="string"/>
+        <element choice="1" label="Rejection Reason" max_length="40" name="rejection_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other Handling Agent" sequence="2" value="other_handling_agent"/>
+                <element inactive_on_update="false" label="Principle Request - Litigated" sequence="6" value="principle_request_litigated"/>
+                <element inactive_on_update="false" label="Alternative Insurer - MID Positive" sequence="10" value="alternative_insurer_mid_positive"/>
+                <element inactive_on_update="false" label="Principle Request - Other" sequence="7" value="principle_request_other"/>
+                <element inactive_on_update="false" label="Alternative Insurer - MID Negative" sequence="11" value="alternative_insurer_mid_negative"/>
+                <element inactive_on_update="false" label="No claim being  presented" sequence="3" value="no_claim_being_presented"/>
+                <element inactive_on_update="false" label="Alternative Insurer" sequence="0" value="alternative_insurer"/>
+                <element inactive_on_update="false" label="Not in scope for system use" sequence="4" value="not_in_scope_for_system_use"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="1" value="duplicate"/>
+                <element inactive_on_update="false" label="Already paid by Principle" sequence="8" value="already_paid_by_principle"/>
+                <element inactive_on_update="false" label="Principle Not Liable" sequence="5" value="principle_not_liable"/>
+                <element inactive_on_update="false" label="Biliteral or protocol agreement" sequence="9" value="biliteral_or_protocol_agreement"/>
+            </choice>
+        </element>
+        <element choice="1" label="Claimant Accident Circumstances" max_length="40" name="claimant_accident_circumstances" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Car door opened as Defendant was driving past" sequence="4" value="car_door_opened_as_defendant_was_driving_past"/>
+                <element inactive_on_update="false" label="Claimant hit defendant in rear" sequence="8" value="claimant_hit_defendant_in_rear"/>
+                <element inactive_on_update="false" label="Both vehicles reveresing" sequence="3" value="both_vehicles_reveresing"/>
+                <element inactive_on_update="false" label="Claimant hit parked defendant" sequence="9" value="claimant_hit_parked_defendant"/>
+                <element inactive_on_update="false" label="Claimant changed lanes" sequence="5" value="claimant_changed_lanes"/>
+                <element inactive_on_update="false" label="Car door opened onto defendant vehicle" sequence="1" value="car_door_opened_onto_defendant_vehicle"/>
+                <element inactive_on_update="false" label="Attempted Theft" sequence="0" value="attempted_theft"/>
+                <element inactive_on_update="false" label="Claimant cross central reservation" sequence="6" value="claimant_cross_central_reservation"/>
+                <element inactive_on_update="false" label="Claimant entered from minor road and hit defendant" sequence="7" value="claimant_entered_from_minor_road_and_hit_defendant"/>
+                <element inactive_on_update="false" label="Both Party Reversing simultaneuously" sequence="2" value="both_party_reversing_simultaneuously"/>
+            </choice>
+        </element>
+        <element label="Claimant Person Liable" max_length="40" name="claimant_person_liable" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="LIA ID" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="claim_id"/>
+        </index>
+    </element>
+</database>

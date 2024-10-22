@@ -20,95 +20,38 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Initial Offer</label>
+            <label>Claimant</label>
             <language>en</language>
             <name>x_1523132_credit_0_negotiation_details</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:35:06</sys_created_on>
+            <sys_created_on>2024-10-21 11:52:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:35:06</sys_updated_on>
-            <value>initial_offer</value>
+            <sys_updated_on>2024-10-21 11:52:53</sys_updated_on>
+            <value>claimant</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Counter Offer</label>
+            <label>Insurer</label>
             <language>en</language>
             <name>x_1523132_credit_0_negotiation_details</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:35:06</sys_created_on>
+            <sys_created_on>2024-10-21 11:52:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:35:06</sys_updated_on>
-            <value>counter_offer</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Final Agreement</label>
-            <language>en</language>
-            <name>x_1523132_credit_0_negotiation_details</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:35:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:35:07</sys_updated_on>
-            <value>final_agreement</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Walk Away</label>
-            <language>en</language>
-            <name>x_1523132_credit_0_negotiation_details</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:35:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:35:07</sys_updated_on>
-            <value>walk_away</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mediation</label>
-            <language>en</language>
-            <name>x_1523132_credit_0_negotiation_details</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:35:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:35:07</sys_updated_on>
-            <value>mediation</value>
+            <sys_updated_on>2024-10-21 11:52:53</sys_updated_on>
+            <value>insurer</value>
         </sys_choice>
     </sys_choice>
 </record_update>

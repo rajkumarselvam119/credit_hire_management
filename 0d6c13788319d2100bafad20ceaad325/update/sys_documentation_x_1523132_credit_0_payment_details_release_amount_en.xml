@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="release_amount" label="Release Amount" language="en" table="x_1523132_credit_0_payment_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>release_amount</element>
+            <help/>
+            <hint/>
+            <label>Release Amount</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_payment_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-21 13:12:47</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Release Amount</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_documentation_x_1523132_credit_0_payment_details_release_amount_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-21 13:12:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

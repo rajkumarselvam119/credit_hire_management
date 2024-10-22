@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="5c599009831156100bafad20ceaad335" label="CHM_HIRE_INVOICE_DETAILS" max_length="40" name="x_1523132_credit_0_hire_invoice_details" type="collection">
-        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element label="VH Hire End Date Time" max_length="40" name="vh_hire_end_date_time" type="glide_date_time"/>
-        <element label="Invoice Date" max_length="40" name="invoice_date" type="glide_date"/>
+    <element db_object_id="5c599009831156100bafad20ceaad335" label="CHM_HIRE_INVOICE_DETAILS" max_length="40" name="x_1523132_credit_0_hire_invoice_details" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="HINV ID" max_length="40" name="number" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
         <element label="Make" max_length="40" name="make" type="string"/>
         <element label="VH Hire Start Date Time" max_length="40" name="vh_hire_start_date_time" type="glide_date_time"/>
+        <element choice="1" label="Group" max_length="40" name="group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="S4" sequence="3" value="s4"/>
+                <element inactive_on_update="false" label="S5" sequence="4" value="s5"/>
+                <element inactive_on_update="false" label="S6" sequence="5" value="s6"/>
+                <element inactive_on_update="false" label="S1" sequence="0" value="s1"/>
+                <element inactive_on_update="false" label="S7" sequence="6" value="s7"/>
+                <element inactive_on_update="false" label="S3" sequence="2" value="s3"/>
+                <element inactive_on_update="false" label="S2" sequence="1" value="s2"/>
+            </choice>
+        </element>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
+        <element label="VH Hire End Date Time" max_length="40" name="vh_hire_end_date_time" type="glide_date_time"/>
         <element label="Hire ID" max_length="32" name="hire_id" reference="x_1523132_credit_0_hire_details" type="reference"/>
-        <element label="Engine Size" max_length="38" name="engine_size" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="HINV ID" max_length="40" name="number" type="string"/>
-        <element label="Group" max_length="40" name="group" type="string"/>
         <element label="Desc" max_length="40" name="desc" type="string"/>
+        <element label="Invoice Date" max_length="40" name="invoice_date" type="glide_date"/>
+        <element label="Engine Size" max_length="38" name="engine_size" type="decimal"/>
         <element label="Reg Number" max_length="40" name="reg_number" type="string"/>
-        <element label="Model" max_length="40" name="model" type="string"/>
         <index name="index">
+            <element name="claim_id"/>
+        </index>
+        <index name="index2">
             <element name="hire_id"/>
         </index>
     </element>

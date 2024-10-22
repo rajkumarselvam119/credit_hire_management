@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Claim Handler Workspace App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:30:16</sys_created_on>
+        <sys_id>24c44e65c3951210521ad72d05013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Handler Workspace App Config</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_app_config_24c44e65c3951210521ad72d05013137</sys_update_name>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:30:16</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=24c44e65c3951210521ad72d05013137"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_app_config_24c44e65c3951210521ad72d05013137</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Claim Handler Workspace App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>babafakruddin.singanamala</sys_created_by><sys_created_on>2024-10-17 05:30:16</sys_created_on><sys_id>24c44e65c3951210521ad72d05013137</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Claim Handler Workspace App Config</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_app_config_24c44e65c3951210521ad72d05013137</sys_update_name><sys_updated_by>babafakruddin.singanamala</sys_updated_by><sys_updated_on>2024-10-17 05:30:16</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=24c44e65c3951210521ad72d05013137"/></record_update>]]></payload>
+        <payload_hash>-844116084</payload_hash>
+        <record_name>Claim Handler Workspace App Config</record_name>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:30:16</sys_created_on>
+        <sys_id>da35c26dc3551210521ad72d05013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19298f48b770000001</sys_recorded_at>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:30:16</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>5e35c26d8a55121046e4a5ae4b003d07</update_guid>
+        <update_guid_history>5e35c26d8a55121046e4a5ae4b003d07:-844116084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 07:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>5431b44779604dfca042370ed27f4a90</sys_id>
+        <sys_metadata>24c44e65c3951210521ad72d05013137</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Handler Workspace App Config</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_24c44e65c3951210521ad72d05013137</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_24c44e65c3951210521ad72d05013137">da35c26dc3551210521ad72d05013108</sys_update_version>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 07:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

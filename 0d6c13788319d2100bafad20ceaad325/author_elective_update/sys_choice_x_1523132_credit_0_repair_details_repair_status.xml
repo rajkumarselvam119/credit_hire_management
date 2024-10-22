@@ -20,76 +20,57 @@
             <element>repair_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pending</label>
+            <label>Repair Details Added</label>
             <language>en</language>
             <name>x_1523132_credit_0_repair_details</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:49:37</sys_created_on>
+            <sys_created_on>2024-10-21 11:51:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:49:37</sys_updated_on>
-            <value>pending</value>
+            <sys_updated_on>2024-10-21 11:51:41</sys_updated_on>
+            <value>repair_details_added</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>repair_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>In Repair</label>
+            <label>Engineering Team Review</label>
             <language>en</language>
             <name>x_1523132_credit_0_repair_details</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:49:37</sys_created_on>
+            <sys_created_on>2024-10-21 11:51:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:49:37</sys_updated_on>
-            <value>in_repair</value>
+            <sys_updated_on>2024-10-21 11:51:41</sys_updated_on>
+            <value>engineering_team_review</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>repair_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Completed</label>
+            <label>Repair Decision</label>
             <language>en</language>
             <name>x_1523132_credit_0_repair_details</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:49:37</sys_created_on>
+            <sys_created_on>2024-10-21 11:51:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:49:37</sys_updated_on>
-            <value>completed</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>repair_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Not Required</label>
-            <language>en</language>
-            <name>x_1523132_credit_0_repair_details</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-15 08:49:37</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:49:37</sys_updated_on>
-            <value>not_required</value>
+            <sys_updated_on>2024-10-21 11:51:41</sys_updated_on>
+            <value>repair_decision</value>
         </sys_choice>
     </sys_choice>
 </record_update>

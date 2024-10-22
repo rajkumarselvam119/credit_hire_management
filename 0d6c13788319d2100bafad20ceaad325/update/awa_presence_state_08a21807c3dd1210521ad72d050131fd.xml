@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_presence_state">
+    <awa_presence_state action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_all_groups>true</apply_to_all_groups>
+        <apply_to_groups/>
+        <available_to_receive_work_items>true</available_to_receive_work_items>
+        <description/>
+        <disable_inactivity_check>false</disable_inactivity_check>
+        <name>Available</name>
+        <order>0</order>
+        <restrict_agent_update/>
+        <service_channels>c8a74483c39d1210521ad72d0501315a</service_channels>
+        <show_channels>false</show_channels>
+        <sys_class_name>awa_presence_state</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-10-21 13:00:49</sys_created_on>
+        <sys_id>08a21807c3dd1210521ad72d050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Available</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>awa_presence_state_08a21807c3dd1210521ad72d050131fd</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:00:49</sys_updated_on>
+    </awa_presence_state>
+</record_update>

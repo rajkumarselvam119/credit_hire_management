@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Assign to Me</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-17 10:36:58</sys_created_on>
+        <sys_id>c36b4765c3115210521ad72d0501319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign to Me</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_form_action_c36b4765c3115210521ad72d0501319c</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-17 10:36:58</sys_updated_on>
+        <table>x_1523132_credit_0_negotiation_details</table>
+        <ui_action display_value="Assign to Me">998887edc3dd1210521ad72d050131b3</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c36b4765c3115210521ad72d0501319c"/>
+</record_update>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Recovery Details" section_id="1ccb2e51c3599210521ad72d05013126" sys_domain="global" table="x_1523132_credit_0_recovery_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_name</element>
+            <position>0</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>5dfe2a95c3599210521ad72d0501313d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>1</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>d1fe2a95c3599210521ad72d0501313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>post_code</element>
+            <position>2</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>59fe2a95c3599210521ad72d0501313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>ddfe2a95c3599210521ad72d0501313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>net_amount</element>
+            <position>4</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>55fe2a95c3599210521ad72d0501313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>91fe2a95c3599210521ad72d0501314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gross_amount</element>
+            <position>6</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>19fe2a95c3599210521ad72d0501314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>9dfe2a95c3599210521ad72d0501314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>15fe2a95c3599210521ad72d0501314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claimant_payee_reference</element>
+            <position>9</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>99fe2a95c3599210521ad72d0501314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claimant_representative</element>
+            <position>10</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>11fe2a95c3599210521ad72d0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_vat_applied</element>
+            <position>11</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>95fe2a95c3599210521ad72d0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>1dfe2a95c3599210521ad72d0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_recovery_amount</element>
+            <position>13</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>91fe2a95c3599210521ad72d0501314f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_vat</element>
+            <position>14</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>19fe2a95c3599210521ad72d0501314f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vat</element>
+            <position>15</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>9dfe2a95c3599210521ad72d0501314f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>15fe2a95c3599210521ad72d05013150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>99fe2a95c3599210521ad72d05013150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>storage_head</element>
+            <position>18</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>11fe2a95c3599210521ad72d05013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_setteled</element>
+            <position>19</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>95fe2a95c3599210521ad72d05013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>1dfe2a95c3599210521ad72d05013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_recovery_reviewed</element>
+            <position>21</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:54:08</sys_created_on>
+            <sys_id>91fe2a95c3599210521ad72d05013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery Details" display_value="Recovery Details" name="x_1523132_credit_0_recovery_details" sys_domain="global" view="Default view">1ccb2e51c3599210521ad72d05013126</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Recovery Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_recovery_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:40:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ccb2e51c3599210521ad72d05013126</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1523132_credit_0_recovery_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_1ccb2e51c3599210521ad72d05013126</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:54:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

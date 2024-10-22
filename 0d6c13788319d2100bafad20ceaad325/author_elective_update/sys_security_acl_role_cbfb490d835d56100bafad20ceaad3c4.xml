@@ -41,7 +41,7 @@
         <update_guid_history>4bfb490dd75d56108e6a11fbf9306fc7:-227257691</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1523132_credit_0_chm_miscellaneous_charge_details.x_1523132_credit_0.chm_misce">310ec5cd835d56100bafad20ceaad338</sys_audit_delete>
+        <sys_audit_delete display_value="">310ec5cd835d56100bafad20ceaad338</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>babafakruddin.singanamala</sys_created_by>
         <sys_created_on>2024-10-15 12:12:09</sys_created_on>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="SME Manager Workspace">cdfc1699b0d59210167b8db66fa7271c</page>
+        <required_translations>[ {
+  "message" : "Approvals",
+  "comment" : ""
+}, {
+  "message" : "New CHM_ACCIDENT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_CLAIMANT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_CLAIM_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_DEFENDANT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_HIRE_INVOICE_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_NEGOTIATION_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_PAYMENT_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New CHM_REPAIR_DETAILS",
+  "comment" : ""
+}, {
+  "message" : "New Hire Charge Details",
+  "comment" : ""
+}, {
+  "message" : "New Hire Details",
+  "comment" : ""
+}, {
+  "message" : "New Vehicle Details",
+  "comment" : ""
+}, {
+  "message" : "New Vehicle Rates Details",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 12:35:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>45fc16992cd59210e6455efdb48cc90d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_page_property_45fc16992cd59210e6455efdb48cc90d</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:35:39</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1523132_credit_0.cdfc1699b0d59210167b8db66fa7271c.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New CHM_CLAIM_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_claim_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_claim_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_CLAIMANT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_claimant_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_claimant_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_DEFENDANT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_defendant_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_defendant_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_HIRE_INVOICE_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_invoice_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_invoice_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_NEGOTIATION_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_negotiation_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_negotiation_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_PAYMENT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_payment_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_payment_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_REPAIR_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_repair_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_repair_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Hire Charge Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_charge_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_charge_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Hire Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_hire_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_hire_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Vehicle Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_vehicle_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_vehicle_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Vehicle Rates Details"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_vehicle_rates_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_vehicle_rates_details","canCreate":true}}},{"label":{"translatable":true,"message":"New CHM_ACCIDENT_DETAILS"},"routeInfo":{"route":"record","fields":{"table":"x_1523132_credit_0_accident_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1523132_credit_0_accident_details","canCreate":true}}},{"label":{"translatable":true,"message":"Approvals"},"routeInfo":{"route":"record","fields":{"table":"sysapproval_approver","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sysapproval_approver","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=45fc16992cd59210e6455efdb48cc90d"/>
+</record_update>

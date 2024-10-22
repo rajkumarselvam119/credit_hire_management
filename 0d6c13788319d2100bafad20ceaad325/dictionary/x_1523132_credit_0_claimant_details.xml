@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2866140983dd16100bafad20ceaad34d" label="CHM_CLAIMANT_DETAILS" max_length="40" name="x_1523132_credit_0_claimant_details" type="collection">
-        <element label="Name" max_length="255" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Claimant ID" max_length="40" name="number" type="string"/>
-        <element label="Email" max_length="255" name="email" type="string"/>
+    <element db_object_id="2866140983dd16100bafad20ceaad34d" label="CHM_CLAIMANT_DETAILS" max_length="40" name="x_1523132_credit_0_claimant_details" text_index="true" type="collection">
         <element label="Insurer Policy Number" max_length="40" name="insurer_policy_number" type="string"/>
-        <element label="Address" max_length="400" name="address" type="string"/>
-        <element label="Solicitor" max_length="255" name="solicitor" type="string"/>
-        <element label="Representative Reference" max_length="255" name="representative_reference" type="string"/>
         <element label="Solicitor Branch" max_length="40" name="solicitor_branch" type="string"/>
+        <element label="Name" max_length="255" name="name" type="string"/>
+        <element label="Address" max_length="400" name="address" type="string"/>
         <element label="Insurer Organization Name" max_length="255" name="insurer_organization_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Claimant ID" max_length="40" name="number" type="string"/>
+        <element label="Solicitor" max_length="255" name="solicitor" type="string"/>
         <element label="Is VAT Applied" max_length="40" name="is_vat_applied" type="boolean"/>
+        <element label="Email" max_length="255" name="email" type="string"/>
+        <element label="Representative Reference" max_length="255" name="representative_reference" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
-        <element label="Team" max_length="255" name="team" type="string"/>
-        <element label="Solicitor Reference" max_length="40" name="solicitor_reference" type="string"/>
-        <element label="Representative" max_length="255" name="representative" type="string"/>
         <element label="Is Company" max_length="40" name="is_company" type="boolean"/>
-        <element label="Insurer Claim Reference" max_length="40" name="insurer_claim_reference" type="string"/>
-        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
-        <element label="Insurance Cover" max_length="255" name="insurance_cover" type="string"/>
         <element label="Representative Sub Brand" max_length="255" name="representative_sub_brand" type="string"/>
+        <element label="Team" max_length="255" name="team" type="string"/>
+        <element label="Insurer Claim Reference" max_length="40" name="insurer_claim_reference" type="string"/>
         <element label="Is VAT Registered" max_length="40" name="is_vat_registered" type="boolean"/>
+        <element label="Solicitor Reference" max_length="40" name="solicitor_reference" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
         <element label="Non Standard Risk Driver" max_length="255" name="non_standard_risk_driver" type="string"/>
+        <element label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element label="Representative" max_length="255" name="representative" type="string"/>
+        <element label="Insurer Cover" max_length="255" name="insurance_cover" type="string"/>
         <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
+        <index name="index">
+            <element name="claim_id"/>
+        </index>
     </element>
 </database>

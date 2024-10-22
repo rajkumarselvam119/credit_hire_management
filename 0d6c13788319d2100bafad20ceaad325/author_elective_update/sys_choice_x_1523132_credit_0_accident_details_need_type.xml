@@ -20,19 +20,38 @@
             <element>need_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Basic</label>
+            <label>Business Use</label>
             <language>en</language>
             <name>x_1523132_credit_0_accident_details</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-15 09:58:04</sys_created_on>
+            <sys_created_on>2024-10-21 11:58:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-15 09:58:04</sys_updated_on>
-            <value>basic</value>
+            <sys_updated_on>2024-10-21 11:58:37</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>need_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Business Use</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_accident_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-10-21 11:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:58:37</sys_updated_on>
+            <value>2</value>
         </sys_choice>
     </sys_choice>
 </record_update>

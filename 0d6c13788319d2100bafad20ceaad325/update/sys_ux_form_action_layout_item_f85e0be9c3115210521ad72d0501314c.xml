@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Cancel">f85ec7a9c3115210521ad72d0501319f</action>
+        <active>true</active>
+        <color>primary-negative</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Cancel</label>
+        <layout_group/>
+        <name>Cancel</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-17 10:49:39</sys_created_on>
+        <sys_id>f85e0be9c3115210521ad72d0501314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_f85e0be9c3115210521ad72d0501314c</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-17 10:49:39</sys_updated_on>
+        <table>x_1523132_credit_0_claim_details</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

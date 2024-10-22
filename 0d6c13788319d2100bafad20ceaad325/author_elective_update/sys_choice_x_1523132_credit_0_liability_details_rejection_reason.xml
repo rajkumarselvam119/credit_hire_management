@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rejection_reason" table="x_1523132_credit_0_liability_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rejection_reason</element>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:04</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rejection_reason</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_choice_x_1523132_credit_0_liability_details_rejection_reason</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Insurer</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:04</sys_updated_on>
+            <value>alternative_insurer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>duplicate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Handling Agent</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>other_handling_agent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No claim being  presented</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>no_claim_being_presented</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not in scope for system use</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>not_in_scope_for_system_use</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Principle Not Liable</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>principle_not_liable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Principle Request - Litigated</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>principle_request_litigated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Principle Request - Other</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>principle_request_other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Already paid by Principle</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>already_paid_by_principle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biliteral or protocol agreement</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>biliteral_or_protocol_agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Insurer - MID Positive</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>alternative_insurer_mid_positive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rejection_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Insurer - MID Negative</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:32:05</sys_updated_on>
+            <value>alternative_insurer_mid_negative</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

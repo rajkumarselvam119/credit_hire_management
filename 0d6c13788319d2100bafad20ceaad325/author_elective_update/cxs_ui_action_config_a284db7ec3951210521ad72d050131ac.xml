@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="DELETE">
+        <action_condition/>
+        <action_label>Attach</action_label>
+        <action_undo_label/>
+        <action_value>attach</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type>embed_link</attachment_type>
+        <badge_label>Attached</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>200</order>
+        <rest_api/>
+        <search_res_config/>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.PinnedArticleSearchResource</search_resource>
+        <search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action>
+        <search_ui_config display_value="CHM_CLAIM_DETAILS [x_1523132_credit_0_claim_details]">df03933ec3951210521ad72d05013174</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:29:13</sys_created_on>
+        <sys_id>a284db7ec3951210521ad72d050131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>cxs_ui_action_config_a284db7ec3951210521ad72d050131ac</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:29:13</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="DELETE" query="documentkey=a284db7ec3951210521ad72d050131ac"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>cxs_ui_action_config_a284db7ec3951210521ad72d050131ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config"><cxs_ui_action_config action="INSERT_OR_UPDATE"><action_condition/><action_label>Attach</action_label><action_undo_label/><action_value>attach</action_value><active>true</active><advanced_visibility>false</advanced_visibility><attach_note_field>comments</attach_note_field><attachment_type>embed_link</attachment_type><badge_label>Attached</badge_label><current_action_condition/><current_table/><order>200</order><rest_api/><search_res_config/><search_resource display_value="">com.snc.contextual_search.search_resource.PinnedArticleSearchResource</search_resource><search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action><search_ui_config display_value="CHM_CLAIM_DETAILS [x_1523132_credit_0_claim_details]">df03933ec3951210521ad72d05013174</search_ui_config><show_on_new>false</show_on_new><sys_class_name>cxs_ui_action_config</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-21 08:29:13</sys_created_on><sys_id>a284db7ec3951210521ad72d050131ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attach</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>cxs_ui_action_config_a284db7ec3951210521ad72d050131ac</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-21 08:29:13</sys_updated_on><table>kb_knowledge</table><trend_recommendation/><ui_action_visibility_script/><use_custom_field_for_attach>false</use_custom_field_for_attach></cxs_ui_action_config><sys_translated_text action="delete_multiple" query="documentkey=a284db7ec3951210521ad72d050131ac"/></record_update>]]></payload>
+        <payload_hash>505731036</payload_hash>
+        <record_name>Attach</record_name>
+        <reverted_from/>
+        <source>df4ed6ddc3d59210521ad72d0501319d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:29:13</sys_created_on>
+        <sys_id>e2845bbec3951210521ad72d050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ae31d06a0000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:29:13</sys_updated_on>
+        <type>Search Action Configuration</type>
+        <update_guid>ea84db7e3f9512109f70a2e9c8e58aad</update_guid>
+        <update_guid_history>ea84db7e3f9512109f70a2e9c8e58aad:505731036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Attach">72f79776c3d51210521ad72d0501318e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-21 08:44:15</sys_created_on>
+        <sys_db_object display_value="" name="cxs_ui_action_config">cxs_ui_action_config</sys_db_object>
+        <sys_id>5b70926be13a4b749f1aa5d9b537a8e4</sys_id>
+        <sys_metadata>a284db7ec3951210521ad72d050131ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>cxs_ui_action_config_a284db7ec3951210521ad72d050131ac</sys_update_name>
+        <sys_update_version display_value="cxs_ui_action_config_a284db7ec3951210521ad72d050131ac">e2845bbec3951210521ad72d050131de</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-21 08:44:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

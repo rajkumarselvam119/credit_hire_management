@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Claim Handler Workspace App Config">e7302e65d01d1210702a36b49cf7484c</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Dashboard</name>
+        <optional_parameters>tab,filter</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>dashboard</route_type>
+        <screen_type display_value="Dashboards">49fc169944d5921021b31213acfc620f</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-17 07:28:20</sys_created_on>
+        <sys_id>ef302e65f71d121068bc9cf557437941</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_app_route_ef302e65f71d121068bc9cf557437941</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 08:03:13</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=ef302e65f71d121068bc9cf557437941"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_app_route_ef302e65f71d121068bc9cf557437941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Claim Handler Workspace App Config">e7302e65d01d1210702a36b49cf7484c</app_config><description/><extension_point/><fields/><icon/><name>Dashboard</name><optional_parameters>tab,filter</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>dashboard</route_type><screen_type display_value="Dashboards">49fc169944d5921021b31213acfc620f</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-17 07:28:20</sys_created_on><sys_id>ef302e65f71d121068bc9cf557437941</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Dashboard</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_app_route_ef302e65f71d121068bc9cf557437941</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-18 08:03:13</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=ef302e65f71d121068bc9cf557437941"/></record_update>]]></payload>
+        <payload_hash>1786860216</payload_hash>
+        <record_name>Dashboard</record_name>
+        <reverted_from/>
+        <source>df4ed6ddc3d59210521ad72d0501319d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 08:03:13</sys_created_on>
+        <sys_id>ecd1b37dc3999210521ad72d050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929ea6f0330000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 08:03:13</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>e0d1b37dda999210a15540a4526226e4</update_guid>
+        <update_guid_history>e0d1b37dda999210a15540a4526226e4:1786860216,68d1fbb98a9992109778cc2b1429a609:-913953204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 08:11:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>1b85594be5064921b2e53b69338225b9</sys_id>
+        <sys_metadata>ef302e65f71d121068bc9cf557437941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_ef302e65f71d121068bc9cf557437941</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_ef302e65f71d121068bc9cf557437941">ecd1b37dc3999210521ad72d050131e4</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 08:11:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

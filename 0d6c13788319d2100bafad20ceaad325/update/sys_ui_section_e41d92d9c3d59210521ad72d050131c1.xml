@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Defendant Details" section_id="e41d92d9c3d59210521ad72d050131c1" sys_domain="global" table="x_1523132_credit_0_hire_details" version="3" view="workspace-sme-manager-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_net_price</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>a81d92d9c3d59210521ad72d050131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_vat</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>a01d92d9c3d59210521ad72d050131c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>201d92d9c3d59210521ad72d050131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_penalty</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>281d92d9c3d59210521ad72d050131c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offered_final_amount</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>241d92d9c3d59210521ad72d050131c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>a01d92d9c3d59210521ad72d050131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>a81d92d9c3d59210521ad72d050131c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_vha_signed</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>281d92d9c3d59210521ad72d050131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_by</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>201d92d9c3d59210521ad72d050131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_by</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>ac1d92d9c3d59210521ad72d050131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>ac1d92d9c3d59210521ad72d050131c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>a41d92d9c3d59210521ad72d050131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_on</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>241d92d9c3d59210521ad72d050131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_on</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_id>2c1d92d9c3d59210521ad72d050131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="49fc1699ffd592107328e5c3196b3f12">e41d92d9c3d59210521ad72d050131c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Defendant Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_hire_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 12:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41d92d9c3d59210521ad72d050131c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_hire_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_e41d92d9c3d59210521ad72d050131c1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 12:35:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace SME Manager Workspace 0" name="workspace-sme-manager-workspace-0">49fc1699ffd592107328e5c3196b3f12</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

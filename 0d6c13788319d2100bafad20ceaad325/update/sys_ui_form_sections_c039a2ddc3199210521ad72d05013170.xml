@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c039a2ddc3199210521ad72d05013170" sys_domain="global" table="x_1523132_credit_0_vehicle_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:28:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c39a2ddc3199210521ad72d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1523132_credit_0_vehicle_details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">c039a2ddc3199210521ad72d05013170</sys_ui_form>
+            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:28:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:28:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5839a2ddc3199210521ad72d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1523132_credit_0_vehicle_details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">c039a2ddc3199210521ad72d05013170</sys_ui_form>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">4839a2ddc3199210521ad72d0501316f</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:28:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1523132_credit_0_vehicle_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-16 13:28:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c039a2ddc3199210521ad72d05013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_vehicle_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c039a2ddc3199210521ad72d05013170</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:28:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

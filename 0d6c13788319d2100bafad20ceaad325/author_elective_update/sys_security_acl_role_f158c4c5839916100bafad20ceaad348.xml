@@ -41,7 +41,7 @@
         <update_guid_history>f958c4c5c3991610330e94e5efcfdcec:-1153202217</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1523132_credit_0_claim_details.x_1523132_credit_0.admin">db16748983d956100bafad20ceaad368</sys_audit_delete>
+        <sys_audit_delete display_value="">db16748983d956100bafad20ceaad368</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-10-15 10:27:40</sys_created_on>

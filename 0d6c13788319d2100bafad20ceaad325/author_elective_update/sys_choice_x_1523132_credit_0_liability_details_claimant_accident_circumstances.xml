@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="claimant_accident_circumstances" table="x_1523132_credit_0_liability_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>claimant_accident_circumstances</element>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>claimant_accident_circumstances</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_choice_x_1523132_credit_0_liability_details_claimant_accident_circumstances</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attempted Theft</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>attempted_theft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Car door opened onto defendant vehicle</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>car_door_opened_onto_defendant_vehicle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both Party Reversing simultaneuously</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>both_party_reversing_simultaneuously</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both vehicles reveresing</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>both_vehicles_reveresing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Car door opened as Defendant was driving past</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>car_door_opened_as_defendant_was_driving_past</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claimant changed lanes</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:19</sys_updated_on>
+            <value>claimant_changed_lanes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claimant cross central reservation</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>claimant_cross_central_reservation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claimant entered from minor road and hit defendant</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>claimant_entered_from_minor_road_and_hit_defendant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claimant hit defendant in rear</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>claimant_hit_defendant_in_rear</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>claimant_accident_circumstances</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Claimant hit parked defendant</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_liability_details</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 12:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 12:27:20</sys_updated_on>
+            <value>claimant_hit_parked_defendant</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

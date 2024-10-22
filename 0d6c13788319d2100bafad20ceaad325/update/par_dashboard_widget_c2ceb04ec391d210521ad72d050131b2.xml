@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">2b302e65591d12105a77a55084aa8745</canvas>
+        <component display_value="Area">aba8630dc2ccc9b3c1774af1b6820696</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"area","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"CHM_CLAIM_DETAILS","sourceType":"table","tableOrViewName":"x_1523132_credit_0_claim_details","filterQuery":"status!=","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1MjMxMzJfY3JlZGl0XzBfY2xhaW1fZGV0YWlsczE3MjkyNTg3MjkyNDg=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE1MjMxMzJfY3JlZGl0XzBfY2xhaW1fZGV0YWlsczE3MjkyNTg3MjkyNDg=","id":"ZEdGaWJHVjRYekUxTWpNeE16SmZZM0psWkdsMFh6QmZZMnhoYVcxZlpHVjBZV2xzY3pFM01qa3lOVGczTWpreU5EZz0xNzI5MjU4NzMzMzgw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE1MjMxMzJfY3JlZGl0XzBfY2xhaW1fZGV0YWlsczE3MjkyNTg3MjkyNDg=","groupByField":"active","metric":"ZEdGaWJHVjRYekUxTWpNeE16SmZZM0psWkdsMFh6QmZZMnhoYVcxZlpHVjBZV2xzY3pFM01qa3lOVGczTWpreU5EZz0xNzI5MjU4NzMzMzgw","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekUxTWpNeE16SmZZM0psWkdsMFh6QmZZMnhoYVcxZlpHVjBZV2xzY3pFM01qa3lOVGczTWpreU5EZz0xNzI5MjU4NzMzMzgw"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":false,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"8kk444t5","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"groupBy","value":[{"groupBy":[{"dataSource":"dGFibGV4XzE1MjMxMzJfY3JlZGl0XzBfY2xhaW1fZGV0YWlsczE3MjkyNTg3MjkyNDg=","groupByField":"active","metric":"ZEdGaWJHVjRYekUxTWpNeE16SmZZM0psWkdsMFh6QmZZMnhoYVcxZlpHVjBZV2xzY3pFM01qa3lOVGczTWpreU5EZz0xNzI5MjU4NzMzMzgw","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"noDebounce":true,"propLabel":"Group by","chartInteractionEnabled":false,"drilldownLabel":false,"headerTitle":"Daily Trends"}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-18 13:39:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2ceb04ec391d210521ad72d050131b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>par_dashboard_widget_c2ceb04ec391d210521ad72d050131b2</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-18 13:45:41</sys_updated_on>
+        <visualization/>
+        <w>32</w>
+        <widget_props/>
+        <x>16</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>

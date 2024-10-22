@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>24c44e65c3951210521ad72d05013137</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>claim-handler-workspace</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:34:31</sys_created_on>
+        <sys_id>99e3826dc3551210521ad72d050131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Handler Workspace</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_page_registry_99e3826dc3551210521ad72d050131bd</sys_update_name>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:34:31</sys_updated_on>
+        <title>Claim Handler Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_page_registry_99e3826dc3551210521ad72d050131bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>24c44e65c3951210521ad72d05013137</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>claim-handler-workspace</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>babafakruddin.singanamala</sys_created_by><sys_created_on>2024-10-17 05:34:31</sys_created_on><sys_id>99e3826dc3551210521ad72d050131bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Claim Handler Workspace</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_page_registry_99e3826dc3551210521ad72d050131bd</sys_update_name><sys_updated_by>babafakruddin.singanamala</sys_updated_by><sys_updated_on>2024-10-17 05:34:31</sys_updated_on><title>Claim Handler Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1047316420</payload_hash>
+        <record_name>Claim Handler Workspace</record_name>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:34:31</sys_created_on>
+        <sys_id>243682a5c3d51210521ad72d0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19298f86f230000001</sys_recorded_at>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:34:31</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>e43682a57dd5121097f80f9bfb616c89</update_guid>
+        <update_guid_history>e43682a57dd5121097f80f9bfb616c89:1047316420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 07:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>4a4cfcd591dd49589973a6774bef3d10</sys_id>
+        <sys_metadata>99e3826dc3551210521ad72d050131bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Handler Workspace</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_99e3826dc3551210521ad72d050131bd</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_99e3826dc3551210521ad72d050131bd">243682a5c3d51210521ad72d0501318a</sys_update_version>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 07:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

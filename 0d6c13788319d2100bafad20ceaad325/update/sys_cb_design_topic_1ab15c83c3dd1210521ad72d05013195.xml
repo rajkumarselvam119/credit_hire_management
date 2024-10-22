@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Credit Hire">92b15c83c3dd1210521ad72d05013191</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"6306befa9b5f49499d7d57e67c7da108","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"6306befa9b5f49499d7d57e67c7da108"}],"goals":[{"name":"primary","trigger_id":"6306befa9b5f49499d7d57e67c7da108","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Welcome to Credit Hire!\", vaContext.getRequesterLang())"},"id":"d14005cb02bd494d9342fbbcf08bd90d","name":"Start","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"ebcb19cb4055424abd3c1a0bc90485fa","name":"End","expert_mode":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"How May I help you?\", vaContext.getRequesterLang())"}],"request_feedback":true,"id":"774b3cea10fd4fe48e1c1f8d7ad98696","name":"Text 1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"1f3227c0806e433497cb10059fdca409","name":"Text 2","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"variable_id":"af5ad239ce264b55b5b457902a827ae4","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Select any of the below options\", vaContext.getRequesterLang())"},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"Status","expression":{"type":"Applicability","mode":"query","value":"text_2=Know your Request State"},"id":"1cccbd6ac0ce4ddc97e56bd84dc9555a","name":"Status","expert_mode":false},{"type":"Branch","label":"Raise Request","expression":{"type":"Applicability","mode":"query","value":"text_2=Raise a Claim request"},"id":"e13162ec4340449c962ab922819a4e8b","name":"Raise Request","expert_mode":false},{"type":"Branch","label":"FAQ","expression":{"type":"Applicability","mode":"query","value":"text_2=FAQ"},"id":"29bf018cb3d14cd285dfb995b852bd9d","name":"FAQ","expert_mode":false}],"id":"49bfcfbe63644640a457df0da21982be","goal_id":"primary","expert_mode":false},{"type":"InputPrompt","variable_id":"0d13d83cdf9a4492a0095f7e090590f6","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Enter you Claim Reference Number\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"request_feedback":true,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"id":"861dcdb13e79419aa7f5275671615d21","name":"Text 3","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"formatType":"Text","validationScript":"","description":""},{"type":"CRUDAction","mode":"read","read_mode":"variable","query":"number={{vaInputs.text_3}}","variable_id":"165376cd2fd147528c3d20a2db2c7914","id":"a5513bec6ce34dc6bd26e5537bb636e3","name":"T4","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"condition":{"type":"Condition","mode":"glide_query","value":"number={{vaInputs.text_3}}"}},{"type":"LinkOutputPrompt","header":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click here to raise a request\", vaContext.getRequesterLang())"},"label":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Click here to raise a request\", vaContext.getRequesterLang())"},"url":{"type":"String","mode":"string","value":"https://dev209402.service-now.com/chm?id=sc_cat_item&amp;sys_id=bf168b6dc3dd1210521ad72d05013152&amp;referrer=recent_items"},"link_type":"single","multi_link_script":"","id":"7e37390f41ae45a3a21d62def72ad907","name":"Raise T1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"6a223351da2742e1a469821061cb891c","name":"F T1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"variable_id":"6f65eb67cf4f47abacd866c01b65b6d2","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Select any of these Questions\", vaContext.getRequesterLang())"},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"status","expression":{"type":"Applicability","mode":"query","value":"f_t1=How to Check the Status of  your Request"},"id":"1c60e8143ace4113bf2ebf8897071c58","name":"status","expert_mode":false},{"type":"Branch","label":"Raise Req","expression":{"type":"Applicability","mode":"query","value":"f_t1=Who Can Raise a request?"},"id":"ca5e7be543414ceea50dbfada9b77efe","name":"Raise Req","expert_mode":false},{"type":"Branch","label":"Others","expression":{"type":"Applicability","mode":"query","value":"f_t1=Others"},"id":"5d8d64b7058848eb9aadaf96087d9462","name":"Others","expert_mode":false}],"id":"5a2131e798bf4b48800def31c5edaf51","goal_id":"primary","expert_mode":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"You can either check your status through the previous request tab or through this Virtual Agent.\", vaContext.getRequesterLang())"}],"request_feedback":true,"id":"4748c130185442b18b7bde95a8d5fad2","name":"Status FAQ 1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"The status of your request is {0}\", vaContext.getRequesterLang(), [vaInputs.t4.status.getDisplayValue()])"}],"request_feedback":true,"id":"61ddc61ddcff4e07a1fdcbbc27a5b27c","name":"T5","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"A valid register user into the credit hire management system can raise a request through the credit hire Portal.\", vaContext.getRequesterLang())"}],"request_feedback":true,"id":"5cd5ef5bcc224f959ce66b53ec3d7d1d","name":"Raise 1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"You will connected to the Live Agent\", vaContext.getRequesterLang())"}],"request_feedback":true,"id":"b39d23e558154bc8be31763dfdb87659","name":"Others 1","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"LibraryCall","library_topic_name":"Transfer to Live Agent","library_topic_id":"9d384761b3633300dbbf6030c6a8dcaa","library_topic_is_template":false,"parameter-mappings":[],"return-value-mappings":[],"header_card_fields":[],"id":"fa434bac46d74e5e8a1f0257de91175b","name":"Transfer to Live Agent","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false}],"edges":[{"type":"Edge","source_node_id":"d14005cb02bd494d9342fbbcf08bd90d","target_node_id":"774b3cea10fd4fe48e1c1f8d7ad98696","id":"b2548f7b365d4bf1a33b7ae963b2605e"},{"type":"Edge","source_node_id":"774b3cea10fd4fe48e1c1f8d7ad98696","target_node_id":"1f3227c0806e433497cb10059fdca409","id":"c422fba4acbf4ab9bc0d10c37d92bb56"},{"type":"Edge","source_node_id":"1f3227c0806e433497cb10059fdca409","target_node_id":"49bfcfbe63644640a457df0da21982be","id":"8ffab9a85bf9496ca5d2230e4706678e"},{"type":"Edge","source_node_id":"49bfcfbe63644640a457df0da21982be","target_node_id":"861dcdb13e79419aa7f5275671615d21","branch_id":"1cccbd6ac0ce4ddc97e56bd84dc9555a","id":"84895a3a4baa4276b07d310a981127c3","name":"1cccbd6ac0ce4ddc97e56bd84dc9555a"},{"type":"Edge","source_node_id":"861dcdb13e79419aa7f5275671615d21","target_node_id":"a5513bec6ce34dc6bd26e5537bb636e3","id":"d48af858c4dd4513bf055232bfe152a9"},{"type":"Edge","source_node_id":"49bfcfbe63644640a457df0da21982be","target_node_id":"7e37390f41ae45a3a21d62def72ad907","branch_id":"e13162ec4340449c962ab922819a4e8b","id":"beb0bb56111d449e875c519a411a77a8","name":"e13162ec4340449c962ab922819a4e8b"},{"type":"Edge","source_node_id":"7e37390f41ae45a3a21d62def72ad907","target_node_id":"ebcb19cb4055424abd3c1a0bc90485fa","id":"804bdd5f288f439595c0a12825dbbffc"},{"type":"Edge","source_node_id":"49bfcfbe63644640a457df0da21982be","target_node_id":"6a223351da2742e1a469821061cb891c","branch_id":"29bf018cb3d14cd285dfb995b852bd9d","id":"2e0b1301bf2e46979f44b9817f6b4af4","name":"29bf018cb3d14cd285dfb995b852bd9d"},{"type":"Edge","source_node_id":"6a223351da2742e1a469821061cb891c","target_node_id":"5a2131e798bf4b48800def31c5edaf51","id":"30d87ae3f1dc4df3bbc310f82ede55c8"},{"type":"Edge","source_node_id":"5a2131e798bf4b48800def31c5edaf51","target_node_id":"4748c130185442b18b7bde95a8d5fad2","branch_id":"1c60e8143ace4113bf2ebf8897071c58","id":"415e4ffead5c46358efc375c27ef4ee3","name":"1c60e8143ace4113bf2ebf8897071c58"},{"type":"Edge","source_node_id":"4748c130185442b18b7bde95a8d5fad2","target_node_id":"ebcb19cb4055424abd3c1a0bc90485fa","id":"a1effeed63484380950fe62ee3e7ccf1"},{"type":"Edge","source_node_id":"a5513bec6ce34dc6bd26e5537bb636e3","target_node_id":"61ddc61ddcff4e07a1fdcbbc27a5b27c","id":"70c88b64b9184bbfbc54d1e9f92ce057"},{"type":"Edge","source_node_id":"61ddc61ddcff4e07a1fdcbbc27a5b27c","target_node_id":"ebcb19cb4055424abd3c1a0bc90485fa","id":"2c7ecd6e30424f2ba3c894d8febc2343"},{"type":"Edge","source_node_id":"5a2131e798bf4b48800def31c5edaf51","target_node_id":"5cd5ef5bcc224f959ce66b53ec3d7d1d","branch_id":"ca5e7be543414ceea50dbfada9b77efe","id":"e8d1d0fb435444cf9b295e3fd1818cb3","name":"ca5e7be543414ceea50dbfada9b77efe"},{"type":"Edge","source_node_id":"5cd5ef5bcc224f959ce66b53ec3d7d1d","target_node_id":"ebcb19cb4055424abd3c1a0bc90485fa","id":"08be017c1ab54f3cb4a67f9b9760bebe"},{"type":"Edge","source_node_id":"5a2131e798bf4b48800def31c5edaf51","target_node_id":"b39d23e558154bc8be31763dfdb87659","branch_id":"5d8d64b7058848eb9aadaf96087d9462","id":"eb11aca09e494af99d892f13ffe8de13","name":"5d8d64b7058848eb9aadaf96087d9462"},{"type":"Edge","source_node_id":"b39d23e558154bc8be31763dfdb87659","target_node_id":"fa434bac46d74e5e8a1f0257de91175b","id":"076aff56a6fe4bc285470cb1864a2858"},{"type":"Edge","source_node_id":"fa434bac46d74e5e8a1f0257de91175b","target_node_id":"ebcb19cb4055424abd3c1a0bc90485fa","id":"7e254ec0471d44a9b2ef800258c067f1"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"Choice","choices":[{"name":"Know your request status","element":"Know your Request State"},{"name":"Raise a Claim request","element":"Raise a Claim request"},{"name":"FAQ","element":"FAQ"}],"id":"af5ad239ce264b55b5b457902a827ae4","name":"text_2","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false,"label":"Text 2"},{"type":"String","name":"text_3","list":false,"id":"0d13d83cdf9a4492a0095f7e090590f6","formatType":"Text","validationScript":"","secure":false,"sensitive":false,"aiInput":false},{"type":"Reference","table":"x_1523132_credit_0_claim_details","id":"165376cd2fd147528c3d20a2db2c7914","name":"t4","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"Choice","choices":[{"name":"How to Check the Status of  your Request?","element":"How to Check the Status of  your Request"},{"name":"Who Can Raise a request?","element":"Who Can Raise a request?"},{"name":"Others","element":"Others"}],"id":"6f65eb67cf4f47abacd866c01b65b6d2","name":"f_t1","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false,"label":"F T1"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"0d6c13788319d2100bafad20ceaad325","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"40cb008bc39d1210521ad72d050131b0","name":"Credit Hire","key_phrases":["Credit Hire"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"description":"","model_type":"nlu_keyword","foundational":false,"modify_confirmation_enabled":false,"context_profiles":[],"title":"Credit Hire","library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>40cb008bc39d1210521ad72d050131b0</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.68",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "d14005cb02bd494d9342fbbcf08bd90d": {
+          "id": "d14005cb02bd494d9342fbbcf08bd90d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Welcome to Credit Hire!"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "ebcb19cb4055424abd3c1a0bc90485fa": {
+          "id": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "774b3cea10fd4fe48e1c1f8d7ad98696": {
+          "id": "774b3cea10fd4fe48e1c1f8d7ad98696",
+          "stepType": "TextOutput",
+          "name": "Text 1",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "How May I help you?"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "70684d1a593b41468078fdcc293a4158"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1f3227c0806e433497cb10059fdca409": {
+          "name": "Text 2",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select any of the below options"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "af5ad239ce264b55b5b457902a827ae4",
+          "detailDescription": "",
+          "id": "1f3227c0806e433497cb10059fdca409",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "49bfcfbe63644640a457df0da21982be": {
+          "id": "49bfcfbe63644640a457df0da21982be",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "861dcdb13e79419aa7f5275671615d21": {
+          "id": "861dcdb13e79419aa7f5275671615d21",
+          "stepType": "TextPrompt",
+          "name": "Text 3",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter you Claim Reference Number"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "0d13d83cdf9a4492a0095f7e090590f6",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "a5513bec6ce34dc6bd26e5537bb636e3": {
+          "id": "a5513bec6ce34dc6bd26e5537bb636e3",
+          "stepType": "LookupRecord",
+          "name": "T4",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.text_3}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "165376cd2fd147528c3d20a2db2c7914"
+        },
+        "7e37390f41ae45a3a21d62def72ad907": {
+          "id": "7e37390f41ae45a3a21d62def72ad907",
+          "stepType": "LinkOutput",
+          "name": "Raise T1",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev209402.service-now.com/chm?id=sc_cat_item&amp;sys_id=bf168b6dc3dd1210521ad72d05013152&amp;referrer=recent_items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click here to raise a request"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click here to raise a request"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "6a223351da2742e1a469821061cb891c": {
+          "name": "F T1",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select any of these Questions"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "6f65eb67cf4f47abacd866c01b65b6d2",
+          "detailDescription": "",
+          "id": "6a223351da2742e1a469821061cb891c",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5a2131e798bf4b48800def31c5edaf51": {
+          "id": "5a2131e798bf4b48800def31c5edaf51",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "4748c130185442b18b7bde95a8d5fad2": {
+          "id": "4748c130185442b18b7bde95a8d5fad2",
+          "stepType": "TextOutput",
+          "name": "Status FAQ 1",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You can either check your status through the previous request tab or through this Virtual Agent."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "3eaa0143dff44cedabe23870d9799a82"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "61ddc61ddcff4e07a1fdcbbc27a5b27c": {
+          "id": "61ddc61ddcff4e07a1fdcbbc27a5b27c",
+          "stepType": "TextOutput",
+          "name": "T5",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The status of your request is "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.t4.status}}",
+                        "displayValue": "Input Variables➛T4➛Status"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "7bb1b7ddbb164596887fddaf307d7d5c"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5cd5ef5bcc224f959ce66b53ec3d7d1d": {
+          "id": "5cd5ef5bcc224f959ce66b53ec3d7d1d",
+          "stepType": "TextOutput",
+          "name": "Raise 1",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "A valid register user into the credit hire management system can raise a request through the credit hire Portal."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "b5236e874fc44874b9652c2c7df9c64a"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "b39d23e558154bc8be31763dfdb87659": {
+          "id": "b39d23e558154bc8be31763dfdb87659",
+          "stepType": "TextOutput",
+          "name": "Others 1",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "You will connected to the Live Agent"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "0e74ec553ed3412889325376f88c40ea"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "fa434bac46d74e5e8a1f0257de91175b": {
+          "id": "fa434bac46d74e5e8a1f0257de91175b",
+          "stepType": "ReusableTopic",
+          "name": "Transfer to Live Agent",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Transfer to Live Agent",
+          "reusableTopicId": "9d384761b3633300dbbf6030c6a8dcaa",
+          "inputs": {},
+          "variableIds": [],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {},
+          "outputs": []
+        }
+      },
+      "edges": [
+        {
+          "id": "b2548f7b365d4bf1a33b7ae963b2605e",
+          "edgeType": "Edge",
+          "source": "d14005cb02bd494d9342fbbcf08bd90d",
+          "target": "774b3cea10fd4fe48e1c1f8d7ad98696",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c422fba4acbf4ab9bc0d10c37d92bb56",
+          "edgeType": "Edge",
+          "source": "774b3cea10fd4fe48e1c1f8d7ad98696",
+          "target": "1f3227c0806e433497cb10059fdca409",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8ffab9a85bf9496ca5d2230e4706678e",
+          "edgeType": "Edge",
+          "source": "1f3227c0806e433497cb10059fdca409",
+          "target": "49bfcfbe63644640a457df0da21982be",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "84895a3a4baa4276b07d310a981127c3",
+          "edgeType": "Branch",
+          "source": "49bfcfbe63644640a457df0da21982be",
+          "target": "861dcdb13e79419aa7f5275671615d21",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.text_2=Know your Request State",
+            "mode": "query"
+          },
+          "label": "Status"
+        },
+        {
+          "id": "d48af858c4dd4513bf055232bfe152a9",
+          "edgeType": "Edge",
+          "source": "861dcdb13e79419aa7f5275671615d21",
+          "target": "a5513bec6ce34dc6bd26e5537bb636e3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "beb0bb56111d449e875c519a411a77a8",
+          "edgeType": "Branch",
+          "source": "49bfcfbe63644640a457df0da21982be",
+          "target": "7e37390f41ae45a3a21d62def72ad907",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.text_2=Raise a Claim request",
+            "mode": "query"
+          },
+          "label": "Raise Request"
+        },
+        {
+          "id": "804bdd5f288f439595c0a12825dbbffc",
+          "edgeType": "Edge",
+          "source": "7e37390f41ae45a3a21d62def72ad907",
+          "target": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2e0b1301bf2e46979f44b9817f6b4af4",
+          "edgeType": "Branch",
+          "source": "49bfcfbe63644640a457df0da21982be",
+          "target": "6a223351da2742e1a469821061cb891c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.text_2=FAQ",
+            "mode": "query"
+          },
+          "label": "FAQ"
+        },
+        {
+          "id": "30d87ae3f1dc4df3bbc310f82ede55c8",
+          "edgeType": "Edge",
+          "source": "6a223351da2742e1a469821061cb891c",
+          "target": "5a2131e798bf4b48800def31c5edaf51",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "415e4ffead5c46358efc375c27ef4ee3",
+          "edgeType": "Branch",
+          "source": "5a2131e798bf4b48800def31c5edaf51",
+          "target": "4748c130185442b18b7bde95a8d5fad2",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.f_t1=How to Check the Status of  your Request",
+            "mode": "query"
+          },
+          "label": "status"
+        },
+        {
+          "id": "a1effeed63484380950fe62ee3e7ccf1",
+          "edgeType": "Edge",
+          "source": "4748c130185442b18b7bde95a8d5fad2",
+          "target": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "70c88b64b9184bbfbc54d1e9f92ce057",
+          "edgeType": "Edge",
+          "source": "a5513bec6ce34dc6bd26e5537bb636e3",
+          "target": "61ddc61ddcff4e07a1fdcbbc27a5b27c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2c7ecd6e30424f2ba3c894d8febc2343",
+          "edgeType": "Edge",
+          "source": "61ddc61ddcff4e07a1fdcbbc27a5b27c",
+          "target": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e8d1d0fb435444cf9b295e3fd1818cb3",
+          "edgeType": "Branch",
+          "source": "5a2131e798bf4b48800def31c5edaf51",
+          "target": "5cd5ef5bcc224f959ce66b53ec3d7d1d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.f_t1=Who Can Raise a request?",
+            "mode": "query"
+          },
+          "label": "Raise Req"
+        },
+        {
+          "id": "08be017c1ab54f3cb4a67f9b9760bebe",
+          "edgeType": "Edge",
+          "source": "5cd5ef5bcc224f959ce66b53ec3d7d1d",
+          "target": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "eb11aca09e494af99d892f13ffe8de13",
+          "edgeType": "Branch",
+          "source": "5a2131e798bf4b48800def31c5edaf51",
+          "target": "b39d23e558154bc8be31763dfdb87659",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.f_t1=Others",
+            "mode": "query"
+          },
+          "label": "Others"
+        },
+        {
+          "id": "076aff56a6fe4bc285470cb1864a2858",
+          "edgeType": "Edge",
+          "source": "b39d23e558154bc8be31763dfdb87659",
+          "target": "fa434bac46d74e5e8a1f0257de91175b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7e254ec0471d44a9b2ef800258c067f1",
+          "edgeType": "Edge",
+          "source": "fa434bac46d74e5e8a1f0257de91175b",
+          "target": "ebcb19cb4055424abd3c1a0bc90485fa",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "af5ad239ce264b55b5b457902a827ae4": {
+      "id": "af5ad239ce264b55b5b457902a827ae4",
+      "name": "text_2",
+      "label": "Text 2",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Know your request status",
+          "value": "Know your Request State"
+        },
+        {
+          "label": "Raise a Claim request",
+          "value": "Raise a Claim request",
+          "checked": true,
+          "meta": {}
+        },
+        {
+          "label": "FAQ",
+          "value": "FAQ"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "1f3227c0806e433497cb10059fdca409",
+      "isHidden": false
+    },
+    "0d13d83cdf9a4492a0095f7e090590f6": {
+      "id": "0d13d83cdf9a4492a0095f7e090590f6",
+      "name": "text_3",
+      "label": "Text 3",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyOTUxNDMyOTIzMCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "861dcdb13e79419aa7f5275671615d21",
+      "isHidden": false
+    },
+    "165376cd2fd147528c3d20a2db2c7914": {
+      "id": "165376cd2fd147528c3d20a2db2c7914",
+      "name": "t4",
+      "label": "T4",
+      "varType": "reference",
+      "table": "x_1523132_credit_0_claim_details",
+      "category": "vaInputs",
+      "nodeId": "a5513bec6ce34dc6bd26e5537bb636e3",
+      "isHidden": false
+    },
+    "6f65eb67cf4f47abacd866c01b65b6d2": {
+      "id": "6f65eb67cf4f47abacd866c01b65b6d2",
+      "name": "f_t1",
+      "label": "F T1",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "How to Check the Status of  your Request?",
+          "value": "How to Check the Status of  your Request"
+        },
+        {
+          "label": "Who Can Raise a request?",
+          "value": "Who Can Raise a request?"
+        },
+        {
+          "label": "Others",
+          "value": "Others",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "6a223351da2742e1a469821061cb891c",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>Credit Hire</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 12:56:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1ab15c83c3dd1210521ad72d05013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_cb_design_topic_1ab15c83c3dd1210521ad72d05013195</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 12:56:32</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

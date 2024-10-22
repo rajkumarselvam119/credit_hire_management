@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app sme-manager-workspace">96fc5699c3d59210521ad72d0501318e</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 12:35:34</sys_created_on>
+        <sys_id>6efc9699c3d59210521ad72d05013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_6efc9699c3d59210521ad72d05013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 12:35:34</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_applicability_m2m_list_6efc9699c3d59210521ad72d05013117</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app sme-manager-workspace">96fc5699c3d59210521ad72d0501318e</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-16 12:35:34</sys_created_on><sys_id>6efc9699c3d59210521ad72d05013117</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_6efc9699c3d59210521ad72d05013117</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-16 12:35:34</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>1476969188</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 14:41:23</sys_created_on>
+        <sys_id>45fc8182c315d210521ad72d050131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a013780a0000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:41:23</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>6efc9699ead592105acd7ef366843f18</update_guid>
+        <update_guid_history>6efc9699ead592105acd7ef366843f18:-1132254603,6efc9699ead592105acd7ef366843f18:-1132254603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 14:41:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>d1158a2d849b4689a31d7d1f5044c001</sys_id>
+        <sys_metadata>6efc9699c3d59210521ad72d05013117</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_6efc9699c3d59210521ad72d05013117</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_6efc9699c3d59210521ad72d05013117">45fc8182c315d210521ad72d050131b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:41:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

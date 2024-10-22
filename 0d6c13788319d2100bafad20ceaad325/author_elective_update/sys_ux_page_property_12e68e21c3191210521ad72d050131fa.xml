@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Claim Handler Workspace">99e3826dc3551210521ad72d050131bd</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:37:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>12e68e21c3191210521ad72d050131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_page_property_12e68e21c3191210521ad72d050131fa</sys_update_name>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:37:38</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1523132_credit_0.99e3826dc3551210521ad72d050131bd.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=12e68e21c3191210521ad72d050131fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_page_property_12e68e21c3191210521ad72d050131fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="Claim Handler Workspace">99e3826dc3551210521ad72d050131bd</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>babafakruddin.singanamala</sys_created_by><sys_created_on>2024-10-17 05:37:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>12e68e21c3191210521ad72d050131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_page_property_12e68e21c3191210521ad72d050131fa</sys_update_name><sys_updated_by>babafakruddin.singanamala</sys_updated_by><sys_updated_on>2024-10-17 05:37:38</sys_updated_on><type>json</type><unique_name>x_1523132_credit_0.99e3826dc3551210521ad72d050131bd.root.global.chrome_footer</unique_name><value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=12e68e21c3191210521ad72d050131fa"/></record_update>]]></payload>
+        <payload_hash>833014182</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 05:37:38</sys_created_on>
+        <sys_id>16e68e21c3191210521ad72d050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19298fb4b4b0000001</sys_recorded_at>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 05:37:38</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>1ae68e21f21912105c0cad8424570bfb</update_guid>
+        <update_guid_history>1ae68e21f21912105c0cad8424570bfb:833014182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>babafakruddin.singanamala</sys_created_by>
+        <sys_created_on>2024-10-17 07:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0a53c72e94334ac08887eea51a157bb9</sys_id>
+        <sys_metadata>12e68e21c3191210521ad72d050131fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_12e68e21c3191210521ad72d050131fa</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_12e68e21c3191210521ad72d050131fa">16e68e21c3191210521ad72d050131fc</sys_update_version>
+        <sys_updated_by>babafakruddin.singanamala</sys_updated_by>
+        <sys_updated_on>2024-10-17 07:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

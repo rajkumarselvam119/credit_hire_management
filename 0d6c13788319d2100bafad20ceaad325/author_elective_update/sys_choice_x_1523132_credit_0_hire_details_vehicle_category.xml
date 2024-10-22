@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vehicle_category" table="x_1523132_credit_0_hire_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vehicle_category</element>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vehicle_category</sys_name>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_choice_x_1523132_credit_0_hire_details_vehicle_category</sys_update_name>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MPV</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>mpv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4x4</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>4x4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prestige</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>prestige</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sports</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>sports</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minibus</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>minibus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pickups</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>pickups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chilled</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>chilled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chassis Based</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>chassis_based</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Panel Vans</label>
+            <language>en</language>
+            <name>x_1523132_credit_0_hire_details</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-21 11:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-21 11:42:47</sys_updated_on>
+            <value>panel_vans</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

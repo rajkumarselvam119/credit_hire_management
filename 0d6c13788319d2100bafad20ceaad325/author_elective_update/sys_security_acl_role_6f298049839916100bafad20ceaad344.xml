@@ -41,7 +41,7 @@
         <update_guid_history>272980495499161079fd09ead9487a47:-1591383753</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1523132_credit_0_ch_hire_invoice_details.x_1523132_credit_0.admin">cf099845831156100bafad20ceaad36d</sys_audit_delete>
+        <sys_audit_delete display_value="">cf099845831156100bafad20ceaad36d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sreeranjani.s</sys_created_by>
         <sys_created_on>2024-10-15 08:20:41</sys_created_on>

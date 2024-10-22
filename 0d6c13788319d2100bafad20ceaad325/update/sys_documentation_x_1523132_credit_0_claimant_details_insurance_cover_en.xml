@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="insurance_cover" label="Insurance Cover" language="en" table="x_1523132_credit_0_claimant_details">
+    <sys_documentation element="insurance_cover" label="Insurer Cover" language="en" table="x_1523132_credit_0_claimant_details">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>insurance_cover</element>
             <help/>
             <hint/>
-            <label>Insurance Cover</label>
+            <label>Insurer Cover</label>
             <language>en</language>
             <name>x_1523132_credit_0_claimant_details</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
             <sys_created_on>2024-10-15 08:25:21</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Insurance Cover</sys_name>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>Insurer Cover</sys_name>
             <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
             <sys_policy/>
             <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
             <sys_update_name>sys_documentation_x_1523132_credit_0_claimant_details_insurance_cover_en</sys_update_name>
-            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-15 08:25:25</sys_updated_on>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

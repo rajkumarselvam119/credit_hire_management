@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="SME Manager Workspace_menu_config">1afc5699c3d59210521ad72d050131ef</configuration>
+        <description/>
+        <order>1300</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 14:15:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebe6cdc6c3d1d210521ad72d0501310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_list_category_ebe6cdc6c3d1d210521ad72d0501310d</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:15:03</sys_updated_on>
+        <title>Approvals</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_list_category_ebe6cdc6c3d1d210521ad72d0501310d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="SME Manager Workspace_menu_config">1afc5699c3d59210521ad72d050131ef</configuration><description/><order>1300</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-18 14:15:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ebe6cdc6c3d1d210521ad72d0501310d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approvals</sys_name><sys_overrides/><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_list_category_ebe6cdc6c3d1d210521ad72d0501310d</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-18 14:15:03</sys_updated_on><title>Approvals</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-2058369465</payload_hash>
+        <record_name>Approvals</record_name>
+        <reverted_from/>
+        <source>6a6c5e19c3d59210521ad72d050131e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 14:15:03</sys_created_on>
+        <sys_id>67e6cdc6c3d1d210521ad72d05013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929ffb5df60000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:15:03</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>2be6cdc6ead1d21054a0fe565169d710</update_guid>
+        <update_guid_history>2be6cdc6ead1d21054a0fe565169d710:-2058369465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-18 14:21:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>fdc422b32fd9408eac3b24a45d4db4c1</sys_id>
+        <sys_metadata>ebe6cdc6c3d1d210521ad72d0501310d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_ebe6cdc6c3d1d210521ad72d0501310d</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_ebe6cdc6c3d1d210521ad72d0501310d">67e6cdc6c3d1d210521ad72d05013111</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:21:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
