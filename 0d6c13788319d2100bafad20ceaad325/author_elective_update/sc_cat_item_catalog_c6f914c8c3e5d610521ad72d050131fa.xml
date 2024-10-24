@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New Claim Request">caf914c8c3e5d610521ad72d050131ee</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-24 16:06:29</sys_created_on>
+        <sys_id>c6f914c8c3e5d610521ad72d050131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Claim Request</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c6f914c8c3e5d610521ad72d050131fa</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-24 16:06:29</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sc_cat_item_catalog_c6f914c8c3e5d610521ad72d050131fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Claim Request">caf914c8c3e5d610521ad72d050131ee</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-24 16:06:29</sys_created_on><sys_id>c6f914c8c3e5d610521ad72d050131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New Claim Request</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sc_cat_item_catalog_c6f914c8c3e5d610521ad72d050131fa</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-24 16:06:29</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>871428647</payload_hash>
+        <record_name>Service Catalog.New Claim Request</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-24 16:06:29</sys_created_on>
+        <sys_id>46f954c8c3e5d610521ad72d0501310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bf4789b00000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-24 16:06:29</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4af954c89be5d610df9041fdbade750a</update_guid>
+        <update_guid_history>4af954c89be5d610df9041fdbade750a:871428647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New Claim Request">9a0ad4c8c3e5d610521ad72d0501312e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-24 16:06:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1343dd2ad660487882516b70bd5da840</sys_id>
+        <sys_metadata>c6f914c8c3e5d610521ad72d050131fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Claim Request</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="">caf914c8c3e5d610521ad72d050131ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c6f914c8c3e5d610521ad72d050131fa</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c6f914c8c3e5d610521ad72d050131fa">46f954c8c3e5d610521ad72d0501310b</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-24 16:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

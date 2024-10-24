@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Previously Raised Claims)">bcf646ebc3dd1610521ad72d0501315c</button>
+        <button_parent_table>x_1523132_credit_0_claim_details</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>state</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>list</input_type>
+        <mandatory>false</mandatory>
+        <max_entries>1</max_entries>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>State</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:40</sys_created_on>
+        <sys_id>f0f646ebc3dd1610521ad72d0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_f0f646ebc3dd1610521ad72d0501315f</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:40</sys_updated_on>
+        <table_name>x_1523132_credit_0_claim_details</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0f646ebc3dd1610521ad72d0501315f"/>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+.lk{
+  font-size: 24px
+},
+.button {
+  text-align: center;
+  font-size: 16px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>claim_text</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>CHM: Claim text</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var id = $sp.getParameter('sys_id');
+	var gr=new GlideRecord('x_1523132_credit_0_claim_details');
+	gr.get(id);
+	data.ref = gr.getDisplayValue('number');
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-24 17:19:54</sys_created_on>
+        <sys_id>986ae000c3a9d610521ad72d050131b9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>CHM: Claim text</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sp_widget_986ae000c3a9d610521ad72d050131b9</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-24 17:36:34</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <p class="lk"> You have successfully created claim request with reference number {{data.ref}}</p>
+  <a href="https://dev209402.service-now.com/chm?id=chm_homepage" class="button" type="button" target="_blank">Back to Home</a>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>986ae000c3a9d610521ad72d050131b9</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-24 17:19:53</sys_created_on>
+        <sys_id>91caecccc369d610521ad72d05013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-24 17:19:53</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

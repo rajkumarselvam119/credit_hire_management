@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (Claim Requests)">914fa9e3c35d1610521ad72d050131e7</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit</name>
+        <order/>
+        <parent>014fa9e3c35d1610521ad72d05013168</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 09:02:12</sys_created_on>
+        <sys_id>914fe9e3c35d1610521ad72d0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_button_instance_914fe9e3c35d1610521ad72d0501311c</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:02:12</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=914fe9e3c35d1610521ad72d0501311c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_sg_button_instance_914fe9e3c35d1610521ad72d0501311c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Edit Button (Claim Requests)">914fa9e3c35d1610521ad72d050131e7</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>Edit</label><location>top</location><name>Edit</name><order/><parent>014fa9e3c35d1610521ad72d05013168</parent><parent_table>sys_sg_form_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-23 09:02:12</sys_created_on><sys_id>914fe9e3c35d1610521ad72d0501311c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_sg_button_instance_914fe9e3c35d1610521ad72d0501311c</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-23 09:02:12</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=914fe9e3c35d1610521ad72d0501311c"/></record_update>]]></payload>
+        <payload_hash>1900969616</payload_hash>
+        <record_name>Edit</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 09:02:15</sys_created_on>
+        <sys_id>824f6de3c35d1610521ad72d050131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b89cc7560000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:02:15</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>c64f6de3455d161017018b8628d27daf</update_guid>
+        <update_guid_history>c64f6de3455d161017018b8628d27daf:1900969616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 13:12:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>1a62597be7c742028417e36afb346ba4</sys_id>
+        <sys_metadata>914fe9e3c35d1610521ad72d0501311c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_914fe9e3c35d1610521ad72d0501311c</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_914fe9e3c35d1610521ad72d0501311c">824f6de3c35d1610521ad72d050131b0</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 13:12:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

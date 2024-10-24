@@ -3,7 +3,8 @@
         <active>true</active>
         <category display_value="Claim Details">3c40ae65c31d1210521ad72d05013106</category>
         <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
-        <condition/>
+        <condition table="x_1523132_credit_0_claim_details">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </condition>
         <configuration display_value="Claim Handler Workspace_menu_config">7c406e65c31d1210521ad72d050131de</configuration>
         <group_by_column/>
         <groups/>
@@ -51,7 +52,7 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>200</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
@@ -60,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7040ae65c31d1210521ad72d0501310a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_ux_list_7040ae65c31d1210521ad72d0501310a</sys_update_name>
         <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-10-17 07:28:24</sys_updated_on>
+        <sys_updated_on>2024-10-24 17:07:44</sys_updated_on>
         <table>x_1523132_credit_0_claim_details</table>
         <title>All</title>
         <view/>

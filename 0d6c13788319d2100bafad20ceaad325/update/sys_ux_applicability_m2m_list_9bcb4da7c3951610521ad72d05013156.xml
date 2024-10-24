@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for list b1cb09a7c3951610521ad72d05013143">4dfb012bc3951610521ad72d0501312a</applicability>
+        <list display_value="Group">b1cb09a7c3951610521ad72d05013143</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 06:27:14</sys_created_on>
+        <sys_id>9bcb4da7c3951610521ad72d05013156</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_9bcb4da7c3951610521ad72d05013156</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 06:27:54</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

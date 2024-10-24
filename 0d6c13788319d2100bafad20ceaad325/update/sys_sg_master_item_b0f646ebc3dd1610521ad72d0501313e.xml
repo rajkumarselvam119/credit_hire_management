@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_1523132_credit_0_claim_details</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Previously Raised Claims Form Screen">fcf646ebc3dd1610521ad72d0501312b</embedded_screen>
+        <item_view/>
+        <name>Previously Raised Claims Form Screen Master Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:40</sys_created_on>
+        <sys_id>b0f646ebc3dd1610521ad72d0501313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Previously Raised Claims Form Screen Master Item</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_master_item_b0f646ebc3dd1610521ad72d0501313e</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:40</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Previously Raised Claims List Screen View Config">68f606ebc3dd1610521ad72d05013132</view_config>
+    </sys_sg_master_item>
+</record_update>

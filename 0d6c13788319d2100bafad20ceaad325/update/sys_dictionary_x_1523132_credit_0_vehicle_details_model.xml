@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Model</column_label>
@@ -14,8 +14,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>make</dependent>
+        <dependent_on_field>make</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -52,12 +52,12 @@
         <sys_policy/>
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_dictionary_x_1523132_credit_0_vehicle_details_model</sys_update_name>
-        <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-10-15 07:13:47</sys_updated_on>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-24 12:38:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

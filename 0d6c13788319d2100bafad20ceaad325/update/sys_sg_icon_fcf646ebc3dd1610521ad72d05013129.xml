@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"List","Value":"e90f","FontColor":"#293E40","FontName":"now-mobile-icons","Shape":"Circle"}</icon>
+        <name>List</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:40</sys_created_on>
+        <sys_id>fcf646ebc3dd1610521ad72d05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_icon_fcf646ebc3dd1610521ad72d05013129</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:40</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

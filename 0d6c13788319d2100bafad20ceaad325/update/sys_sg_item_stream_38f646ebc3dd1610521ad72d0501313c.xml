@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Previously Raised Claims Data Item">e0f606ebc3dd1610521ad72d05013131</data_item>
+        <interleaved_field/>
+        <name>30f646ebc3dd1610521ad72d0501312b Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:40</sys_created_on>
+        <sys_id>38f646ebc3dd1610521ad72d0501313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30f646ebc3dd1610521ad72d0501312b Item Stream</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_item_stream_38f646ebc3dd1610521ad72d0501313c</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:40</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

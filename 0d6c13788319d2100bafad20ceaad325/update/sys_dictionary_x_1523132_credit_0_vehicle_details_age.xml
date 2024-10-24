@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Age</column_label>
+        <column_label>Vehicle Age</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nauman.ansari</sys_created_by>
         <sys_created_on>2024-10-15 07:13:43</sys_created_on>
-        <sys_name>Age</sys_name>
+        <sys_name>Vehicle Age</sys_name>
         <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_dictionary_x_1523132_credit_0_vehicle_details_age</sys_update_name>
-        <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-10-15 07:49:43</sys_updated_on>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-24 16:27:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

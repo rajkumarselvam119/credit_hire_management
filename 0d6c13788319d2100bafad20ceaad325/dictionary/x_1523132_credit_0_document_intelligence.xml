@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="15546b33c391d610521ad72d0501314c" label="Document Intelligence" max_length="40" name="x_1523132_credit_0_document_intelligence" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Document Sys Id" max_length="40" name="document_sys_id" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description>Ongoing sidebar screen collection.</description>
+        <name>Ongoing</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 07:49:39</sys_created_on>
+        <sys_id>22ae5167c3d91610521ad72d050131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ongoing</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_screen_type_22ae5167c3d91610521ad72d050131f3</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:49:39</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=22ae5167c3d91610521ad72d050131f3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ux_screen_type_22ae5167c3d91610521ad72d050131f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description>Ongoing sidebar screen collection.</description><name>Ongoing</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-23 07:49:39</sys_created_on><sys_id>22ae5167c3d91610521ad72d050131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ongoing</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_ux_screen_type_22ae5167c3d91610521ad72d050131f3</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-23 07:49:39</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=22ae5167c3d91610521ad72d050131f3"/></record_update>]]></payload>
+        <payload_hash>783637014</payload_hash>
+        <record_name>Ongoing</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 07:49:39</sys_created_on>
+        <sys_id>a6ae5167c3d91610521ad72d050131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b85a51530000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:49:39</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>aaae51675ed91610b36a337467576ef4</update_guid>
+        <update_guid_history>aaae51675ed91610b36a337467576ef4:783637014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 07:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>00e043b60eff40ad800144088d4e7229</sys_id>
+        <sys_metadata>22ae5167c3d91610521ad72d050131f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ongoing</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_22ae5167c3d91610521ad72d050131f3</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_22ae5167c3d91610521ad72d050131f3">a6ae5167c3d91610521ad72d050131f5</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

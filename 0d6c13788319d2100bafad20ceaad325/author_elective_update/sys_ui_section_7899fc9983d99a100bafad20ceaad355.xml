@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Defendant Details" section_id="7899fc9983d99a100bafad20ceaad355" sys_domain="global" table="x_1523132_credit_0_hire_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_net_price</element>
+            <position>0</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_vat</element>
+            <position>1</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_penalty</element>
+            <position>3</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad32e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offered_final_amount</element>
+            <position>4</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_vha_signed</element>
+            <position>7</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_by</element>
+            <position>8</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_by</element>
+            <position>9</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>11</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_on</element>
+            <position>12</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_on</element>
+            <position>13</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Defendant Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_hire_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7899fc9983d99a100bafad20ceaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_hire_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_7899fc9983d99a100bafad20ceaad355</sys_update_name>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_ui_section_7899fc9983d99a100bafad20ceaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Defendant Details" section_id="7899fc9983d99a100bafad20ceaad355" sys_domain="global" table="x_1523132_credit_0_hire_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_net_price</element>
+            <position>0</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_vat</element>
+            <position>1</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offer_penalty</element>
+            <position>3</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad32e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>defendant_offered_final_amount</element>
+            <position>4</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_vha_signed</element>
+            <position>7</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_by</element>
+            <position>8</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>cd9930d983d99a100bafad20ceaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_by</element>
+            <position>9</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>c59930d983d99a100bafad20ceaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>11</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signed_on</element>
+            <position>12</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>019930d983d99a100bafad20ceaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reviewed_on</element>
+            <position>13</position>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:17</sys_created_on>
+            <sys_id>099930d983d99a100bafad20ceaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Defendant Details" display_value="Defendant Details" name="x_1523132_credit_0_hire_details" sys_domain="global" view="Default view">7899fc9983d99a100bafad20ceaad355</sys_ui_section>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Defendant Details</caption>
+            <header>false</header>
+            <name>x_1523132_credit_0_hire_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nauman.ansari</sys_created_by>
+            <sys_created_on>2024-10-16 05:21:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7899fc9983d99a100bafad20ceaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_credit_0_hire_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+            <sys_update_name>sys_ui_section_7899fc9983d99a100bafad20ceaad355</sys_update_name>
+            <sys_updated_by>nauman.ansari</sys_updated_by>
+            <sys_updated_on>2024-10-16 05:21:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1273242997</payload_hash>
+        <record_name>Hire Details</record_name>
+        <reverted_from/>
+        <source>42eb1e55c3d59210521ad72d0501312b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-10-16 12:32:13</sys_created_on>
+        <sys_id>a13c1a19c3d59210521ad72d0501319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929550803c0000001</sys_recorded_at>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-10-16 12:32:13</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>613c1a19dfd592100c8ef07bca40219c</update_guid>
+        <update_guid_history>613c1a19dfd592100c8ef07bca40219c:1273242997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-10-24 16:35:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3b54e2fd157841759af4eb264638f3e9</sys_id>
+        <sys_metadata>7899fc9983d99a100bafad20ceaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0_hire_details</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent display_value="Hire Details">91f94889839916100bafad20ceaad349</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7899fc9983d99a100bafad20ceaad355</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7899fc9983d99a100bafad20ceaad355">a13c1a19c3d59210521ad72d0501319c</sys_update_version>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-10-24 16:35:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

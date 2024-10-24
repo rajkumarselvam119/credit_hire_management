@@ -14,6 +14,7 @@
         </element>
         <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Defendant Suggested Percent" max_length="40" name="defendant_suggested_percent" type="string"/>
+        <element label="Others" max_length="40" name="others" type="string"/>
         <element choice="1" label="Liability Decision" max_length="40" name="liability_decision" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accepted" sequence="0" value="accepted"/>
@@ -68,6 +69,7 @@
                 <element inactive_on_update="false" label="Car door opened onto defendant vehicle" sequence="1" value="car_door_opened_onto_defendant_vehicle"/>
                 <element inactive_on_update="false" label="Attempted Theft" sequence="0" value="attempted_theft"/>
                 <element inactive_on_update="false" label="Claimant cross central reservation" sequence="6" value="claimant_cross_central_reservation"/>
+                <element inactive_on_update="false" label="Others" sequence="10" value="others"/>
                 <element inactive_on_update="false" label="Claimant entered from minor road and hit defendant" sequence="7" value="claimant_entered_from_minor_road_and_hit_defendant"/>
                 <element inactive_on_update="false" label="Both Party Reversing simultaneuously" sequence="2" value="both_party_reversing_simultaneuously"/>
             </choice>

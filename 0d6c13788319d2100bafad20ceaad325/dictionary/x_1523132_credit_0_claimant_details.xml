@@ -20,9 +20,14 @@
         <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
         <element label="Non Standard Risk Driver" max_length="255" name="non_standard_risk_driver" type="string"/>
         <element label="Client Name" max_length="40" name="client_name" type="string"/>
-        <element label="Representative" max_length="255" name="representative" type="string"/>
+        <element choice="1" label="Representative" max_length="255" name="representative" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Solicitor" sequence="1" value="solicitor"/>
+                <element inactive_on_update="false" label="Self" sequence="0" value="self"/>
+            </choice>
+        </element>
         <element label="Insurer Cover" max_length="255" name="insurance_cover" type="string"/>
-        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Phone Number" max_length="255" name="phone_number" type="string"/>
         <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <index name="index">
             <element name="claim_id"/>

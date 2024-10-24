@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, spUtil) {
+    var c = this;
+    $scope.summary = '';
+    // Function to trigger the subflow
+    c.triggerSubflow = function() {
+        c.server.get({
+            triggerSubflow: true
+        }).then(function(response) {
+            // c.data.output = response.data.output;  // Set the response output from server to be displayed
+            //alert(JSON.stringify(response.data.output));
+            $scope.summary = response.data.output;
+        });
+    };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.widget-container {&#13;
+  margin-top: 20px;&#13;
+}&#13;
+ &#13;
+.trigger-btn {&#13;
+  margin: 20px auto;&#13;
+  padding: 10px 20px;&#13;
+  font-size: 16px;&#13;
+  cursor: pointer;&#13;
+}&#13;
+ &#13;
+.subflow-output {&#13;
+  font-size: 14px;&#13;
+  color: #333;&#13;
+  margin-top: 15px;&#13;
+  border: 1px solid #ccc;&#13;
+  padding: 10px;&#13;
+  border-radius: 5px;&#13;
+  min-height: 50px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>chm_case_summarization</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>CHM_Case Summarization</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    data.output = "";
+    data.result = "";
+    // Only trigger subflow when input.triggerSubflow is true
+    if (input && input.triggerSubflow) {
+        var sysId = $sp.getParameter("sys_id");  // Get the sys_id from URL
+ 				gs.info("Inside the Flow Server Scirpt");
+        if (sysId) {
+            try {
+                var inputs = {};
+    inputs.sys_id = sysId; // GlideRecord of table: 
+
+    // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+    // sn_fd.FlowAPI.getRunner().subflow('subflow_name').inBackground().withInputs(inputs).run();
+
+    // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+    var result = sn_fd.FlowAPI.getRunner().subflow('x_1523132_credit_0.case_summarization').inForeground().withInputs(inputs).run();
+    var outputs = result.getOutputs();
+                // Check the result and set the output
+							gs.info("Result - " + outputs.result_content);
+							data.output = outputs.result_content;
+							gs.info("Result Out - " + data.output);
+							return outputs.result_content;
+              /*  if (outputs && outputs.result_content) {
+                    
+										data.result = outputs.result_content;
+									
+                } else {
+                    data.output = "Subflow executed, no output found.";
+                }*/
+							
+            } catch (e) {
+                data.output = "Error in subflow execution: " + e.message;
+            }
+        } else {
+            data.output = "No sys_id found in the URL.";
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-24 10:50:38</sys_created_on>
+        <sys_id>e59d0b3fc3dd9610521ad72d0501310f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CHM_Case Summarization</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sp_widget_e59d0b3fc3dd9610521ad72d0501310f</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-24 10:52:34</sys_updated_on>
+        <template><![CDATA[<div class="widget-container">
+  <div>
+    <button class="trigger-btn btn btn-primary" ng-click="c.triggerSubflow()">Summarize</button>
+  </div>
+  <div>
+    <p class="subflow-output">{{summary || 'Click the button to Summarize and please wait for few Second. DO NOT CLICK THE BUTTON MORE THEN ONCE'}}</p>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e59d0b3fc3dd9610521ad72d0501310f</id>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-24 10:50:36</sys_created_on>
+        <sys_id>07a197f3c311d610521ad72d0501318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-24 10:50:36</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

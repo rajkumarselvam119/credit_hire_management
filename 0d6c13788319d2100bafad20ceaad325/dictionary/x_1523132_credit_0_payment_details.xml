@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e7a7188983dd16100bafad20ceaad3f6" label="CHM_PAYMENT_DETAILS" max_length="40" name="x_1523132_credit_0_payment_details" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="PAYMENT ID" max_length="40" name="number" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="PAYMENT ID" max_length="40" name="number" type="string"/>
         <element label="Total Reserved Amount" max_length="20" name="total_reserved_amount" type="currency"/>
         <element choice="1" label="Type Of Payment" max_length="40" name="type_of_payment" type="choice">
             <choice>
@@ -8,8 +8,8 @@
                 <element inactive_on_update="false" label="Full Payment" sequence="1" value="full_payment"/>
             </choice>
         </element>
-        <element label="Balance Amount" max_length="38" name="balance_amount" type="decimal"/>
-        <element label="Amount" max_length="38" name="amount" type="decimal"/>
+        <element active="false" label="Balance Amount" max_length="38" name="balance_amount" type="decimal"/>
+        <element active="false" label="Amount" max_length="38" name="amount" type="decimal"/>
         <element label="Release Amount" max_length="255" name="release_amount" type="currency2"/>
         <element choice="1" label="Payment Towards" max_length="40" name="payment_towards" type="choice">
             <choice>
@@ -19,6 +19,7 @@
             </choice>
         </element>
         <element label="Defendant Offered Amount" max_length="40" name="defendant_offered_amount" type="currency"/>
+        <element label="Claim ID" max_length="40" name="claim_id" type="string"/>
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Initial Amount" max_length="38" name="initial_amount" type="decimal"/>
         <index name="index">

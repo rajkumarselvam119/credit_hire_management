@@ -5,21 +5,21 @@
         <description/>
         <name>Audience for app claim-handler</name>
         <role_names/>
-        <roles>d56c13788319d2100bafad20ceaad3f6,7911f88d839956100bafad20ceaad3f3,b2fb810d835d56100bafad20ceaad395,3e8655cd839d56100bafad20ceaad3e8,d96c13788319d2100bafad20ceaad3f2,196c13788319d2100bafad20ceaad394</roles>
+        <roles>d56c13788319d2100bafad20ceaad3f6,7911f88d839956100bafad20ceaad3f3,196c13788319d2100bafad20ceaad394,3e8655cd839d56100bafad20ceaad3e8,d96c13788319d2100bafad20ceaad3f2,b2fb810d835d56100bafad20ceaad395,2831a114c611228501d4ea6c309d626d</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>sushmithaa.sivakumar</sys_created_by>
         <sys_created_on>2024-10-17 07:28:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6c406e65c31d1210521ad72d05013172</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Audience for app claim-handler</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_ux_applicability_6c406e65c31d1210521ad72d05013172</sys_update_name>
-        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-        <sys_updated_on>2024-10-17 07:28:23</sys_updated_on>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 06:11:55</sys_updated_on>
     </sys_ux_applicability>
 </record_update>

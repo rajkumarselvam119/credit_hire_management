@@ -10,21 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1523132_credit_0_accident_details" name="x_1523132_credit_0_accident_details" sys_domain="global" view="Default view">70d7665dc3199210521ad72d0501312f</sys_ui_form>
-            <sys_ui_section caption="Damage Details" display_value="Damage Details" name="x_1523132_credit_0_accident_details" sys_domain="global" view="Default view">4c372489839556100bafad20ceaad31f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:22:58</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:22:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f4d7665dc3199210521ad72d0501314c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1523132_credit_0_accident_details" name="x_1523132_credit_0_accident_details" sys_domain="global" view="Default view">70d7665dc3199210521ad72d0501312f</sys_ui_form>
-            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_accident_details" sys_domain="global" view="Default view">b0d7665dc3199210521ad72d0501312e</sys_ui_section>
+            <sys_ui_section caption="Accident Details" display_value="Accident Details" name="x_1523132_credit_0_accident_details" sys_domain="global" view="Default view">4c372489839556100bafad20ceaad31f</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
             <sys_updated_on>2024-10-16 13:22:58</sys_updated_on>
         </sys_ui_form_section>

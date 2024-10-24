@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "7c21edbe0613cdd3d88bff0dec5d1159",
+            "type": "MACROPONENT"
+        },
+        "elementId": "agent_chat_shell_1",
+        "elementLabel": "Agent Chat Shell 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "agentChatShellAgentTransferred",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#AGENT_CHAT_TRANSFERRED",
+                "sourceEventDefinition": {
+                    "apiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#AGENT_CHAT_TRANSFERRED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "05a8196bc3991610521ad72d050131a3"
+                        },
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "handleAgentChatTransferred",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "agentChatShellChatError",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#CHAT_ERROR_LOADED",
+                "sourceEventDefinition": {
+                    "apiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#CHAT_ERROR_LOADED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "4709556bc3991610521ad72d050131b2"
+                        },
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "handleLoadChatError",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "agentChatShellAgentRemovedFromChat",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#REMOVED_FROM_CHAT",
+                "sourceEventDefinition": {
+                    "apiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#REMOVED_FROM_CHAT",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "60c9d1ebc3991610521ad72d0501316b"
+                        },
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "handleRemovedFromChat",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "agentChatShellNewMsgReceived",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#NEW_CHAT_MESSAGES_RECEIVED",
+                "sourceEventDefinition": {
+                    "apiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#NEW_CHAT_MESSAGES_RECEIVED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "sysId": "e689dd2fc3991610521ad72d05013184"
+                        },
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "handleNewChatMessageReceived",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "chatShellRecordClicked",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#RECORD_LINK_CLICKED",
+                "sourceEventDefinition": {
+                    "apiName": "sn_omnich_interact.SN_AGENT_CHAT_SHELL#RECORD_LINK_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "sysId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "sys_id"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "table": {
+                                                "binding": {
+                                                    "address": [
+                                                        "table"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "record"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "current"
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckhjjiirgynaaaaaaeeddhiibbzwmffnggrii",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": ""
+        },
+        "isNonDestructive": false,
+        "overrides": {},
+        "propertyValues": {
+            "activeParentId": {
+                "binding": {
+                    "address": [
+                        "activeParentId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "activeRecords": {
+                "binding": {
+                    "address": [
+                        "activeRecords"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "isAWAMessagingEnabled": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "isAgentChatEnabled": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "user": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>8b82bf18e5276c8e423b6e4e0889b463</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "agent_chat_shell_1",
+                "rules": {},
+                "styles": {
+                    "height": "100%",
+                    "overflow": "hidden"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "grid",
+            "grid-gap": "0px",
+            "grid-template-columns": "max-content",
+            "grid-template-rows": "1fr",
+            "height": "100%",
+            "overflow": "hidden"
+        },
+        "templateId": null,
+        "type": "grid"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Agent Chat Shell</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "description": null,
+        "fieldType": "json",
+        "label": "activeRecords",
+        "mandatory": false,
+        "name": "activeRecords",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "array"
+    },
+    {
+        "defaultValue": null,
+        "description": null,
+        "fieldType": "string",
+        "label": "activeParentId",
+        "mandatory": false,
+        "name": "activeParentId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 07:18:19</sys_created_on>
+        <sys_id>e777d16bc3991610521ad72d0501313e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Agent Chat Shell</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e777d16bc3991610521ad72d0501313e</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:29:12</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=e777d16bc3991610521ad72d0501313e"/>
+</record_update>

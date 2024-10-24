@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_15_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 11:00:30</sys_created_on>
+        <sys_id>1a5a4663c3115610521ad72d05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_15_element</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_1a5a4663c3115610521ad72d05013163</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 11:00:30</sys_updated_on>
+        <view_config display_value="New view config">57788a6fc3dd1610521ad72d05013134</view_config>
+        <view_template_slot display_value="text_15">063a9756535111100c5addeeff7b12de</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (Previously Raised Claims)">c9f646ebc3dd1610521ad72d050131a1</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit</name>
+        <order/>
+        <parent>fcf646ebc3dd1610521ad72d0501312b</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:40</sys_created_on>
+        <sys_id>c9f646ebc3dd1610521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_button_instance_c9f646ebc3dd1610521ad72d050131c6</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:40</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c9f646ebc3dd1610521ad72d050131c6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_sg_button_instance_c9f646ebc3dd1610521ad72d050131c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Edit Button (Previously Raised Claims)">c9f646ebc3dd1610521ad72d050131a1</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>Edit</label><location>top</location><name>Edit</name><order/><parent>fcf646ebc3dd1610521ad72d0501312b</parent><parent_table>sys_sg_form_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>sushmithaa.sivakumar</sys_created_by><sys_created_on>2024-10-23 10:45:40</sys_created_on><sys_id>c9f646ebc3dd1610521ad72d050131c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_sg_button_instance_c9f646ebc3dd1610521ad72d050131c6</sys_update_name><sys_updated_by>sushmithaa.sivakumar</sys_updated_by><sys_updated_on>2024-10-23 10:45:40</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=c9f646ebc3dd1610521ad72d050131c6"/></record_update>]]></payload>
+        <payload_hash>1839859673</payload_hash>
+        <record_name>Edit</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 10:45:42</sys_created_on>
+        <sys_id>61f6c6ebc3dd1610521ad72d050131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b8fb7f0b0000001</sys_recorded_at>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:45:42</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>a5f6c6ebd7dd16102bd20c33b50e3ece</update_guid>
+        <update_guid_history>a5f6c6ebd7dd16102bd20c33b50e3ece:1839859673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 11:57:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>1afdc39021c8461288f91cc77c6a4ee4</sys_id>
+        <sys_metadata>c9f646ebc3dd1610521ad72d050131c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_c9f646ebc3dd1610521ad72d050131c6</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_c9f646ebc3dd1610521ad72d050131c6">61f6c6ebc3dd1610521ad72d050131cf</sys_update_version>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 11:57:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

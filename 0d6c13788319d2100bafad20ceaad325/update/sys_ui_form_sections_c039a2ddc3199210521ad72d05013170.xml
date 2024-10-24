@@ -10,21 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1523132_credit_0_vehicle_details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">c039a2ddc3199210521ad72d05013170</sys_ui_form>
-            <sys_ui_section caption="Model Details" display_value="Model Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:28:56</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:28:56</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5839a2ddc3199210521ad72d05013173</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1523132_credit_0_vehicle_details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">c039a2ddc3199210521ad72d05013170</sys_ui_form>
-            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">4839a2ddc3199210521ad72d0501316f</sys_ui_section>
+            <sys_ui_section caption="Vehicle Details" display_value="Vehicle Details" name="x_1523132_credit_0_vehicle_details" sys_domain="global" view="Default view">bdecb774831516100bafad20ceaad365</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
             <sys_updated_on>2024-10-16 13:28:56</sys_updated_on>
         </sys_ui_form_section>

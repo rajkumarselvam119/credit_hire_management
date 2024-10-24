@@ -4,41 +4,41 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>1ae3aed5c3199210521ad72d050131c8</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>04379844c3e5d610521ad72d050131cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>representative_reference</element>
+            <element>phone_number</element>
             <position>1</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>9ee3aed5c3199210521ad72d050131c8</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>80379844c3e5d610521ad72d050131cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>team</element>
+            <element>representative</element>
             <position>2</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>16e3aed5c3199210521ad72d050131c9</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>88379844c3e5d610521ad72d050131cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,167 +46,139 @@
             <element>insurer_policy_number</element>
             <position>3</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>9ae3aed5c3199210521ad72d050131c9</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>80379844c3e5d610521ad72d050131ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>solicitor</element>
+            <element>representative_reference</element>
             <position>4</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>12e3aed5c3199210521ad72d050131ca</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>88379844c3e5d610521ad72d050131ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>solicitor_reference</element>
-            <position>5</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>96e3aed5c3199210521ad72d050131ca</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>is_vat_registered</element>
-            <position>6</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>1ee3aed5c3199210521ad72d050131ca</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>7</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>92e3aed5c3199210521ad72d050131cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>representative_sub_brand</element>
-            <position>8</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>1ae3aed5c3199210521ad72d050131cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>non_standard_risk_driver</element>
-            <position>9</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>9ee3aed5c3199210521ad72d050131cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>insurance_cover</element>
-            <position>10</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>16e3aed5c3199210521ad72d050131cc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>client_name</element>
-            <position>11</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>9ae3aed5c3199210521ad72d050131cc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>solicitor_branch</element>
+            <position>5</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>00379844c3e5d610521ad72d050131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>08379844c3e5d610521ad72d050131e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>7</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>00379844c3e5d610521ad72d050131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>8</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>08379844c3e5d610521ad72d050131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurer_organization_name</element>
+            <position>9</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>00379844c3e5d610521ad72d050131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>representative_sub_brand</element>
+            <position>10</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>08379844c3e5d610521ad72d050131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitor</element>
+            <position>11</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>00379844c3e5d610521ad72d050131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitor_reference</element>
             <position>12</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>12e3aed5c3199210521ad72d050131cd</sys_id>
+            <sys_created_on>2024-10-24 15:54:19</sys_created_on>
+            <sys_id>08379844c3e5d610521ad72d050131eb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>is_vat_applied</element>
-            <position>13</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>dae3aed5c3199210521ad72d050131f2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>is_company</element>
-            <position>14</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:05:52</sys_created_on>
-            <sys_id>52e3aed5c3199210521ad72d050131f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claimant Details" display_value="Claimant Details" name="x_1523132_credit_0_claimant_details" sys_domain="global" view="Default view">d9669cc583dd16100bafad20ceaad33e</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:05:52</sys_updated_on>
+            <sys_updated_on>2024-10-24 15:54:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

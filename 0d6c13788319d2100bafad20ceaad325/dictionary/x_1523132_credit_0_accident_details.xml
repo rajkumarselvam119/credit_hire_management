@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5727204d839556100bafad20ceaad309" label="CHM_ACCIDENT_DETAILS" max_length="40" name="x_1523132_credit_0_accident_details" text_index="true" type="collection">
-        <element label="Is Injured" max_length="40" name="is_injured" type="boolean"/>
+        <element active="false" label="Is Injured" max_length="40" name="is_injured" type="boolean"/>
         <element label="Pre Accident Value" max_length="255" name="pre_accident_value" type="string"/>
         <element label="Damage Claimant Payee Reference" max_length="40" name="damage_claimant_payee_reference" type="string"/>
         <element label="Vehicle Location Address" max_length="255" name="vehicle_location_address" type="string"/>
@@ -13,20 +13,43 @@
                 <element inactive_on_update="false" label="Non-Business Use" sequence="1" value="2"/>
             </choice>
         </element>
-        <element label="Damage Claim" max_length="40" name="damage_claimed" type="string"/>
-        <element label="Is Quantum Dispute" max_length="40" name="is_quantum_dispute" type="boolean"/>
-        <element label="Percentage Liable" max_length="255" name="percentage_liable" type="string"/>
-        <element label="MQ Signed Date" max_length="40" name="mq_signed_date" type="glide_date"/>
-        <element label="Vehicle Condition" max_length="255" name="vehicle_condition" type="string"/>
-        <element label="Dealing Party" max_length="255" name="dealing_party" type="string"/>
+        <element active="false" label="Damage Claim" max_length="40" name="damage_claimed" type="string"/>
+        <element active="false" label="Is Quantum Dispute" max_length="40" name="is_quantum_dispute" type="boolean"/>
+        <element active="false" label="Percentage Liable" max_length="255" name="percentage_liable" type="string"/>
+        <element active="false" label="MQ Signed Date" max_length="40" name="mq_signed_date" type="glide_date"/>
+        <element choice="1" label="Vehicle Condition" max_length="255" name="vehicle_condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Roadworthy" sequence="0" value="roadworthy"/>
+                <element inactive_on_update="false" label="Unroadworthy" sequence="1" value="unroadworthy"/>
+            </choice>
+        </element>
+        <element choice="1" label="Dealing Party" max_length="255" name="dealing_party" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Defendant Insurer" sequence="0" value="defendant_insurer"/>
+                <element inactive_on_update="false" label="Claimant Rep" sequence="1" value="claimant_rep"/>
+                <element inactive_on_update="false" label="Claimant Insurer" sequence="2" value="claimant_insurer"/>
+            </choice>
+        </element>
         <element label="Damage Claimant Representative" max_length="255" name="damage_claimant_representative" type="string"/>
         <element label="Vehicle Location Contact Number" max_length="40" name="vehicle_location_contact_number" type="phone_number_e164"/>
-        <element label="Inspection Requested By" max_length="255" name="inspection_requested_by" type="string"/>
+        <element choice="1" label="Inspection Requested By" max_length="255" name="inspection_requested_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Defendant Insurer" sequence="0" value="defendant_insurer"/>
+                <element inactive_on_update="false" label="Claimant Rep" sequence="1" value="claimant_rep"/>
+                <element inactive_on_update="false" label="Claimant Insurer" sequence="2" value="claimant_insurer"/>
+            </choice>
+        </element>
         <element label="Claim ID" max_length="40" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Liability" max_length="255" name="liability" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Accident ID" max_length="40" name="number" type="string"/>
-        <element label="Track Name" max_length="255" name="track_name" type="string"/>
-        <element label="Is Excess Deducted" max_length="40" name="is_excess_deducted" type="boolean"/>
-        <element label="Excess" max_length="255" name="excess" type="string"/>
+        <element active="false" choice="1" label="Track Name" max_length="255" name="track_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Common Law" sequence="1" value="common_law"/>
+                <element inactive_on_update="false" label="Protocol" sequence="2" value="protocol"/>
+                <element inactive_on_update="false" label="GTA" sequence="0" value="gta"/>
+            </choice>
+        </element>
+        <element active="false" label="Is Excess Deducted" max_length="40" name="is_excess_deducted" type="boolean"/>
+        <element active="false" label="Excess" max_length="255" name="excess" type="string"/>
     </element>
 </database>

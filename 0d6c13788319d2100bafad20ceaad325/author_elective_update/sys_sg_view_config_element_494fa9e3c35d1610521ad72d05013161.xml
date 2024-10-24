@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>process_step-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 09:02:11</sys_created_on>
+        <sys_id>494fa9e3c35d1610521ad72d05013161</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>process_step-FieldValue</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_494fa9e3c35d1610521ad72d05013161</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:02:11</sys_updated_on>
+        <view_config display_value="Claim Requests Detail Screen View Config">494fa9e3c35d1610521ad72d05013114</view_config>
+        <view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_sg_view_config_element_494fa9e3c35d1610521ad72d05013161</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>process_step-FieldValue</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-23 09:02:11</sys_created_on><sys_id>494fa9e3c35d1610521ad72d05013161</sys_id><sys_mod_count>0</sys_mod_count><sys_name>process_step-FieldValue</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_sg_view_config_element_494fa9e3c35d1610521ad72d05013161</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-23 09:02:11</sys_updated_on><view_config display_value="Claim Requests Detail Screen View Config">494fa9e3c35d1610521ad72d05013114</view_config><view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>639942656</payload_hash>
+        <record_name>process_step-FieldValue</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 09:02:11</sys_created_on>
+        <sys_id>854fa9e3c35d1610521ad72d05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b89cb8ba0000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:02:11</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>894fa9e34d5d161087dbc45cf0a2ab62</update_guid>
+        <update_guid_history>894fa9e34d5d161087dbc45cf0a2ab62:639942656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 10:02:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>05bc8332cb3a4f24bdbc1f430fd61979</sys_id>
+        <sys_metadata>494fa9e3c35d1610521ad72d05013161</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>process_step-FieldValue</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_494fa9e3c35d1610521ad72d05013161</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_494fa9e3c35d1610521ad72d05013161">854fa9e3c35d1610521ad72d05013163</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:02:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

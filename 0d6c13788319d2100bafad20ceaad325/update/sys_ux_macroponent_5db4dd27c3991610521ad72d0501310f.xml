@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "299b4786a330c80085c1d0de5bf855bb",
+            "type": "MACROPONENT"
+        },
+        "elementId": "agent_inbox_empty_1",
+        "elementLabel": "Agent Inbox Empty 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": ""
+        },
+        "isNonDestructive": false,
+        "overrides": null,
+        "propertyValues": {
+            "moduleId": {
+                "type": "JSON_LITERAL",
+                "value": "module_inbox"
+            }
+        },
+        "slot": "Main",
+        "styles": {}
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "rules": {
+                    "grid-area": "main"
+                },
+                "slotName": "Main",
+                "styles": {
+                    "display": "flex",
+                    "flex-direction": "column"
+                }
+            }
+        ],
+        "root": null,
+        "rules": {
+            "grid-gap": "1rem",
+            "grid-template-areas": "\"main\"",
+            "grid-template-columns": "1fr",
+            "grid-template-rows": "minmax(400px,auto)",
+            "height": "100%"
+        },
+        "styles": null,
+        "templateId": "28bde4cd53431010e6bcddeeff7b12cc",
+        "type": "grid"
+    }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Inbox Empty</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-23 07:06:09</sys_created_on>
+        <sys_id>5db4dd27c3991610521ad72d0501310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbox Empty</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_ux_macroponent_5db4dd27c3991610521ad72d0501310f</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:06:09</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=5db4dd27c3991610521ad72d0501310f"/>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New function">363166ebc3915610521ad72d050131a8</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name>document_id</field_name>
+        <icon/>
+        <label>Open Record</label>
+        <location>field</location>
+        <name>New function instance</name>
+        <order/>
+        <parent>cd76c22bc3dd1610521ad72d05013180</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 12:40:29</sys_created_on>
+        <sys_id>be3166ebc3915610521ad72d050131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New function instance</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_button_instance_be3166ebc3915610521ad72d050131ab</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 12:40:29</sys_updated_on>
+        <table>sysapproval_approver</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=be3166ebc3915610521ad72d050131ab"/>
+</record_update>

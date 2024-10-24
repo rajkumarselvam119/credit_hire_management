@@ -5,21 +5,21 @@
         <description/>
         <name>Audience for app sme-manager-workspace</name>
         <role_names/>
-        <roles>d56c13788319d2100bafad20ceaad3f6,7911f88d839956100bafad20ceaad3f3,b2fb810d835d56100bafad20ceaad395,3e8655cd839d56100bafad20ceaad3e8,d96c13788319d2100bafad20ceaad3f2,196c13788319d2100bafad20ceaad394,996c13788319d2100bafad20ceaad3f9</roles>
+        <roles>3e8655cd839d56100bafad20ceaad3e8,7911f88d839956100bafad20ceaad3f3,b2fb810d835d56100bafad20ceaad395,d56c13788319d2100bafad20ceaad3f6,996c13788319d2100bafad20ceaad3f9,d96c13788319d2100bafad20ceaad3f2,196c13788319d2100bafad20ceaad394,2831a114c611228501d4ea6c309d626d</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-16 12:35:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>96fc5699c3d59210521ad72d0501318e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Audience for app sme-manager-workspace</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_ux_applicability_96fc5699c3d59210521ad72d0501318e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-16 12:35:33</sys_updated_on>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 06:14:22</sys_updated_on>
     </sys_ux_applicability>
 </record_update>

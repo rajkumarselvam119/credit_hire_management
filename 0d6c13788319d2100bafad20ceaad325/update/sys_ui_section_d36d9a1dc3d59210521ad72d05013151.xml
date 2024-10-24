@@ -4,13 +4,13 @@
             <element>defendant_person_liable</element>
             <position>0</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>13baa251c3599210521ad72d05013131</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d0501319c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>defendant_suggested_percent</element>
             <position>1</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>97baa251c3599210521ad72d05013131</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d0501319c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>defendant_accident_circumstances</element>
             <position>2</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>1fbaa251c3599210521ad72d05013131</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d0501319d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>defendant_comments</element>
             <position>3</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>93baa251c3599210521ad72d05013132</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d0501319d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>indemnity</element>
             <position>4</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>1bbaa251c3599210521ad72d05013132</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d0501319e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>rejection_reason</element>
             <position>5</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>9fbaa251c3599210521ad72d05013132</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d0501319e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>17baa251c3599210521ad72d05013133</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d0501319f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>claimant_person_liable</element>
             <position>7</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>9bbaa251c3599210521ad72d05013133</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d0501319f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>claimant_suggested_percent</element>
             <position>8</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>13baa251c3599210521ad72d05013134</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d050131a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,55 +130,69 @@
             <element>claimant_accident_circumstances</element>
             <position>9</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>97baa251c3599210521ad72d05013134</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d050131a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>others</element>
+            <position>10</position>
+            <sys_created_by>sreeranjani.s</sys_created_by>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d050131a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
+            <sys_updated_by>sreeranjani.s</sys_updated_by>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>claimant_comments</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>dbbaa251c3599210521ad72d050131a4</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d050131a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>liability_decision</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>53baa251c3599210521ad72d050131a5</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>82e0e488c329d610521ad72d050131a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-16 13:35:42</sys_created_on>
-            <sys_id>d7baa251c3599210521ad72d050131a5</sys_id>
+            <sys_created_on>2024-10-24 16:36:47</sys_created_on>
+            <sys_id>8ae0e488c329d610521ad72d050131a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Liability Details" display_value="Liability Details" name="x_1523132_credit_0_liability_details" sys_domain="global" view="Default view">d36d9a1dc3d59210521ad72d05013151</sys_ui_section>
             <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:35:42</sys_updated_on>
+            <sys_updated_on>2024-10-24 16:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

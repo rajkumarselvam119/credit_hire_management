@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="DELETE">
+        <description>text_09_FieldValue</description>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 10:58:54</sys_created_on>
+        <sys_id>fef9ca23c3115610521ad72d05013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_fef9ca23c3115610521ad72d05013138</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:58:54</sys_updated_on>
+        <translated_value/>
+        <value>type_of_payment</value>
+        <view_config_element display_value="text_09_element">b6f9ca23c3115610521ad72d05013136</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=fef9ca23c3115610521ad72d05013138"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_sg_view_config_element_attribute_fef9ca23c3115610521ad72d05013138</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><description>text_09_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>sreeranjani.s</sys_created_by><sys_created_on>2024-10-23 10:58:54</sys_created_on><sys_id>fef9ca23c3115610521ad72d05013138</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_fef9ca23c3115610521ad72d05013138</sys_update_name><sys_updated_by>sreeranjani.s</sys_updated_by><sys_updated_on>2024-10-23 10:58:54</sys_updated_on><translated_value/><value>type_of_payment</value><view_config_element display_value="text_09_element">b6f9ca23c3115610521ad72d05013136</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=fef9ca23c3115610521ad72d05013138"/></record_update>]]></payload>
+        <payload_hash>-451815044</payload_hash>
+        <record_name>c2eed5c2b7321010df65f6efce11a9cf</record_name>
+        <reverted_from/>
+        <source>4b1c6783c3d19210521ad72d050131c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 10:58:54</sys_created_on>
+        <sys_id>f6f9ca23c3115610521ad72d0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b90792cd0000001</sys_recorded_at>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:58:54</sys_updated_on>
+        <type>Card element attribute</type>
+        <update_guid>faf9ca23f51156102a537c4b1f60363a</update_guid>
+        <update_guid_history>faf9ca23f51156102a537c4b1f60363a:-451815044</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 11:00:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element_attribute">sys_sg_view_config_element_attribute</sys_db_object>
+        <sys_id>9ab1ac576f53417ab342cc6804d8c4a4</sys_id>
+        <sys_metadata>fef9ca23c3115610521ad72d05013138</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_attribute_fef9ca23c3115610521ad72d05013138</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_attribute_fef9ca23c3115610521ad72d05013138">f6f9ca23c3115610521ad72d0501313b</sys_update_version>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 11:00:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

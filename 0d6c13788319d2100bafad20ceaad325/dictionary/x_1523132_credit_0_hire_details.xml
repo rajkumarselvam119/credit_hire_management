@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="91f94889839916100bafad20ceaad349" label="Hire Details" max_length="40" name="x_1523132_credit_0_hire_details" text_index="true" type="collection">
-        <element label="Hire Invoice" max_length="40" name="hire_invoice" type="glide_date"/>
+        <element active="false" label="Hire Invoice" max_length="40" name="hire_invoice" type="glide_date"/>
         <element label="End" max_length="40" name="end" type="glide_date_time"/>
         <element label="Defendant Offer VAT" max_length="38" name="defendant_offer_vat" type="decimal"/>
         <element label="Reviewed On" max_length="40" name="reviewed_on" type="glide_date_time"/>
         <element label="Reviewed By" max_length="40" name="reviewed_by" type="string"/>
-        <element label="Gross Amount" max_length="38" name="gross_amount" type="decimal"/>
+        <element default="10000" label="Gross Amount" max_length="38" name="gross_amount" type="decimal"/>
         <element label="Defendant Offered Final Amount" max_length="38" name="defendant_offered_final_amount" type="decimal"/>
         <element label="VHA Commercial Rate" max_length="38" name="vha_commercial_rate" type="decimal"/>
         <element label="Body Type" max_length="40" name="body_type" type="string"/>
         <element label="Age" max_length="40" name="age" type="integer"/>
         <element label="Hire Document" max_length="40" name="hire_document" type="string"/>
-        <element label="Rate" max_length="38" name="rate" type="decimal"/>
-        <element label="Net Amount" max_length="38" name="net_amount" type="decimal"/>
+        <element default="10000" label="Rate" max_length="38" name="rate" type="decimal"/>
+        <element default="500" label="Net Amount" max_length="38" name="net_amount" type="decimal"/>
         <element label="Engine Size" max_length="40" name="engine_size" type="string"/>
         <element label="Claimed Days" max_length="40" name="claimed_days" type="integer"/>
-        <element choice="1" label="Hire Vehicle Type" max_length="40" name="hire_vehicle_type" type="choice">
+        <element choice="1" default="cars" label="Hire Vehicle Type" max_length="40" name="hire_vehicle_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Motorcycle" sequence="3" value="motorcycle"/>
                 <element inactive_on_update="false" label="Bike" sequence="4" value="bike"/>
@@ -28,7 +28,7 @@
         <element label="Transmission" max_length="40" name="transmission" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Hire Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Invoice Number" max_length="40" name="invoice_number" type="string"/>
-        <element label="Hire Net Price" max_length="38" name="hire_net_price" type="decimal"/>
+        <element default="500" label="Hire Net Price" max_length="38" name="hire_net_price" type="decimal"/>
         <element label="Vehicle VRN" max_length="40" name="vehicle_vrn" type="string"/>
         <element label="Hire Charge Details" max_length="32" name="hire_charge_details" reference="x_1523132_credit_0_hire_charge_details" type="reference"/>
         <element label="Defendant Offer Penalty" max_length="38" name="defendant_offer_penalty" type="decimal"/>
@@ -36,7 +36,7 @@
         <element label="Start" max_length="40" name="start" type="glide_date_time"/>
         <element label="Model" max_length="40" name="model" type="string"/>
         <element label="Vehicle Number" max_length="32" name="vehicle_number" reference="x_1523132_credit_0_vehicle_details" type="reference"/>
-        <element choice="1" label="Group" max_length="40" name="group" type="choice">
+        <element choice="1" default="s1" label="Group" max_length="40" name="group" type="choice">
             <choice>
                 <element inactive_on_update="false" label="S3" sequence="2" value="s3"/>
                 <element inactive_on_update="false" label="S7" sequence="6" value="s7"/>
@@ -47,7 +47,7 @@
                 <element inactive_on_update="false" label="S6" sequence="5" value="s6"/>
             </choice>
         </element>
-        <element choice="1" label="Hire Status" max_length="40" name="hire_status" type="choice">
+        <element choice="1" default="invoice_submitted" label="Hire Status" max_length="40" name="hire_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Invoice Submitted" sequence="2" value="invoice_submitted"/>
                 <element inactive_on_update="false" label="Hire Vehicle Identified" sequence="0" value="hire_vehicle_identified"/>
@@ -56,9 +56,9 @@
         </element>
         <element label="VAT" max_length="38" name="vat" type="decimal"/>
         <element label="Make" max_length="40" name="make" type="string"/>
-        <element label="Is Hire Reviewed" max_length="40" name="is_hire_reviewed" type="boolean"/>
+        <element active="false" label="Is Hire Reviewed" max_length="40" name="is_hire_reviewed" type="boolean"/>
         <element label="Claim Number" max_length="32" name="claim_number" read_only="true" reference="x_1523132_credit_0_claim_details" type="reference"/>
-        <element label="Is Settled" max_length="40" name="is_settled" type="boolean"/>
+        <element active="false" label="Is Settled" max_length="40" name="is_settled" type="boolean"/>
         <element choice="1" label="Vehicle Category" max_length="40" name="vehicle_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="MPV" sequence="0" value="mpv"/>
@@ -73,11 +73,11 @@
             </choice>
         </element>
         <element label="Discount" max_length="38" name="discount" type="decimal"/>
-        <element label="Final Estimated Amount" max_length="38" name="final_estimated_amount" type="decimal"/>
+        <element default="9000" label="Final Estimated Amount" max_length="38" name="final_estimated_amount" type="decimal"/>
         <element label="Allocated Amount" max_length="38" name="allocated_amount" type="decimal"/>
         <element label="Signed By" max_length="40" name="signed_by" type="string"/>
-        <element label="Hire Decision" max_length="40" name="hire_decision" type="string"/>
-        <element label="Is VHA Signed" max_length="40" name="is_vha_signed" type="boolean"/>
+        <element active="false" label="Hire Decision" max_length="40" name="hire_decision" type="string"/>
+        <element active="false" label="Is VHA Signed" max_length="40" name="is_vha_signed" type="boolean"/>
         <element label="Penalty Amount Added" max_length="38" name="penalty_amount_added" type="decimal"/>
         <index name="index">
             <element name="hire_charge_details"/>

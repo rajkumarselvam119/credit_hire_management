@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Claim Requests group</name>
+        <parent>914fa9e3c35d1610521ad72d050131df</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 09:02:12</sys_created_on>
+        <sys_id>594fa9e3c35d1610521ad72d050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Requests group</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_594fa9e3c35d1610521ad72d050131e3</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:02:12</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

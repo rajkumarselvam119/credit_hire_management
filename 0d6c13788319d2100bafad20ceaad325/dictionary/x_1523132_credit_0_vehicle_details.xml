@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b0ecf730839516100bafad20ceaad3e5" label="Vehicle Details" max_length="40" name="x_1523132_credit_0_vehicle_details" text_index="true" type="collection">
         <element label="Transmission" max_length="40" name="transmission" type="string"/>
-        <element label="Model" max_length="40" name="model" type="string"/>
-        <element label="Make" max_length="40" name="make" type="string"/>
-        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element choice="1" dependent="make" dependent_on_field="make" label="Model" max_length="40" name="model" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="ford" inactive_on_update="false" label="Ford Mondeo(2.0)" sequence="0" value="1"/>
+                <element dependent_value="honda" inactive_on_update="false" label="Honda Civic 2.2i Sport" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="group" dependent_on_field="group" label="Make" max_length="40" name="make" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="s5" inactive_on_update="false" label="Honda" sequence="9" value="honda"/>
+                <element dependent_value="s7" inactive_on_update="false" label="Honda" sequence="13" value="honda"/>
+                <element dependent_value="s2" inactive_on_update="false" label="Honda" sequence="3" value="honda"/>
+                <element dependent_value="s3" inactive_on_update="false" label="Ford" sequence="4" value="ford"/>
+                <element dependent_value="s4" inactive_on_update="false" label="Ford" sequence="6" value="ford"/>
+                <element dependent_value="s6" inactive_on_update="false" label="Ford" sequence="10" value="ford"/>
+                <element dependent_value="s1" inactive_on_update="false" label="Ford" sequence="0" value="ford"/>
+                <element dependent_value="s4" inactive_on_update="false" label="Honda" sequence="7" value="honda"/>
+                <element dependent_value="s3" inactive_on_update="false" label="Honda" sequence="5" value="honda"/>
+                <element dependent_value="s5" inactive_on_update="false" label="Ford" sequence="8" value="ford"/>
+                <element dependent_value="s1" inactive_on_update="false" label="Honda" sequence="1" value="honda"/>
+                <element dependent_value="s7" inactive_on_update="false" label="Ford" sequence="12" value="ford"/>
+                <element dependent_value="s2" inactive_on_update="false" label="Ford" sequence="2" value="ford"/>
+                <element dependent_value="s6" inactive_on_update="false" label="Honda" sequence="11" value="honda"/>
+            </choice>
+        </element>
+        <element label="Vehicle Age" max_length="40" name="age" type="integer"/>
         <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Indicative_BHR" max_length="40" name="indicative_bhr" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Vehicle ID" max_length="40" name="number" read_only="true" type="string"/>

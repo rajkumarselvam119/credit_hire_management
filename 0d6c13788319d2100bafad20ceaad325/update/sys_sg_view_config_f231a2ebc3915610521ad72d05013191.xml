@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>New view config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>sreeranjani.s</sys_created_by>
+        <sys_created_on>2024-10-23 12:40:29</sys_created_on>
+        <sys_id>f231a2ebc3915610521ad72d05013191</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New view config</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_sg_view_config_f231a2ebc3915610521ad72d05013191</sys_update_name>
+        <sys_updated_by>sreeranjani.s</sys_updated_by>
+        <sys_updated_on>2024-10-23 12:46:30</sys_updated_on>
+        <table>x_1523132_credit_0_payment_details</table>
+        <template display_value="Approvals template">313a1716535111100c5addeeff7b1276</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=f231a2ebc3915610521ad72d05013191"/>
+</record_update>
