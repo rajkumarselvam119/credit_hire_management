@@ -3,128 +3,156 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_accident</element>
             <position>0</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>23c1f0ccc3a9d610521ad72d0501315c</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013142</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>claim_reserve_amount</element>
             <position>1</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>6fc1f0ccc3a9d610521ad72d0501315c</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>8c7d99c8c3b55610521ad72d05013142</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>claim_amount</element>
             <position>2</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>67c1f0ccc3a9d610521ad72d0501315d</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013143</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>service_type</element>
             <position>3</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>6fc1f0ccc3a9d610521ad72d0501315d</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>8c7d99c8c3b55610521ad72d05013143</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>67c1f0ccc3a9d610521ad72d0501315e</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013144</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>place_of_accident</element>
             <position>5</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>6fc1f0ccc3a9d610521ad72d0501315e</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>8c7d99c8c3b55610521ad72d05013144</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>incident_reported_on</element>
             <position>6</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>67c1f0ccc3a9d610521ad72d0501315f</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013145</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>claim_type</element>
             <position>7</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>6fc1f0ccc3a9d610521ad72d0501315f</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>8c7d99c8c3b55610521ad72d05013145</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>stage</element>
             <position>8</position>
-            <sys_created_by>sreeranjani.s</sys_created_by>
-            <sys_created_on>2024-10-24 17:50:37</sys_created_on>
-            <sys_id>67c1f0ccc3a9d610521ad72d05013160</sys_id>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013146</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
-            <sys_updated_by>sreeranjani.s</sys_updated_by>
-            <sys_updated_on>2024-10-24 17:50:37</sys_updated_on>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>8c7d99c8c3b55610521ad72d05013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>10</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 07:16:57</sys_created_on>
+            <sys_id>847d99c8c3b55610521ad72d05013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1523132_credit_0_claim_details" sys_domain="global" view="Default view">00a6f48983d956100bafad20ceaad34f</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 07:16:57</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Claim Details</caption>

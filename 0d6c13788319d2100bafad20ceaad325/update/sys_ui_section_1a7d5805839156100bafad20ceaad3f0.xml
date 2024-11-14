@@ -4,13 +4,13 @@
             <element>repair_facility_name</element>
             <position>0</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>353219198315da100bafad20ceaad37e</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>c9f1538cc3b19610521ad72d05013191</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,41 +18,41 @@
             <element>repair_report_amount</element>
             <position>1</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>b13219198315da100bafad20ceaad37f</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>09f1538cc3b19610521ad72d05013192</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vat_applied</element>
-            <position>2</position>
-            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>b93219198315da100bafad20ceaad37f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
-            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>final_amount</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>f13219198315da100bafad20ceaad380</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>01f1538cc3b19610521ad72d05013193</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>repair_document</element>
+            <position>3</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>09f1538cc3b19610521ad72d05013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>f93219198315da100bafad20ceaad380</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>01f1538cc3b19610521ad72d05013194</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>repair_invoice_amount</element>
             <position>5</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>f13219198315da100bafad20ceaad381</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>09f1538cc3b19610521ad72d05013194</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>engineer_fees</element>
             <position>6</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>f93219198315da100bafad20ceaad381</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>01f1538cc3b19610521ad72d05013195</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,27 @@
             <element>discount</element>
             <position>7</position>
             <sys_created_by>sushmithaa.sivakumar</sys_created_by>
-            <sys_created_on>2024-10-16 07:08:56</sys_created_on>
-            <sys_id>f13219198315da100bafad20ceaad382</sys_id>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>19f1538cc3b19610521ad72d05013195</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-10-16 07:08:56</sys_updated_on>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>validate_repair_estimate</element>
+            <position>8</position>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 15:46:01</sys_created_on>
+            <sys_id>11f1538cc3b19610521ad72d05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Details" display_value="Repair Details" name="x_1523132_credit_0_repair_details" sys_domain="global" view="Default view">1a7d5805839156100bafad20ceaad3f0</sys_ui_section>
+            <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+            <sys_updated_on>2024-11-06 15:46:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=56755000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>doc_intelligene_azure</internal_name>
+        <label_cache>[{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.billing_address_recepient","label":"6 - Payload Builder - Doc Intelligence➛billing_address_recepient","reference_display":"billing_address_recepient","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","billing_address_recepient"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"dfeb7e50-d410-41e5-88bd-b6bd9c46e41a"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.customer_name","label":"6 - Payload Builder - Doc Intelligence➛customer_name","reference_display":"customer_name","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["customer_name"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8c2c3c15-81f5-4a23-bed7-bb275b7e4e74"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.due_date","label":"6 - Payload Builder - Doc Intelligence➛due_date","reference_display":"due_date","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["due_date"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"855f27c1-f3f7-433a-bb93-244b75aec275"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_date","label":"6 - Payload Builder - Doc Intelligence➛invoice_date","reference_display":"invoice_date","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["invoice_date"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3452339e-2237-4297-87d1-eb11c31687ce"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_number","label":"6 - Payload Builder - Doc Intelligence➛invoice_number","reference_display":"invoice_number","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["invoice_number"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"be911a0c-62cc-4162-a754-3f7c4055ac29"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_total","label":"6 - Payload Builder - Doc Intelligence➛invoice_total","reference_display":"invoice_total","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","invoice_total"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a4710eab-8d81-47df-a4bd-7861358fda78"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.payment_term","label":"6 - Payload Builder - Doc Intelligence➛payment_term","reference_display":"payment_term","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["payment_term"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"b40df4d0-628f-4998-99fb-ce03ca011301"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.sub_total","label":"6 - Payload Builder - Doc Intelligence➛sub_total","reference_display":"sub_total","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","sub_total"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d3b4b21e-a0d0-4a97-ad43-e56f65f8baa4"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.total_discount","label":"6 - Payload Builder - Doc Intelligence➛total_discount","reference_display":"total_discount","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["total_discount"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"37700ccc-af73-4437-85e7-f7892e9a5bcb"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.total_tax","label":"6 - Payload Builder - Doc Intelligence➛total_tax","reference_display":"total_tax","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["total_tax"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6dc8c62c-5c9a-48f6-9060-db0dbf0429b5"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.billing_address","label":"6 - Payload Builder - Doc Intelligence➛billing_address","reference_display":"billing_address","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["billing_address"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"955a3484-5ce5-4be9-b72f-5537bb43c474"}},{"name":"Created_1.current.accident_id","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Accident ID","reference":"x_1523132_credit_0_accident_details","reference_display":"CHM_ACCIDENT_DETAILS","type":"reference","base_type":"reference","parent_table_name":"x_1523132_credit_0_claim_details","column_name":"accident_id","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["record"]}},{"name":"453c8c21-4a4c-48c2-881f-91d0d370b4d3.status","label":"2 - Get Result - Doc Intel➛status","reference_display":"status","type":"string","base_type":"string","usedInstances":{"6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a417170b-d8d2-4fbb-a797-efb43367a70c"}},{"name":"Created_1.current.hire_id","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Hire ID","reference":"x_1523132_credit_0_hire_details","reference_display":"Hire Details","type":"reference","base_type":"reference","parent_table_name":"x_1523132_credit_0_claim_details","column_name":"hire_id","usedInstances":{"62269f6b-b8e9-4f75-89e8-82fa18ffe7b4":["record"],"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["record"]}},{"name":"97a4daea-6c92-4982-a640-c455a7cff7c5.response","label":"3 - Get Result - Doc Intel➛response","reference_display":"response","type":"string","base_type":"string","usedInstances":{"5a1df54d-da73-454f-a23a-1da3a913bb6d":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5e6421e1-9572-4f7d-98e2-e2e25df1a1e1"}},{"name":"97a4daea-6c92-4982-a640-c455a7cff7c5.status","label":"3 - Get Result - Doc Intel➛status","reference_display":"status","type":"string","base_type":"string","usedInstances":{"7e0ea070-179c-427b-8ec0-19136019bbd1":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a417170b-d8d2-4fbb-a797-efb43367a70c"}},{"name":"4963272c-df91-4723-887a-279c84e6a50b.apim_request_id","label":"1 - Copy of AzureAIDocumentIntelligence➛apim_request_id","reference_display":"apim_request_id","type":"string","base_type":"string","usedInstances":{"97a4daea-6c92-4982-a640-c455a7cff7c5":["apim_id"],"453c8c21-4a4c-48c2-881f-91d0d370b4d3":["apim_id"],"386971db-00f0-4771-a910-e5a9dd20cfb6":["apim_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"38821d65-04c9-4c7b-ba77-77d7874fb2dc"}},{"name":"Created_1.current.hire_id.hire_document","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Hire ID➛Hire Document","reference":"","reference_display":"Hire Document","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1523132_credit_0_hire_details","column_name":"hire_document","usedInstances":{"4963272c-df91-4723-887a-279c84e6a50b":["document"]}},{"name":"386971db-00f0-4771-a910-e5a9dd20cfb6.response","label":"5 - Get Result - Doc Intel➛response","reference_display":"response","type":"string","base_type":"string","usedInstances":{"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d72babed-4ec7-45f3-8032-cb0115ef48cf"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.amount","label":"6 - Payload Builder - Doc Intelligence➛amount _due","reference_display":"amount _due","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["amount_due"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"94be90a2-7d1e-48db-a3af-edacab6b7bf3"}}]</label_cache>
+        <master_snapshot>aba9635fc3e95210521ad72d050131b8</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Doc Intelligene Azure</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7a35dbc7c3611210521ad72d05013155</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:48:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17219413c3e51210521ad72d050131b3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Doc Intelligene Azure</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_hub_flow_17219413c3e51210521ad72d050131b3</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:17</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=17219413c3e51210521ad72d050131b3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=17219413c3e51210521ad72d050131b3"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1523132_credit_0_claim_details">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-03 13:26:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a35dbc7c3611210521ad72d05013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-03 13:26:24</sys_updated_on>
+        <table>x_1523132_credit_0_claim_details</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
+        <identifier>17219413c3e51210521ad72d050131b3</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:17</sys_created_on>
+        <sys_id>14b9a35fc3e95210521ad72d0501317b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-06 07:08:32</sys_updated_on>
+        <trigger display_value="">7a35dbc7c3611210521ad72d05013155</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=17219413c3e51210521ad72d050131b3^sys_idNOT IN14b9a35fc3e95210521ad72d0501317b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=17219413c3e51210521ad72d050131b3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=17219413c3e51210521ad72d050131b3^sys_idNOT IN5b219413c3e51210521ad72d050131b5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>17219413c3e51210521ad72d050131b3</id>
+        <name>Doc Intelligene Azure</name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:48:18</sys_created_on>
+        <sys_id>5b219413c3e51210521ad72d050131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:48:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5b219413c3e51210521ad72d050131b5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=17219413c3e51210521ad72d050131b3^sys_idNOT IN065f901bc3291210521ad72d0501319a,0e5f901bc3291210521ad72d050131aa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</model>
+        <model_id>17219413c3e51210521ad72d050131b3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:12</sys_created_on>
+        <sys_id>065f901bc3291210521ad72d0501319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 18:50:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=065f901bc3291210521ad72d0501319a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</model>
+        <model_id>17219413c3e51210521ad72d050131b3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:12</sys_created_on>
+        <sys_id>0e5f901bc3291210521ad72d050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 18:50:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0e5f901bc3291210521ad72d050131aa"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=17219413c3e51210521ad72d050131b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17219413c3e51210521ad72d050131b3"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=17219413c3e51210521ad72d050131b3^sys_idNOT IN0e5f901bc3291210521ad72d050131af"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:13</sys_created_on>
+        <sys_id>0e5f901bc3291210521ad72d050131af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 18:50:31</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/iOBT9K1GediVWygeU0rcuMBqkdqoFdveh6kZOcg3WGodNnHSYUf/7XucDQhIoX512XiphO77nHp97rt3H7zonLnD9Rp8Sl4Pe0pmQEArCp6sl4LBUw44gCzW3IMInMghX+o0MY2jpQehDqN+YLT0hPIbJKhr5+BEuTb/IP9fzafz91TE7lm3aluOF4DPpGI7HCVs4PkjCeIRLfRYtOVn9lX/R/3zv9O9uR/fOYDi9Hd1NcIk3Z9wPQeg3j08tfUlCDCYVkO+VKabQeNQjPQsMT8W1DMO6bpvule2alm8TMAzcsEpCBb1s4GKTOnyVIHzAUJTwCBpoCoH4D4Kv1ivmyHLG04J8jdg33P3aUOsoIHYPsjlvHjAPHpaSBSIbyQBlkwGPF+JLBlTRBpTEXBa04UgcAdK6VNhUtDw0ncyD53ER6BMTaRr5JA88wte/iJQhc2MJkWKWMo4cOxkJURCHKczxsP8wHjh/3077n4djZzycTMej/nQ40F/SfJz/YrVjhjDH4mTpvKzP+hMDrk5KxAsX0bT0yAvZUt56kiWQw3lpbbTaDwRqR7FS06tXTEXbes1TKk7NMHZK1ittXsj2n+EfdWVmg8dp8eqKEB/IDi26tKTFcpIN0GRDvuXs9qkyHzlElm3DeGthZjVysi4XgQ98sNlOx8nZDJXKxDKWipZnImTkyMAhvu+UCFNLEdNrQs1ye3lVlWEs8ANnTXxdmylta/7uWIRwH7GyCm7SLXGe3uVbjmOhBXhC+Efz4hCpkVphSnS0ILOcUToBDp4snTb9Myr/umdRxMSshHodNOWgFnMdDlWjFSllsaMzgz+dWJh1fpMKb5UCPbo6TZNSF6hldFVtmobtUtPoGh1CfdswPKtUnXUwO1HKyum/SZXuqNEoFRg/QE5VLnOURlnhB0kj2dZVka069twK+peBZl4ImqWgVSzNPsrT1vrLhgfbMtyX2oV7NPETgl/4h1rbga5GefCMdnqCo7nE+3cWBrHwqxaj9tSY0DYrtF9y/n69oLvRIIT9ALZXvJOvbRguNErE6gKOZlPT7UEbDDQyGz3M7fR6rkcsSrtXXbDMiqNtYDRi+1hO9oqCkiYJ7nK1RjEkTRo6ws/OAFjztqMBnu9quQIbPS2b+znc63kOwkGoocOVP9VMbMaZD8XcyRVci5JsavbcKqbXPa9jdrteF18MWMW0DS4x21aH9LpX9nWnUsU1KPtgygYSfsg7IlpFKZAP99B9SxlGIKVqGcd3UoGXyvQbkgUpdTPFvZaaRBBqXwLx22izTpsANqn0xXiplnoICtws1N4WhhvIea2nY+jfcXwrtLoL7mDlPZ8yFT0k22md/ZSB9nWnR+1my6C9JsvYgNkN8+NcAQ5UfbKzfpruAoeKOGmshZ3N+wRZVvRQ7up7rh2XIsW8OCnW25Fin33VKYpu5/vtFLA/UVtKLwTn9CYVE5yAlg15EGg4oWEQjVEt/68cPsfdlSbngJRyvNNiQE1FP9eJy52hDmWt4B8LJLsl1zoUDmv5zeddm0/l1C/78gS/Szode8edtVd9eTYBegXvx2lFRys9aSqcvf3ouH2rezZ2pJIMt4/+wF5z0aybG855WTe2nNeyPr+Z7Hs3N6D4oG3i6X/RJXZQHB4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=17219413c3e51210521ad72d050131b3^sys_idNOT IN1b98a3dbc3e95210521ad72d05013112,7551e4dbc3291210521ad72d0501311c,7d51e4dbc3291210521ad72d05013118,865f901bc3291210521ad72d050131b1,b575a717c3e95210521ad72d050131cf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:29:34</sys_created_on>
+        <sys_id>1b98a3dbc3e95210521ad72d05013112</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:37:41</sys_updated_on>
+        <ui_id>12b3ffc1-0a42-431a-ba58-fdf65a6ae352</ui_id>
+        <values>H4sIAAAAAAAA/+1X207bQBD9FeTnxLJjQ0jeKiKkShQkqHhpqTX2jslK60v3EpJG+feOrzFJCzHlJSp529k5x2cmc9brb2uLM2tq+cgcd+KeRZ7reSPHGZ37bnjmhe6IeYDoWgMrhQQpU2KUSUbrBQhTBNbrC4mgkQWuHRkpMdX2nEsMONtsKI9xlQtY3dfpFInmXDDKs6bfHgZWDpKYNUprut7ZOlSagBAFpd422na16lVerFkWmYT0kbQ6eFUjZ/XOyecZ7RCokOM6AwuXGlOGJCQGoXBgJZAy0JlcWVMtDQWoeHaTilWbMeeprgpNYKn4L3qy7xR5MVJlUd2EdvkVQoGzqknVVjwDDXfEHmkj255lPEJV9YVhDEboi26sSrjJNc/SCqIL4hqdCZOk11VXrJag858YhQHDvKi1UF+VFt/Ns6fbRuglT8u21GWKLALRrkBryUOjCzlrCwWWfU4gz3n6GOQyW/ASTFIS+1HQwo5F9kTPVPwxtSEqdNvUWbAvKT4rw/cgeVHEF6Ih8GZgqZW6EKDUthTqY/DTFEqqwuoSgrILZQuCchoKcCR5rj/RoxZYC98MagOEpy9NWTTZDlWHc2uCZeCejgg6CiKJjOvACUoPMNTAhdq3weuAfi45QH/jknLg/lJPbZS92FUXe3JdbdQ2OX03m5wfm03qUo7eJ6+5wxm9eAZ3pqk0hHr2evDZyEOYhEM2jidDf8zOh+HY84cejMexHyJOfLBDLkTRAWA02EoFdHRjzkngZvMDksyQUmbwu3Ecjx1IWcEIv8Pdi2QHS2w60yACDctePC2qZaADISoEvoGmgRKXMmFQBnvRtChiyGFVziCdLUkvki6QeHi6KKz1BjXPkB2m1CQhyjdRVdAOFzmm3/R0gcRDw9efowERPjJKZwnK8lDtRfIMuT/NW6f8y1x3/bb/svrw8IeHPzx8ZB7ud3884A3f3B8vOQqm/vDKby6PmNDhoTGorgA7F8h68+S+3my/td7tFumeOeXvyO6S/80n18Nvk2XXrXUQAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Result - Doc Intel">09f1d493c3e51210521ad72d05013198</action_type>
+        <action_type_parent display_value="Get Result - Doc Intel">62855a71c3a5d250521ad72d05013122</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>09f1d493c3e51210521ad72d05013198</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:58:56</sys_created_on>
+        <sys_id>7551e4dbc3291210521ad72d0501311c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:37:41</sys_updated_on>
+        <ui_id>386971db-00f0-4771-a910-e5a9dd20cfb6</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54lQQ9LtnwrYgQo0DZAk+YSBMKKXNkEKErhw4lr+N+7tGS3TS4FetzZ3dmZIZ+OTAq2ZrzuMrGoC15gmeVZWuYZiGUu0jLNiqxuWcQ09EiTMMq+oZ2I7UH5gByPi7oq8mXOY9HVWbxY5kW8Wi0hzpc1Xy2wgjJtk/OiwReP1hHB6UQUQtpRweHx/5n4TiphULP103PERjCk1qFh6+O71r/aVdCi+svvhwDcYQyAdUbq7Vx/mdfuL+BgRJCRRQzfHGqBdL8DZTFiPWgBbjAHtnbGE2AQxJ1Wh+vETmpHZCzMvln5k86t0jQNkx2SJY5T91o+QKtwM6U6tboNOCA1njtv5nG+GyRHOwUisAOv3M2f2DRwNzo56GnFBeJ5e1C+19+mNNiV4PKIhHiLjcAxuA36ZzPd/W54/X5Reiv1OZi5qQYO6lqBo/ha74KeI/Py4V3SE/Iha1TY08Wmh3EkpBnNsJfnKyS6T7aKiqRTwyups3KrE+DBYUKvAMkt4Zsz/AhGBrtfiYaWw7kfWtJ3+xz+jsiLqu1SEddYlfGiKkXcwgpjrDLohMgqUdXsFDF7sDcKrP0dFL1S8+KDzSm2OaBmyjiscCNH94lE7XHO4vT8CzREz+WjAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Result - Doc Intel">09f1d493c3e51210521ad72d05013198</action_type>
+        <action_type_parent display_value="Get Result - Doc Intel">62855a71c3a5d250521ad72d05013122</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>09f1d493c3e51210521ad72d05013198</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:58:56</sys_created_on>
+        <sys_id>7d51e4dbc3291210521ad72d05013118</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:37:41</sys_updated_on>
+        <ui_id>453c8c21-4a4c-48c2-881f-91d0d370b4d3</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54lQQ9LtnwrYgQo0DZAk+YSBMKKXNkEKErhw4lr+N+7tGS3TS4FetzZ3dmZIZ+OTAq2ZrzuMrGoC15gmeVZWuYZiGUu0jLNiqxuWcQ09EiTMMq+oZ2I7UH5gByPi7oq8mXOY9HVWbxY5kW8Wi0hzpc1Xy2wgjJtk/OiwReP1hHB6UQUQtpRweHx/5n4TiphULP103PERjCk1qFh6+O71r/aVdCi+svvhwDcYQyAdUbq7Vx/mdfuL+BgRJCRRQzfHGqBdL8DZTFiPWgBbjAHtnbGE2AQxJ1Wh+vETmpHZCzMvln5k86t0jQNkx2SJY5T91o+QKtwM6U6tboNOCA1njtv5nG+GyRHOwUisAOv3M2f2DRwNzo56GnFBeJ5e1C+19+mNNiV4PKIhHiLjcAxuA36ZzPd/W54/X5Reiv1OZi5qQYO6lqBo/ha74KeI/Py4V3SE/Iha1TY08Wmh3EkpBnNsJfnKyS6T7aKiqRTwyups3KrE+DBYUKvAMkt4Zsz/AhGBrtfiYaWw7kfWtJ3+xz+jsiLqu1SEddYlfGiKkXcwgpjrDLohMgqUdXsFDF7sDcKrP0dFL1S8+KDzSm2OaBmyjiscCNH94lE7XHO4vT8CzREz+WjAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action_type>
+        <action_type_parent display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0861d453c3e51210521ad72d0501316e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:13</sys_created_on>
+        <sys_id>865f901bc3291210521ad72d050131b1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:37:41</sys_updated_on>
+        <ui_id>4963272c-df91-4723-887a-279c84e6a50b</ui_id>
+        <values>H4sIAAAAAAAA/42S3WrjMBCFX2XRtWMs/yRt7kpCYKHdwrbbm1LMRBonAll2ZSmtN+TddxS7btilsFexzpkZnfmU5yNTki1Zksy5zItMZFjwlCdFykEuUpkUCc/4ImURM1AjVcpG+BqNI+UA2gfpeFxZBIey5LHw1pIb75XFUsnh96PndKIuqbpWQ/80NpMi9kpL6mLL55eItWDpJoeWLY9/Wf8bVcMWNZWuP7P+m971bVAqpbEE50DsL4zbccKG3G83l25jZYjGI4bvDo1EylSB7jBiNRgJrrE9WzrrSSAq8t7ofqrYK5px3rmG9079pgB5EuoqpCXFyGM6PsJW43rgNVjVGhw80HThvJ3wNUpgNyCSWIHXbnWpDQX3rVONGVpcGDx2N9rX5seAh00DLp7Hd/SC2IZdQ/pxleph37z9/Ei6UeaMZTR1I0BPJ6Jr1da7kOfIvHr8ivxgfc0eNYavsoa2VWZXtrY5qPO9tEYd7zQd4ko3b5S3UzsTgwg7x/QqEG9IX5/lJ7AqALijMdQc7v1l1KvH7+H/VVxVaZYssplIMZvl85TPrufXV7Oi4HkuMVtI4OwUsa7vVhq67hMdvVv56sPiA8gRWTlQDy3CqtbdUKgDjnROL38Ajao2u4MDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Payload Builder - Doc Intelligence">70011c13c3e51210521ad72d050131ab</action_type>
+        <action_type_parent display_value="Payload Builder - Doc Intelligence">c7ae733dc3edd250521ad72d0501312e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>70011c13c3e51210521ad72d050131ab</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:15:49</sys_created_on>
+        <sys_id>b575a717c3e95210521ad72d050131cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:37:41</sys_updated_on>
+        <ui_id>4d23ea9b-d7f9-47d8-b734-3a77f4bee94a</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54tg9TDlnwLYgQo0NZAk+YSBMKKXNksaEohqSSu4X8vKcmK6/ZQoEfO7ixnZ/bpSKQgK1LnlDHOEp5gxmJGs5iBWMaCZpQlDJDMiIY9+k6Dtm20DcgrqC5Ax2OSL4olE1VEaU2jdLlkERSMRphBIURMeV0t5mfm6eS5QtpWweHxP0bwnVTCoCarp+cZacF4gQ4NWR2vSv+6oYIK1e8r/rm0O7QBsc5IvR3fn0fi/RlsjAhC2Izgu0Mt0CuoQVmckT1oAa4xB7JypvOAQRAbrQ5Tx05q54eR0Ptu5U//XU4pDZ01+qU4DtXp+QCVwvVg6FCq1+DAq+m468zYzneN5GgHSwTW0Cl3e4kNDZvWyUYPFBcGj+xGdXv9dbCDTAPO+Xmks1gKbMO2Qf+4TH2/a96+nZXeSd0bMxZVw0FNL3DevqpzQc+RdPLhb872yZbXSZU9TKd6CGVq2lQ/kDtfQ4V7r63cQ9v6aWVrmlfZ6/Hr7edb5R/zWjVvfg8rt3oOPHgx93nB/M7j6x5+BCODMV/8GE+ejVIvj+JDhUeb8/8DenVS19I7+V3Llw4/haOtmOCYxHlUVSKOUkGXUZ5wHtVFnLGcLRJeVL2AC86iiBlfZCxw0ijNaojyOIYopXERL9KcVbwmpxmxB3urwNqPTP1BlS9dSGRIeMyyHM4hULiRrbvxrrziGNvp+RcH8op/QwQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=17219413c3e51210521ad72d050131b3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=17219413c3e51210521ad72d050131b3^sys_idNOT INf951e4dbc3291210521ad72d0501311a,fd51e4dbc3291210521ad72d0501311b"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fd51e4dbc3291210521ad72d05013119</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:58:56</sys_created_on>
+        <sys_id>f951e4dbc3291210521ad72d0501311a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:13</sys_updated_on>
+        <ui_id>6ede75e9-e53e-4e6d-b739-d2a3830e102c</ui_id>
+        <values>H4sIAAAAAAAA/+1YX2+bSBD/Kohnn8uCgdhvVXOV+nDXqrXycqrQsgz26tbALUtSN8p37+yyYOJgJ02c6KJWsmQzM8zf38zO+totG1U1ql6Wb+uarwp38c/XicsLTcPf125BN+Au3KyRVPGySNS2AnfiXlLRaDp8qwRnXCWdAPIyXleCbi+syJ9WxBmIsDUXmQRrrqISrSiQ7uJ6j6XNJYKmIFDTu3XJmbbOM3yazeMgPCOzOPACEnheGhGIolkcpXlE47MQ5boXz61lZ9l6fyAo87VAD6yZUmbaJ+J5EwxUQZEBGs6pqGHibmiRUVXKbU+RQLOPhdgR1rxQqM/Vwt9q/h2VzzwtlwMGyKDltebabHcOj+XsWMqtp97NZKfjMwhkX8KYDml5IzrIUMcnkAwKRVejWqqeO6LHv8HyZZDTRqh3pwuRnCBE/0QhBjrEtnwfK8NauIHGEU1FV9xSNJvi7xZvbp+Qi2Pt04qc399FTY1eQaVxqYFmUZd/WZdXnzuMveeF8dUyRcmo6J+oUpKnjdKluXZBwAYVJRtaVbxYJZUsL7l5GcPYTFcCH6a5KK/QqJ4VU8q0I1NsAzp9j/RzQ76gkusE/IVq8OUbA/jkv0bbbVNgPU5MwrRAzSSv1Fum62Wd0yWybTqogeIbkIkZTwmaBf08qNbd4fPoWXOO2t8sW/Vm3KQ5ySISkTQOIh/HTTBjEYNoDkAInfveYNwMIGUcdozDjnbYsR4/ODQ7k0zyDT2xjGcYTkbX6HTq4f1T6H4tEMUK10mLQRubMX4C6LZF3VX5ebD6oVCwauPQSD3zgiDw5iwM4h6pWQaQ53FKfCCjSN1hcsRnC0Le2/kNvlcDvpFDjcxj7w+P4MfxvAV+zPTaQ6PvOV+AlUVWP36G7kwbYEJOZiE7tLGlMLKx7cNyEM3tyXj3kH+Jre03NJ8CzTsrWlKiWV2eAVhprowre/DsyKe4SWSMzogXHsClHw1wuTTnudzfO52B4w8P8cB9I3j5+0aXzf2kj90rUshLOTzJekK/oh/f/O8xRn7KmP/kHbwH2Oje3XH3GlbJ5v/Yr52HbJscuwcNxCwGd+i6r7lvX5of3ekvvL2T3A+zgy0eB0da/O7W/oCY7lvbZ6/pdHoi2McPkckv1wQ1W0PWiGeCfF+ZDvJ5Goa4bx2AfOTf3rawAI5ag5OXAjOrnwbuHgrD5k0OTFt8hyfEd+DfxjfbFEMnfoVN7LEb11cNtVZT3WImA8ZrNLjUtA/d/7yascUqczYkXZXyX+3qjnbzA4ud0UcxFgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3951e4dbc3291210521ad72d0501311b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:58:56</sys_created_on>
+        <sys_id>fd51e4dbc3291210521ad72d0501311b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:13</sys_updated_on>
+        <ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</ui_id>
+        <values>H4sIAAAAAAAA/+VUXW/TMBT9K5DnNHK+Stu3CTQJCZjEpr2wKXLsm9bCsYM/2pWq/53rfGwT7QQC3niLz/W955zroxwi7V3nnb3RF9aKtYpWX+7jSKiA4fchUrSFaBUxrbhwQquqB+JoS6UPBeOVEmqNCBe2k3R/e1JgGyG5gXF2Rw1OcGCi1eGnktt3UElag8T+a2eGdsHx1BDapEuWsjyb5xkh2aJI63lepxnPKdAc702Nbyeprz70SPyih8CHuJ2YtOFBVkriCB4cKA5I3VBpIY5aqjh12uwfEQOUXyn5BGyEcjguCpcfrPiOs7OyDBcbQI8MhiLbaMHgqgtKBsTRWk5FLX2rPg2Cw1KhoV66aamIeAsVhy6oC3Qjd3O90bvPE9GlUL2TsSg1o/LxRB36rb0DG14AJLQ4qGpp1+EWqs7oreibUUubrCUekkbqHZKGgCSUBeEJLoMml4i/6+FbakRw8RHHYPMgs6ZWsKoPE45zBi0c+3VU33wQNBgcrVTDNvCCZUZ07gJ5tjCqPsanSXwWwsOhKHO2YFk6K2jBZgV+zhaLtJktU054/obUBc8T66jz9nh8fecJybn1jAGERz4J798P/BehX9KyKVNSng99MT8X+jNxfznp2S+SHp7sN4NOCPlPky5sNSR29NaT/3HQ70OqBwY7BIQDExaF3ATs/fRnDoU9vrRgz6GdNl+DhSfs+ANkLxR84wUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=17219413c3e51210521ad72d050131b3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=17219413c3e51210521ad72d050131b3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3^sys_idNOT IN0e5f901bc3291210521ad72d050131ac,425f901bc3291210521ad72d050131aa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:12</sys_created_on>
+        <sys_id>0e5f901bc3291210521ad72d050131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 18:50:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 18:50:12</sys_created_on>
+        <sys_id>425f901bc3291210521ad72d050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 18:50:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_17219413c3e51210521ad72d050131b3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_17219413c3e51210521ad72d050131b3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_17219413c3e51210521ad72d050131b3"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>doc_intelligene_azure</internal_name>
+        <label_cache>[{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.billing_address_recepient","label":"6 - Payload Builder - Doc Intelligence➛billing_address_recepient","reference_display":"billing_address_recepient","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","billing_address_recepient"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"dfeb7e50-d410-41e5-88bd-b6bd9c46e41a"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.customer_name","label":"6 - Payload Builder - Doc Intelligence➛customer_name","reference_display":"customer_name","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["customer_name"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8c2c3c15-81f5-4a23-bed7-bb275b7e4e74"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.due_date","label":"6 - Payload Builder - Doc Intelligence➛due_date","reference_display":"due_date","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["due_date"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"855f27c1-f3f7-433a-bb93-244b75aec275"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_date","label":"6 - Payload Builder - Doc Intelligence➛invoice_date","reference_display":"invoice_date","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["invoice_date"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3452339e-2237-4297-87d1-eb11c31687ce"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_number","label":"6 - Payload Builder - Doc Intelligence➛invoice_number","reference_display":"invoice_number","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["invoice_number"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"be911a0c-62cc-4162-a754-3f7c4055ac29"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.invoice_total","label":"6 - Payload Builder - Doc Intelligence➛invoice_total","reference_display":"invoice_total","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","invoice_total"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a4710eab-8d81-47df-a4bd-7861358fda78"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.payment_term","label":"6 - Payload Builder - Doc Intelligence➛payment_term","reference_display":"payment_term","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["payment_term"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"b40df4d0-628f-4998-99fb-ce03ca011301"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.sub_total","label":"6 - Payload Builder - Doc Intelligence➛sub_total","reference_display":"sub_total","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["values","sub_total"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d3b4b21e-a0d0-4a97-ad43-e56f65f8baa4"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.total_discount","label":"6 - Payload Builder - Doc Intelligence➛total_discount","reference_display":"total_discount","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["total_discount"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"37700ccc-af73-4437-85e7-f7892e9a5bcb"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.total_tax","label":"6 - Payload Builder - Doc Intelligence➛total_tax","reference_display":"total_tax","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["total_tax"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6dc8c62c-5c9a-48f6-9060-db0dbf0429b5"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.billing_address","label":"6 - Payload Builder - Doc Intelligence➛billing_address","reference_display":"billing_address","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["billing_address"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"955a3484-5ce5-4be9-b72f-5537bb43c474"}},{"name":"Created_1.current.accident_id","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Accident ID","reference":"x_1523132_credit_0_accident_details","reference_display":"CHM_ACCIDENT_DETAILS","type":"reference","base_type":"reference","parent_table_name":"x_1523132_credit_0_claim_details","column_name":"accident_id","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["record"]}},{"name":"453c8c21-4a4c-48c2-881f-91d0d370b4d3.status","label":"2 - Get Result - Doc Intel➛status","reference_display":"status","type":"string","base_type":"string","usedInstances":{"6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a417170b-d8d2-4fbb-a797-efb43367a70c"}},{"name":"Created_1.current.hire_id","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Hire ID","reference":"x_1523132_credit_0_hire_details","reference_display":"Hire Details","type":"reference","base_type":"reference","parent_table_name":"x_1523132_credit_0_claim_details","column_name":"hire_id","usedInstances":{"62269f6b-b8e9-4f75-89e8-82fa18ffe7b4":["record"],"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["record"]}},{"name":"97a4daea-6c92-4982-a640-c455a7cff7c5.response","label":"3 - Get Result - Doc Intel➛response","reference_display":"response","type":"string","base_type":"string","usedInstances":{"5a1df54d-da73-454f-a23a-1da3a913bb6d":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5e6421e1-9572-4f7d-98e2-e2e25df1a1e1"}},{"name":"97a4daea-6c92-4982-a640-c455a7cff7c5.status","label":"3 - Get Result - Doc Intel➛status","reference_display":"status","type":"string","base_type":"string","usedInstances":{"7e0ea070-179c-427b-8ec0-19136019bbd1":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a417170b-d8d2-4fbb-a797-efb43367a70c"}},{"name":"4963272c-df91-4723-887a-279c84e6a50b.apim_request_id","label":"1 - Copy of AzureAIDocumentIntelligence➛apim_request_id","reference_display":"apim_request_id","type":"string","base_type":"string","usedInstances":{"97a4daea-6c92-4982-a640-c455a7cff7c5":["apim_id"],"453c8c21-4a4c-48c2-881f-91d0d370b4d3":["apim_id"],"386971db-00f0-4771-a910-e5a9dd20cfb6":["apim_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"38821d65-04c9-4c7b-ba77-77d7874fb2dc"}},{"name":"Created_1.current.hire_id.hire_document","label":"Trigger - Record Created➛CHM_CLAIM_DETAILS Record➛Hire ID➛Hire Document","reference":"","reference_display":"Hire Document","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1523132_credit_0_hire_details","column_name":"hire_document","usedInstances":{"4963272c-df91-4723-887a-279c84e6a50b":["document"]}},{"name":"386971db-00f0-4771-a910-e5a9dd20cfb6.response","label":"5 - Get Result - Doc Intel➛response","reference_display":"response","type":"string","base_type":"string","usedInstances":{"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d72babed-4ec7-45f3-8032-cb0115ef48cf"}},{"name":"4d23ea9b-d7f9-47d8-b734-3a77f4bee94a.amount","label":"6 - Payload Builder - Doc Intelligence➛amount _due","reference_display":"amount _due","type":"string","base_type":"string","usedInstances":{"12b3ffc1-0a42-431a-ba58-fdf65a6ae352":["amount_due"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"94be90a2-7d1e-48db-a3af-edacab6b7bf3"}}]</label_cache>
+        <master>true</master>
+        <name>Doc Intelligene Azure</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Doc Intelligene Azure">17219413c3e51210521ad72d050131b3</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aba9635fc3e95210521ad72d050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:14</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=aba9635fc3e95210521ad72d050131b8^sys_idNOT IN6fa9635fc3e95210521ad72d050131b9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>aba9635fc3e95210521ad72d050131b8</id>
+        <name>Doc Intelligene Azure</name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:14</sys_created_on>
+        <sys_id>6fa9635fc3e95210521ad72d050131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6fa9635fc3e95210521ad72d050131b9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=aba9635fc3e95210521ad72d050131b8^sys_idNOT IN63a9635fc3e95210521ad72d050131bb,f3a9635fc3e95210521ad72d050131fc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</model>
+        <model_id>aba9635fc3e95210521ad72d050131b8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:14</sys_created_on>
+        <sys_id>63a9635fc3e95210521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63a9635fc3e95210521ad72d050131bb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</model>
+        <model_id>aba9635fc3e95210521ad72d050131b8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>f3a9635fc3e95210521ad72d050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f3a9635fc3e95210521ad72d050131fc"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=aba9635fc3e95210521ad72d050131b8^sys_idNOT IN77a9a35fc3e95210521ad72d05013126"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>77a9a35fc3e95210521ad72d05013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/iOBT9K1GediVWygeU0rcuMBqkdqoFdveh6kZOcg3WGodNnHSYUf/7XucDQhIoX512XiphO77nHp97rt3H7zonLnD9Rp8Sl4Pe0pmQEArCp6sl4LBUw44gCzW3IMInMghX+o0MY2jpQehDqN+YLT0hPIbJKhr5+BEuTb/IP9fzafz91TE7lm3aluOF4DPpGI7HCVs4PkjCeIRLfRYtOVn9lX/R/3zv9O9uR/fOYDi9Hd1NcIk3Z9wPQeg3j08tfUlCDCYVkO+VKabQeNQjPQsMT8W1DMO6bpvule2alm8TMAzcsEpCBb1s4GKTOnyVIHzAUJTwCBpoCoH4D4Kv1ivmyHLG04J8jdg33P3aUOsoIHYPsjlvHjAPHpaSBSIbyQBlkwGPF+JLBlTRBpTEXBa04UgcAdK6VNhUtDw0ncyD53ER6BMTaRr5JA88wte/iJQhc2MJkWKWMo4cOxkJURCHKczxsP8wHjh/3077n4djZzycTMej/nQ40F/SfJz/YrVjhjDH4mTpvKzP+hMDrk5KxAsX0bT0yAvZUt56kiWQw3lpbbTaDwRqR7FS06tXTEXbes1TKk7NMHZK1ittXsj2n+EfdWVmg8dp8eqKEB/IDi26tKTFcpIN0GRDvuXs9qkyHzlElm3DeGthZjVysi4XgQ98sNlOx8nZDJXKxDKWipZnImTkyMAhvu+UCFNLEdNrQs1ye3lVlWEs8ANnTXxdmylta/7uWIRwH7GyCm7SLXGe3uVbjmOhBXhC+Efz4hCpkVphSnS0ILOcUToBDp4snTb9Myr/umdRxMSshHodNOWgFnMdDlWjFSllsaMzgz+dWJh1fpMKb5UCPbo6TZNSF6hldFVtmobtUtPoGh1CfdswPKtUnXUwO1HKyum/SZXuqNEoFRg/QE5VLnOURlnhB0kj2dZVka069twK+peBZl4ImqWgVSzNPsrT1vrLhgfbMtyX2oV7NPETgl/4h1rbga5GefCMdnqCo7nE+3cWBrHwqxaj9tSY0DYrtF9y/n69oLvRIIT9ALZXvJOvbRguNErE6gKOZlPT7UEbDDQyGz3M7fR6rkcsSrtXXbDMiqNtYDRi+1hO9oqCkiYJ7nK1RjEkTRo6ws/OAFjztqMBnu9quQIbPS2b+znc63kOwkGoocOVP9VMbMaZD8XcyRVci5JsavbcKqbXPa9jdrteF18MWMW0DS4x21aH9LpX9nWnUsU1KPtgygYSfsg7IlpFKZAP99B9SxlGIKVqGcd3UoGXyvQbkgUpdTPFvZaaRBBqXwLx22izTpsANqn0xXiplnoICtws1N4WhhvIea2nY+jfcXwrtLoL7mDlPZ8yFT0k22md/ZSB9nWnR+1my6C9JsvYgNkN8+NcAQ5UfbKzfpruAoeKOGmshZ3N+wRZVvRQ7up7rh2XIsW8OCnW25Fin33VKYpu5/vtFLA/UVtKLwTn9CYVE5yAlg15EGg4oWEQjVEt/68cPsfdlSbngJRyvNNiQE1FP9eJy52hDmWt4B8LJLsl1zoUDmv5zeddm0/l1C/78gS/Szode8edtVd9eTYBegXvx2lFRys9aSqcvf3ouH2rezZ2pJIMt4/+wF5z0aybG855WTe2nNeyPr+Z7Hs3N6D4oG3i6X/RJXZQHB4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=aba9635fc3e95210521ad72d050131b8^sys_idNOT IN7fa9a35fc3e95210521ad72d05013124,b3a9a35fc3e95210521ad72d05013122,b7a9a35fc3e95210521ad72d05013123,bfa9a35fc3e95210521ad72d05013123,bfa9a35fc3e95210521ad72d05013125"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Payload Builder - Doc Intelligence">70011c13c3e51210521ad72d050131ab</action_type>
+        <action_type_parent display_value="Payload Builder - Doc Intelligence">c7ae733dc3edd250521ad72d0501312e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>70011c13c3e51210521ad72d050131ab</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>7fa9a35fc3e95210521ad72d05013124</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>4d23ea9b-d7f9-47d8-b734-3a77f4bee94a</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54tg9TDlnwLYgQo0NZAk+YSBMKKXNksaEohqSSu4X8vKcmK6/ZQoEfO7ixnZ/bpSKQgK1LnlDHOEp5gxmJGs5iBWMaCZpQlDJDMiIY9+k6Dtm20DcgrqC5Ax2OSL4olE1VEaU2jdLlkERSMRphBIURMeV0t5mfm6eS5QtpWweHxP0bwnVTCoCarp+cZacF4gQ4NWR2vSv+6oYIK1e8r/rm0O7QBsc5IvR3fn0fi/RlsjAhC2Izgu0Mt0CuoQVmckT1oAa4xB7JypvOAQRAbrQ5Tx05q54eR0Ptu5U//XU4pDZ01+qU4DtXp+QCVwvVg6FCq1+DAq+m468zYzneN5GgHSwTW0Cl3e4kNDZvWyUYPFBcGj+xGdXv9dbCDTAPO+Xmks1gKbMO2Qf+4TH2/a96+nZXeSd0bMxZVw0FNL3DevqpzQc+RdPLhb872yZbXSZU9TKd6CGVq2lQ/kDtfQ4V7r63cQ9v6aWVrmlfZ6/Hr7edb5R/zWjVvfg8rt3oOPHgx93nB/M7j6x5+BCODMV/8GE+ejVIvj+JDhUeb8/8DenVS19I7+V3Llw4/haOtmOCYxHlUVSKOUkGXUZ5wHtVFnLGcLRJeVL2AC86iiBlfZCxw0ijNaojyOIYopXERL9KcVbwmpxmxB3urwNqPTP1BlS9dSGRIeMyyHM4hULiRrbvxrrziGNvp+RcH8op/QwQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action_type>
+        <action_type_parent display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0861d453c3e51210521ad72d0501316e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>b3a9a35fc3e95210521ad72d05013122</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>4963272c-df91-4723-887a-279c84e6a50b</ui_id>
+        <values>H4sIAAAAAAAA/42S3WrjMBCFX2XRtWMs/yRt7kpCYKHdwrbbm1LMRBonAll2ZSmtN+TddxS7btilsFexzpkZnfmU5yNTki1Zksy5zItMZFjwlCdFykEuUpkUCc/4ImURM1AjVcpG+BqNI+UA2gfpeFxZBIey5LHw1pIb75XFUsnh96PndKIuqbpWQ/80NpMi9kpL6mLL55eItWDpJoeWLY9/Wf8bVcMWNZWuP7P+m971bVAqpbEE50DsL4zbccKG3G83l25jZYjGI4bvDo1EylSB7jBiNRgJrrE9WzrrSSAq8t7ofqrYK5px3rmG9079pgB5EuoqpCXFyGM6PsJW43rgNVjVGhw80HThvJ3wNUpgNyCSWIHXbnWpDQX3rVONGVpcGDx2N9rX5seAh00DLp7Hd/SC2IZdQ/pxleph37z9/Ei6UeaMZTR1I0BPJ6Jr1da7kOfIvHr8ivxgfc0eNYavsoa2VWZXtrY5qPO9tEYd7zQd4ko3b5S3UzsTgwg7x/QqEG9IX5/lJ7AqALijMdQc7v1l1KvH7+H/VVxVaZYssplIMZvl85TPrufXV7Oi4HkuMVtI4OwUsa7vVhq67hMdvVv56sPiA8gRWTlQDy3CqtbdUKgDjnROL38Ajao2u4MDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Result - Doc Intel">09f1d493c3e51210521ad72d05013198</action_type>
+        <action_type_parent display_value="Get Result - Doc Intel">62855a71c3a5d250521ad72d05013122</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>09f1d493c3e51210521ad72d05013198</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>b7a9a35fc3e95210521ad72d05013123</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>453c8c21-4a4c-48c2-881f-91d0d370b4d3</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54lQQ9LtnwrYgQo0DZAk+YSBMKKXNkEKErhw4lr+N+7tGS3TS4FetzZ3dmZIZ+OTAq2ZrzuMrGoC15gmeVZWuYZiGUu0jLNiqxuWcQ09EiTMMq+oZ2I7UH5gByPi7oq8mXOY9HVWbxY5kW8Wi0hzpc1Xy2wgjJtk/OiwReP1hHB6UQUQtpRweHx/5n4TiphULP103PERjCk1qFh6+O71r/aVdCi+svvhwDcYQyAdUbq7Vx/mdfuL+BgRJCRRQzfHGqBdL8DZTFiPWgBbjAHtnbGE2AQxJ1Wh+vETmpHZCzMvln5k86t0jQNkx2SJY5T91o+QKtwM6U6tboNOCA1njtv5nG+GyRHOwUisAOv3M2f2DRwNzo56GnFBeJ5e1C+19+mNNiV4PKIhHiLjcAxuA36ZzPd/W54/X5Reiv1OZi5qQYO6lqBo/ha74KeI/Py4V3SE/Iha1TY08Wmh3EkpBnNsJfnKyS6T7aKiqRTwyups3KrE+DBYUKvAMkt4Zsz/AhGBrtfiYaWw7kfWtJ3+xz+jsiLqu1SEddYlfGiKkXcwgpjrDLohMgqUdXsFDF7sDcKrP0dFL1S8+KDzSm2OaBmyjiscCNH94lE7XHO4vT8CzREz+WjAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Result - Doc Intel">09f1d493c3e51210521ad72d05013198</action_type>
+        <action_type_parent display_value="Get Result - Doc Intel">62855a71c3a5d250521ad72d05013122</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>09f1d493c3e51210521ad72d05013198</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>bfa9a35fc3e95210521ad72d05013123</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>386971db-00f0-4771-a910-e5a9dd20cfb6</ui_id>
+        <values>H4sIAAAAAAAA/6VSy27bMBD8F54lQQ9LtnwrYgQo0DZAk+YSBMKKXNkEKErhw4lr+N+7tGS3TS4FetzZ3dmZIZ+OTAq2ZrzuMrGoC15gmeVZWuYZiGUu0jLNiqxuWcQ09EiTMMq+oZ2I7UH5gByPi7oq8mXOY9HVWbxY5kW8Wi0hzpc1Xy2wgjJtk/OiwReP1hHB6UQUQtpRweHx/5n4TiphULP103PERjCk1qFh6+O71r/aVdCi+svvhwDcYQyAdUbq7Vx/mdfuL+BgRJCRRQzfHGqBdL8DZTFiPWgBbjAHtnbGE2AQxJ1Wh+vETmpHZCzMvln5k86t0jQNkx2SJY5T91o+QKtwM6U6tboNOCA1njtv5nG+GyRHOwUisAOv3M2f2DRwNzo56GnFBeJ5e1C+19+mNNiV4PKIhHiLjcAxuA36ZzPd/W54/X5Reiv1OZi5qQYO6lqBo/ha74KeI/Py4V3SE/Iha1TY08Wmh3EkpBnNsJfnKyS6T7aKiqRTwyups3KrE+DBYUKvAMkt4Zsz/AhGBrtfiYaWw7kfWtJ3+xz+jsiLqu1SEddYlfGiKkXcwgpjrDLohMgqUdXsFDF7sDcKrP0dFL1S8+KDzSm2OaBmyjiscCNH94lE7XHO4vT8CzREz+WjAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>bfa9a35fc3e95210521ad72d05013125</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>12b3ffc1-0a42-431a-ba58-fdf65a6ae352</ui_id>
+        <values>H4sIAAAAAAAA/+1X207bQBD9FeTnxLJjQ0jeKiKkShQkqHhpqTX2jslK60v3EpJG+feOrzFJCzHlJSp529k5x2cmc9brb2uLM2tq+cgcd+KeRZ7reSPHGZ37bnjmhe6IeYDoWgMrhQQpU2KUSUbrBQhTBNbrC4mgkQWuHRkpMdX2nEsMONtsKI9xlQtY3dfpFInmXDDKs6bfHgZWDpKYNUprut7ZOlSagBAFpd422na16lVerFkWmYT0kbQ6eFUjZ/XOyecZ7RCokOM6AwuXGlOGJCQGoXBgJZAy0JlcWVMtDQWoeHaTilWbMeeprgpNYKn4L3qy7xR5MVJlUd2EdvkVQoGzqknVVjwDDXfEHmkj255lPEJV9YVhDEboi26sSrjJNc/SCqIL4hqdCZOk11VXrJag858YhQHDvKi1UF+VFt/Ns6fbRuglT8u21GWKLALRrkBryUOjCzlrCwWWfU4gz3n6GOQyW/ASTFIS+1HQwo5F9kTPVPwxtSEqdNvUWbAvKT4rw/cgeVHEF6Ih8GZgqZW6EKDUthTqY/DTFEqqwuoSgrILZQuCchoKcCR5rj/RoxZYC98MagOEpy9NWTTZDlWHc2uCZeCejgg6CiKJjOvACUoPMNTAhdq3weuAfi45QH/jknLg/lJPbZS92FUXe3JdbdQ2OX03m5wfm03qUo7eJ6+5wxm9eAZ3pqk0hHr2evDZyEOYhEM2jidDf8zOh+HY84cejMexHyJOfLBDLkTRAWA02EoFdHRjzkngZvMDksyQUmbwu3Ecjx1IWcEIv8Pdi2QHS2w60yACDctePC2qZaADISoEvoGmgRKXMmFQBnvRtChiyGFVziCdLUkvki6QeHi6KKz1BjXPkB2m1CQhyjdRVdAOFzmm3/R0gcRDw9efowERPjJKZwnK8lDtRfIMuT/NW6f8y1x3/bb/svrw8IeHPzx8ZB7ud3884A3f3B8vOQqm/vDKby6PmNDhoTGorgA7F8h68+S+3my/td7tFumeOeXvyO6S/80n18Nvk2XXrXUQAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=aba9635fc3e95210521ad72d050131b8^sys_idNOT IN73a9a35fc3e95210521ad72d0501311f,7fa9a35fc3e95210521ad72d05013120"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fd51e4dbc3291210521ad72d05013119</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>73a9a35fc3e95210521ad72d0501311f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>6ede75e9-e53e-4e6d-b739-d2a3830e102c</ui_id>
+        <values>H4sIAAAAAAAA/+1Z227bOBD9FUHPXq8uthz7rYg3QIHudhEHeSkKgaJGNlFaUikqqTfIv++Qoi62ZTduncIFAhhIOKSGZ2bOGZH2k52VMi9lcZe9Kwq2TO3Zp88Dm6XKhv8/2SlZgz2z41IQybI0lJsc7IH9QHip7PAt54wyGdYLcC5mRc7J5t4s+csssTpL6IrxWIDZLicCd5Eg7NnTzhSL0cNoOvHHV+5o4ju+6ztOFLgQBKNJECUBmVyN0SEnEXBcOjd7WHcVzgPw9Z8Z7pUxWo8/GBfXtTETsYLkOs4A45SQxoBoEsILGNhrksZEZmLTWASQ+GPKW8OKpRL92Wrxt4L9hzuOHLUuAYyPQjXXDO9IxGFe5a6aSuZEkoUUJZWlMMsryFVt6qD7MnysQCYw53nQ+rgFjtMP0OdDmLkeH27Xx78gKKSSLHu95M1sjx/vGYsdQ0JKLq/PF6J7hhC9M4XoqxCr8n3M9dTM9hX3VN1NcTNertN/Ks7aTULuj4mtWjL/vubKAlFBrmiseGlImixW2eNtzcEblmqsZpJnlPBmRKQULCqlKs2TDRzW6Chckzxn6TLMRfbA9MMYxnq45DgYJjx7xE1VZxkSqoAMUTVkeIP2uTbfE8FUAv5GN/jw88AuNsU1J0XRpgElEn4tFZIqKSaGUKdQP0IFy+U7qipo4KqiGfF3qiLZGkSo21uIQECNO/Xbb14n96oocePADdxo4gce9ip/RAMKwRTAdcnUczq9qsMljcvSuCyFyzLAXhyBaWg669oedibqzobtBP68q+yv0Ny0r3N1t752sK+fk+Tzu2gAmVSEFaVNbHrzV9FGRaeWX+cVw5Xj+74zpWN/0oghjgGSZBK5Hri9Ymhp3wPO8BzJB0udqi6/3zfWN3a/sbshUM+L2p1OnD8cFz+W48zwoxvzDt09x1oAzdK4OJn4kLijMT10Yo2g58S6S/sO6u3mvm3/sO+mPrdc6Ln1jfu/kPt759owQyCKAB01kERqcDv8r82nUT+mZOQ64wPU94IO9e/0qUfsHsutDsSXB3PKlc6/UGm094w697sl6ru6RZBkovvmbgzNLej45eo7m7knbeb99DWnoWPv1aae3RE8pvQS9V4jpJvw2FWzs8zwuCXj6c1h+9uOH+4Ur3NBchNvHB/sDxP/SH/Yvxi9APqP3oxGF9ojfsnr8yfV1P+WG7ypDNOygrjkZ9ZUEo3HeOA8oKnA2z5uYuYtuQIryTimVI06qA6hNQlrWbwtoNuO3QhofEYB+d62gOg67YI7JKZFu+QCRHX6mTRZABF0dcOAqzLr2vxu38N9VkyvfDeZpqxACLpY7+ufGtTEBiNktGt6zMQXBb61Pf8PHXQRfrQYAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3951e4dbc3291210521ad72d0501311b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Doc Intelligene Azure">aba9635fc3e95210521ad72d050131b8</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>7fa9a35fc3e95210521ad72d05013120</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <ui_id>6b2d5174-5b6f-4624-b24d-2cd8ec69e9b1</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lZZnWdAztXMLYgQokDZAE+TSBMKKpGyiNKnykcQ1/O9dirIT1C7aoDn2Js5yd2eHO9CGaO967+yNPrNWLBQ5/XqfEKECht8bomDFySmhWjHhhFbNACTkAaQPAeOVEmqBCBO2l7C+PQjQpZDM8LF2DwYrOG7I6eaXkGCY12XQ5TOa07I4KYssK6ZV3p6UbV6wEjiUWFBCyyVePd+Renc5IMlv2bp1H3DrTKQUzpdjlesdqA0LrPIsIfzJccU48ulAWp6QFSgGTpv1HjEc2JWSz8BSKIflSLj8ZMUPbFjUdbjYcRyR8hjcH2+glXweRYuhbg4OkI6nzpvxOl1qQbmNAjHegZfu/CUWL1z1YdyY4kLhMVtLv1KfoypkX2D3Roh4yxvG+zBtoD/O0l0v9eOXHdMLoQZlxqDUFOT+BA71a70LfDaES77CQs0K+h5VbXqjH8SQjFxW6ULiIe2kfsSmYd9SoIF4iuJCeoH4fIBvwYgwxScsg8mRZgtW0GbYTSyHMnGyTYhd23MJ1j4PiQo3332gGEceh2uiPiGFGtG7M+z8wMc5tsnhqr/Y8s2mqks6pUU+qaCikwo/J9Np3k1mOctY+SFrK1am1oHzdrt9f+ezrGTWU8p5WKMDd/x7wde5agZ1V+dZfdxV1ckxVx3x0yutVPzBSuEN/9JJWZb9t9KbWEnYJhpgnG1o/oZOug+2iT33WlNhkdrwTB93/5YQWOOCCfoSetTmWxjqGdv+BHT1qWClBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=aba9635fc3e95210521ad72d050131b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8^sys_idNOT IN7ba9635fc3e95210521ad72d050131f9,fba9a35fc3e95210521ad72d05013100"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>7ba9635fc3e95210521ad72d050131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:15</sys_created_on>
+        <sys_id>fba9a35fc3e95210521ad72d05013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aba9635fc3e95210521ad72d050131b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aba9635fc3e95210521ad72d050131b8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aba9635fc3e95210521ad72d050131b8"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>17219413c3e51210521ad72d050131b3</sys_id>
+        <latest_snapshot>aba9635fc3e95210521ad72d050131b8</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=17219413c3e51210521ad72d050131b3^sys_idNOT IN18b9a35fc3e95210521ad72d0501317c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"18b9a35fc3e95210521ad72d0501317c","name":"plan","plan_signature":null}}</plan>
+        <plan_id>17219413c3e51210521ad72d050131b3</plan_id>
+        <snapshot>067a2f9fc3e95210521ad72d050131ef</snapshot>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-04 09:34:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18b9a35fc3e95210521ad72d0501317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:34:17</sys_updated_on>
+        <trigger display_value="">7a35dbc7c3611210521ad72d05013155</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=17219413c3e51210521ad72d050131b3"/>
+</record_update>

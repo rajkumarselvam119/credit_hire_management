@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from>51a24ff7c39d9610521ad72d050131c7</copied_from>
+        <copied_from_name>AzureAIDocumentIntelligence</copied_from_name>
+        <description>AzureAIDocumentIntelligence</description>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>copy_of_azureaidocumentintelligence</internal_name>
+        <label_cache>[{"name":"{{action.document}}","label":"action➛Document","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_body}}","label":"step➛Initiate Transaction➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_headers}}","label":"step➛Initiate Transaction➛Response Headers","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5].root.apim-request-id}}","label":"step➛JSON Parser step➛root➛apim-request-id","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[df52514a-ce2f-4eb8-9fdc-08127c34d602].apim_id}}","label":"step➛Script step➛apim_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d7de33dd-d8f4-4b28-8da7-f221ad24d71f"}}]</label_cache>
+        <master_snapshot>0861d453c3e51210521ad72d0501316e</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Copy of AzureAIDocumentIntelligence</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b38f431c36d9250521ad72d05013186</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Copy of AzureAIDocumentIntelligence</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3b38f431c36d9250521ad72d05013186</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b38f431c36d9250521ad72d05013186"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3b38f431c36d9250521ad72d05013186"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3b38f431c36d9250521ad72d05013186</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>50483831c36d9250521ad72d05013145</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 19:14:07</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD04483831626d9250a5b59a666564ea2c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD04483831626d9250a5b59a666564ea2c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4fd3df72-17e2-4a18-88e2-bb5542c78bc4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD04483831626d9250a5b59a666564ea2c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">04483831c36d9250521ad72d0501312d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3b38f431c36d9250521ad72d05013186</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>9c483831c36d9250521ad72d05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">94483831c36d9250521ad72d05013137</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b38f431c36d9250521ad72d05013186"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apim_request_id</field>
+        <id>3b38f431c36d9250521ad72d05013186</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 19:14:06</sys_created_on>
+        <sys_id>0d7e37bdc3edd250521ad72d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 19:14:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</table>
+        <value>{{step[df52514a-ce2f-4eb8-9fdc-08127c34d602].apim_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>data</field>
+        <id>3b38f431c36d9250521ad72d05013186</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>94483831c36d9250521ad72d05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</table>
+        <value>{{step[9de68d70-d0ad-4d15-85cd-18afd2cf268f].payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>3b38f431c36d9250521ad72d05013186</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>1c483831c36d9250521ad72d05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>3b38f431c36d9250521ad72d05013186</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>58483831c36d9250521ad72d05013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=3b38f431c36d9250521ad72d05013186^sys_idNOT IN3338f431c36d9250521ad72d050131a7,6a46d1bdc3ed9250521ad72d050131aa,8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action>
+        <cid>a8b2da71-081c-431c-873f-5502e1bb21ed</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Initiate Transaction</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>3338f431c36d9250521ad72d050131a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3338f431c36d9250521ad72d050131a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>0048f431c36d9250521ad72d050131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>0448f431c36d9250521ad72d050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>multi-part</value>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>0448f431c36d9250521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>[{"name":"file","type":"application/json","order":0,"value":"34f42f11c3e91250521ad72d05013167","itemType":"multi-part-data","part_type":"file","content_type":"application/json","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"file"}]</value>
+        <variable display_value="Multipart Body">b564608787d01300dd637d5e27cb0b7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>0848f431c36d9250521ad72d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>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</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>4048f431c36d9250521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>4448f431c36d9250521ad72d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>4c48f431c36d9250521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>https://rnd-document-intelligence.cognitiveservices.azure.com/formrecognizer/documentModels/prebuilt-invoice:analyze</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>8448f431c36d9250521ad72d050131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>8848f431c36d9250521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>8c48f431c36d9250521ad72d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>c048f431c36d9250521ad72d050131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api-version","value":"2023-07-31"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>c448f431c36d9250521ad72d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Ocp-Apim-Subscription-Key","value":"1cc6f1f546824dc49465045fb0c8e5e2"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Disposition","value":"form-data"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3338f431c36d9250521ad72d050131a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>c848f431c36d9250521ad72d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=3338f431c36d9250521ad72d050131a7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3338f431c36d9250521ad72d050131a7"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3338f431c36d9250521ad72d050131a7"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3338f431c36d9250521ad72d050131a7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3338f431c36d9250521ad72d050131a7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3338f431c36d9250521ad72d050131a7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action>
+        <cid>df52514a-ce2f-4eb8-9fdc-08127c34d602</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>6a46d1bdc3ed9250521ad72d050131aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a46d1bdc3ed9250521ad72d050131aa</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>3e46d1bdc3ed9250521ad72d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a46d1bdc3ed9250521ad72d050131aa</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>fe46d1bdc3ed9250521ad72d050131ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:50</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+var gr=JSON.stringify(inputs.apim_request);&#13;
+var replace = gr.replaceAll('"', '');&#13;
+var replace1 = replace.replaceAll('[','');&#13;
+outputs.apim_id = replace1.replaceAll(']','');&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apim_request</field>
+        <id>6a46d1bdc3ed9250521ad72d050131aa</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>ba46d1bdc3ed9250521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6a46d1bdc3ed9250521ad72d050131aa</table>
+        <value>{{step[2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5].root.apim-request-id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6a46d1bdc3ed9250521ad72d050131aa</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>f646d1bdc3ed9250521ad72d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6a46d1bdc3ed9250521ad72d050131aa</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>ba46d1bdc3ed9250521ad72d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6a46d1bdc3ed9250521ad72d050131aa^id=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6a46d1bdc3ed9250521ad72d050131aa^sys_idNOT IN7e46d1bdc3ed9250521ad72d050131ae"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6a46d1bdc3ed9250521ad72d050131aa</model>
+        <model_id>6a46d1bdc3ed9250521ad72d050131aa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6a46d1bdc3ed9250521ad72d050131aa</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>7e46d1bdc3ed9250521ad72d050131ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6a46d1bdc3ed9250521ad72d050131aa^sys_idNOT IN7e46d1bdc3ed9250521ad72d050131b2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d7de33dd-d8f4-4b28-8da7-f221ad24d71f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apim_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6a46d1bdc3ed9250521ad72d050131aa</model>
+        <model_id>6a46d1bdc3ed9250521ad72d050131aa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6a46d1bdc3ed9250521ad72d050131aa</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>7e46d1bdc3ed9250521ad72d050131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a46d1bdc3ed9250521ad72d050131aa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6a46d1bdc3ed9250521ad72d050131aa^sys_idNOT INf646d1bdc3ed9250521ad72d050131b6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apim_id</element>
+        <help/>
+        <hint/>
+        <label>apim_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_6a46d1bdc3ed9250521ad72d050131aa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:59:24</sys_created_on>
+        <sys_id>f646d1bdc3ed9250521ad72d050131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:59:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action>
+        <cid>2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>8f04d9b9c3ed9250521ad72d050131fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f04d9b9c3ed9250521ad72d050131fe</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>47041db9c3ed9250521ad72d0501311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f04d9b9c3ed9250521ad72d050131fe</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>83041db9c3ed9250521ad72d0501311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <value>{&#13;
+    "x-ms-region": ["East US"],&#13;
+    "x-envoy-upstream-service-time": ["82"],&#13;
+    "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"],&#13;
+    "x-content-type-options": ["nosniff"],&#13;
+    "apim-request-id": ["4c85dd0f-6e7f-4508-9c48-d86668635fcf"],&#13;
+    "Content-Length": ["0"],&#13;
+    "Operation-Location": ["https://rnd-document-intelligence.cognitiveservices.azure.com/formrecognizer/documentModels/prebuilt-invoice/analyzeResults/4c85dd0f-6e7f-4508-9c48-d86668635fcf?api-version=2023-07-31"],&#13;
+    "Date": ["Tue, 29 Oct 2024 12:40:22 GMT"]&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f04d9b9c3ed9250521ad72d050131fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>8b041db9c3ed9250521ad72d0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"x-ms-region","children":[{"name":"x-ms-region_string","children":[],"type":"string","jpath":"$.x-ms-region[*]","previewValue":"East US"}],"type":"array.string","jpath":"$.x-ms-region[*]","previewValue":""},{"name":"x-envoy-upstream-service-time","children":[{"name":"x-envoy-upstream-service-time_string","children":[],"type":"string","jpath":"$.x-envoy-upstream-service-time[*]","previewValue":"82"}],"type":"array.string","jpath":"$.x-envoy-upstream-service-time[*]","previewValue":""},{"name":"Strict-Transport-Security","children":[{"name":"Strict-Transport-Security_string","children":[],"type":"string","jpath":"$.Strict-Transport-Security[*]","previewValue":"max-age=31536000; includeSubDomains; preload"}],"type":"array.string","jpath":"$.Strict-Transport-Security[*]","previewValue":""},{"name":"x-content-type-options","children":[{"name":"x-content-type-options_string","children":[],"type":"string","jpath":"$.x-content-type-options[*]","previewValue":"nosniff"}],"type":"array.string","jpath":"$.x-content-type-options[*]","previewValue":""},{"name":"apim-request-id","children":[{"name":"apim-request-id_string","children":[],"type":"string","jpath":"$.apim-request-id[*]","previewValue":"4c85dd0f-6e7f-4508-9c48-d86668635fcf"}],"type":"array.string","jpath":"$.apim-request-id[*]","previewValue":""},{"name":"Content-Length","children":[{"name":"Content-Length_string","children":[],"type":"string","jpath":"$.Content-Length[*]","previewValue":"0"}],"type":"array.string","jpath":"$.Content-Length[*]","previewValue":""},{"name":"Operation-Location","children":[{"name":"Operation-Location_string","children":[],"type":"string","jpath":"$.Operation-Location[*]","previewValue":"https:\\/\\/rnd-document-intelligence.cognitiveservices.azure.com\\/formrecognizer\\/documentModels\\/prebuilt-invoice\\/analyzeResults\\/4c85dd0f-6e7f-4508-9c48-d86668635fcf?api-version=2023-07-31"}],"type":"array.string","jpath":"$.Operation-Location[*]","previewValue":""},{"name":"Date","children":[{"name":"Date_string","children":[],"type":"string","jpath":"$.Date[*]","previewValue":"Tue, 29 Oct 2024 12:40:22 GMT"}],"type":"array.string","jpath":"$.Date[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8f04d9b9c3ed9250521ad72d050131fe^id=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_element_mapping action="delete_multiple" query="id=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>8f04d9b9c3ed9250521ad72d050131fe</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>47041db9c3ed9250521ad72d0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>8f04d9b9c3ed9250521ad72d050131fe</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>0b041db9c3ed9250521ad72d0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>8f04d9b9c3ed9250521ad72d050131fe</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>83041db9c3ed9250521ad72d0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>8f04d9b9c3ed9250521ad72d050131fe</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>cb041db9c3ed9250521ad72d05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8f04d9b9c3ed9250521ad72d050131fe^sys_idNOT INcf041db9c3ed9250521ad72d0501310f"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8b041db980ed925072e9ca3816eb0701</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0d6c13788319d2100bafad20ceaad325</scope_name>
+        <serialized_content>{"FlowDesigner:FD8b041db980ed925072e9ca3816eb0701":{"x-ms-region":["Any"],"x-ms-region.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-ms-region\",\"mandatory\":\"false\",\"child_name\":\"x-ms-region_string\",\"uiUniqueId\":\"05a7a415-3aaa-4789-8683-d43e4edfe953\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-ms-region_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b7020085-c022-4334-8a62-e9c910502728\"}"},"Strict-Transport-Security":["Any"],"Strict-Transport-Security.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Strict-Transport-Security\",\"mandatory\":\"false\",\"child_name\":\"Strict-Transport-Security_string\",\"uiUniqueId\":\"ed7467df-5bad-410d-85c8-2d28047219a0\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Strict-Transport-Security_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"bd666b38-1386-4f65-812e-19028a54185e\"}"},"x-envoy-upstream-service-time":["Any"],"x-envoy-upstream-service-time.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-envoy-upstream-service-time\",\"mandatory\":\"false\",\"child_name\":\"x-envoy-upstream-service-time_string\",\"uiUniqueId\":\"c0f35164-ea33-4069-9819-d6893b5364b1\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-envoy-upstream-service-time_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"0\",\"child_uiUniqueId\":\"72fdbfcf-81e7-4aee-bfb7-aafa9b7ac8e2\"}"},"x-content-type-options":["Any"],"x-content-type-options.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-content-type-options\",\"mandatory\":\"false\",\"child_name\":\"x-content-type-options_string\",\"uiUniqueId\":\"0ac4571b-7680-4d5b-995f-fe0444955206\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-content-type-options_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"0e582e28-4d26-4cfb-a999-d5aed30a8c1e\"}"},"apim-request-id":["Any"],"apim-request-id.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"apim-request-id\",\"mandatory\":\"false\",\"child_name\":\"apim-request-id_string\",\"uiUniqueId\":\"38274faa-2e3c-4c2b-a548-0096c9bd0471\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"apim-request-id_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"2fef688e-127e-4dc3-b06d-63c61f38435e\"}"},"Content-Length":["Any"],"Content-Length.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Content-Length\",\"mandatory\":\"false\",\"child_name\":\"Content-Length_string\",\"uiUniqueId\":\"228737db-5333-4af3-9b1d-750fe92f0d2f\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Content-Length_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"6\",\"max_length\":\"0\",\"child_uiUniqueId\":\"0e483294-4327-407b-a9ee-8eef39c730f3\"}"},"Operation-Location":["Any"],"Operation-Location.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Operation-Location\",\"mandatory\":\"false\",\"child_name\":\"Operation-Location_string\",\"uiUniqueId\":\"1cf404e8-be30-4dee-baeb-0a7ac47babc6\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Operation-Location_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"0\",\"child_uiUniqueId\":\"2d56a175-46d5-4e77-b83c-090ed8d280da\"}"},"Date":["Any"],"Date.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Date\",\"mandatory\":\"false\",\"child_name\":\"Date_string\",\"uiUniqueId\":\"3cb498e3-85f6-4394-ba57-2f1ee93d46b6\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Date_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"8\",\"max_length\":\"0\",\"child_uiUniqueId\":\"48f6af4b-7cd6-41a6-be03-3ccd997fb914\"}"}},"FlowDesigner:FD8b041db980ed925072e9ca3816eb0701.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"579a027a-662d-4a4b-870e-d5e69cef4d61\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8b041db980ed925072e9ca3816eb0701\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f041db9c3ed9250521ad72d05013101</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:10</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD8b041db980ed925072e9ca3816eb0701,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=579a027a-662d-4a4b-870e-d5e69cef4d61</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">8f04d9b9c3ed9250521ad72d050131fe</model>
+        <model_id>8f04d9b9c3ed9250521ad72d050131fe</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8f04d9b9c3ed9250521ad72d050131fe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>cf041db9c3ed9250521ad72d0501310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8f04d9b9c3ed9250521ad72d050131fe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8f04d9b9c3ed9250521ad72d050131fe^sys_idNOT IN47041db9c3ed9250521ad72d05013116"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8f04d9b9c3ed9250521ad72d050131fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 06:49:36</sys_created_on>
+        <sys_id>47041db9c3ed9250521ad72d05013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 06:49:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=3b38f431c36d9250521ad72d05013186^sys_idNOT INb738f431c36d9250521ad72d0501318e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=file_attachment,uiTypeLabel=File Attachment,uiUniqueId=58f23073-c2e3-4621-9698-55144de37da1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>document</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">file_attachment</internal_type>
+        <label>Document</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</model>
+        <model_id>3b38f431c36d9250521ad72d05013186</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3b38f431c36d9250521ad72d05013186</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>b738f431c36d9250521ad72d0501318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b738f431c36d9250521ad72d0501318e"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3b38f431c36d9250521ad72d05013186^sys_idNOT IN04483831c36d9250521ad72d0501312d,3c7e37bdc3edd250521ad72d050131a2,94483831c36d9250521ad72d05013137"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD04483831626d9250a5b59a666564ea2c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0d6c13788319d2100bafad20ceaad325</scope_name>
+        <serialized_content>{"FlowDesigner:FD04483831626d9250a5b59a666564ea2c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD04483831626d9250a5b59a666564ea2c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4fd3df72-17e2-4a18-88e2-bb5542c78bc4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD04483831626d9250a5b59a666564ea2c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4483831c36d9250521ad72d0501312c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:10</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD04483831626d9250a5b59a666564ea2c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4fd3df72-17e2-4a18-88e2-bb5542c78bc4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</model>
+        <model_id>3b38f431c36d9250521ad72d05013186</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:09</sys_created_on>
+        <sys_id>04483831c36d9250521ad72d0501312d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 19:14:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=04483831c36d9250521ad72d0501312d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=04483831c36d9250521ad72d0501312d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=38821d65-04c9-4c7b-ba77-77d7874fb2dc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_request_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apim_request_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</model>
+        <model_id>3b38f431c36d9250521ad72d05013186</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 19:14:06</sys_created_on>
+        <sys_id>3c7e37bdc3edd250521ad72d050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 19:14:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c7e37bdc3edd250521ad72d050131a2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c7e37bdc3edd250521ad72d050131a2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=262f91fa-d85f-4b05-9efc-05fcf81abce7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</model>
+        <model_id>3b38f431c36d9250521ad72d05013186</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:09</sys_created_on>
+        <sys_id>94483831c36d9250521ad72d05013137</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=94483831c36d9250521ad72d05013137"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=94483831c36d9250521ad72d05013137"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3b38f431c36d9250521ad72d05013186"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3b38f431c36d9250521ad72d05013186^sys_idNOT IN9c483831c36d9250521ad72d05013146"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action_type_id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:10</sys_created_on>
+        <sys_id>9c483831c36d9250521ad72d05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:10</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9c483831c36d9250521ad72d05013146"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3b38f431c36d9250521ad72d05013186^sys_idNOT INbb38f431c36d9250521ad72d050131a4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>document</element>
+        <help/>
+        <hint/>
+        <label>Document</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3b38f431c36d9250521ad72d05013186</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:08</sys_created_on>
+        <sys_id>bb38f431c36d9250521ad72d050131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3b38f431c36d9250521ad72d05013186"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186^sys_idNOT IN00483831c36d9250521ad72d05013132,50483831c36d9250521ad72d0501313e,857e37bdc3edd250521ad72d050131a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:09</sys_created_on>
+        <sys_id>00483831c36d9250521ad72d05013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 04:48:09</sys_created_on>
+        <sys_id>50483831c36d9250521ad72d0501313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 04:48:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apim_request_id</element>
+        <help/>
+        <hint/>
+        <label>apim_request_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-30 19:14:06</sys_created_on>
+        <sys_id>857e37bdc3edd250521ad72d050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-30 19:14:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3b38f431c36d9250521ad72d05013186"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3b38f431c36d9250521ad72d05013186^sys_idNOT IN5061d453c3e51210521ad72d050131fc"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5061d453c3e51210521ad72d050131fc","name":"plan","plan_signature":null}}</plan>
+        <snapshot>5c61d453c3e51210521ad72d050131bd</snapshot>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5061d453c3e51210521ad72d050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from>51a24ff7c39d9610521ad72d050131c7</copied_from>
+        <copied_from_name/>
+        <description>AzureAIDocumentIntelligence</description>
+        <flow_priority/>
+        <internal_name>copy_of_azureaidocumentintelligence</internal_name>
+        <label_cache>[{"name":"{{action.document}}","label":"action➛Document","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_body}}","label":"step➛Initiate Transaction➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_headers}}","label":"step➛Initiate Transaction➛Response Headers","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5].root.apim-request-id}}","label":"step➛JSON Parser step➛root➛apim-request-id","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[df52514a-ce2f-4eb8-9fdc-08127c34d602].apim_id}}","label":"step➛Script step➛apim_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d7de33dd-d8f4-4b28-8da7-f221ad24d71f"}}]</label_cache>
+        <master>true</master>
+        <name>Copy of AzureAIDocumentIntelligence</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Copy of AzureAIDocumentIntelligence">3b38f431c36d9250521ad72d05013186</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0861d453c3e51210521ad72d0501316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0861d453c3e51210521ad72d0501316e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0861d453c3e51210521ad72d0501316e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0861d453c3e51210521ad72d0501316e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>9861d453c3e51210521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">8061d453c3e51210521ad72d050131b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0861d453c3e51210521ad72d0501316e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>d461d453c3e51210521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4c61d453c3e51210521ad72d050131b3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0861d453c3e51210521ad72d0501316e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apim_request_id</field>
+        <id>0861d453c3e51210521ad72d0501316e</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>9061d453c3e51210521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</table>
+        <value>{{step[df52514a-ce2f-4eb8-9fdc-08127c34d602].apim_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>0861d453c3e51210521ad72d0501316e</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>5461d453c3e51210521ad72d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>0861d453c3e51210521ad72d0501316e</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>dc61d453c3e51210521ad72d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=0861d453c3e51210521ad72d0501316e^sys_idNOT IN0c61d453c3e51210521ad72d0501318c,8061d453c3e51210521ad72d05013177,c061d453c3e51210521ad72d05013199"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action>
+        <cid>2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0c61d453c3e51210521ad72d0501318c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0c61d453c3e51210521ad72d0501318c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0c61d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"x-ms-region","children":[{"name":"x-ms-region_string","children":[],"type":"string","jpath":"$.x-ms-region[*]","previewValue":"East US"}],"type":"array.string","jpath":"$.x-ms-region[*]","previewValue":""},{"name":"x-envoy-upstream-service-time","children":[{"name":"x-envoy-upstream-service-time_string","children":[],"type":"string","jpath":"$.x-envoy-upstream-service-time[*]","previewValue":"82"}],"type":"array.string","jpath":"$.x-envoy-upstream-service-time[*]","previewValue":""},{"name":"Strict-Transport-Security","children":[{"name":"Strict-Transport-Security_string","children":[],"type":"string","jpath":"$.Strict-Transport-Security[*]","previewValue":"max-age=31536000; includeSubDomains; preload"}],"type":"array.string","jpath":"$.Strict-Transport-Security[*]","previewValue":""},{"name":"x-content-type-options","children":[{"name":"x-content-type-options_string","children":[],"type":"string","jpath":"$.x-content-type-options[*]","previewValue":"nosniff"}],"type":"array.string","jpath":"$.x-content-type-options[*]","previewValue":""},{"name":"apim-request-id","children":[{"name":"apim-request-id_string","children":[],"type":"string","jpath":"$.apim-request-id[*]","previewValue":"4c85dd0f-6e7f-4508-9c48-d86668635fcf"}],"type":"array.string","jpath":"$.apim-request-id[*]","previewValue":""},{"name":"Content-Length","children":[{"name":"Content-Length_string","children":[],"type":"string","jpath":"$.Content-Length[*]","previewValue":"0"}],"type":"array.string","jpath":"$.Content-Length[*]","previewValue":""},{"name":"Operation-Location","children":[{"name":"Operation-Location_string","children":[],"type":"string","jpath":"$.Operation-Location[*]","previewValue":"https:\\/\\/rnd-document-intelligence.cognitiveservices.azure.com\\/formrecognizer\\/documentModels\\/prebuilt-invoice\\/analyzeResults\\/4c85dd0f-6e7f-4508-9c48-d86668635fcf?api-version=2023-07-31"}],"type":"array.string","jpath":"$.Operation-Location[*]","previewValue":""},{"name":"Date","children":[{"name":"Date_string","children":[],"type":"string","jpath":"$.Date[*]","previewValue":"Tue, 29 Oct 2024 12:40:22 GMT"}],"type":"array.string","jpath":"$.Date[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0c61d453c3e51210521ad72d0501318c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8061d453c3e51210521ad72d05013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0c61d453c3e51210521ad72d0501318c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>cc61d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>{&#13;
+    "x-ms-region": ["East US"],&#13;
+    "x-envoy-upstream-service-time": ["82"],&#13;
+    "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"],&#13;
+    "x-content-type-options": ["nosniff"],&#13;
+    "apim-request-id": ["4c85dd0f-6e7f-4508-9c48-d86668635fcf"],&#13;
+    "Content-Length": ["0"],&#13;
+    "Operation-Location": ["https://rnd-document-intelligence.cognitiveservices.azure.com/formrecognizer/documentModels/prebuilt-invoice/analyzeResults/4c85dd0f-6e7f-4508-9c48-d86668635fcf?api-version=2023-07-31"],&#13;
+    "Date": ["Tue, 29 Oct 2024 12:40:22 GMT"]&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0c61d453c3e51210521ad72d0501318c^id=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_element_mapping action="delete_multiple" query="id=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>0c61d453c3e51210521ad72d0501318c</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c461d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>0c61d453c3e51210521ad72d0501318c</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8861d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>0c61d453c3e51210521ad72d0501318c</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0461d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[a8b2da71-081c-431c-873f-5502e1bb21ed].response_headers}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>0c61d453c3e51210521ad72d0501318c</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4061d453c3e51210521ad72d05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0c61d453c3e51210521ad72d0501318c^sys_idNOT INc061d453c3e51210521ad72d05013190"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8061d453f6e5121068c5b9c529f5dc8f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0d6c13788319d2100bafad20ceaad325</scope_name>
+        <serialized_content>{"FlowDesigner:FD8061d453f6e5121068c5b9c529f5dc8f":{"x-ms-region":["Any"],"x-ms-region.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-ms-region\",\"mandatory\":\"false\",\"child_name\":\"x-ms-region_string\",\"uiUniqueId\":\"05a7a415-3aaa-4789-8683-d43e4edfe953\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-ms-region_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b7020085-c022-4334-8a62-e9c910502728\"}"},"Strict-Transport-Security":["Any"],"Strict-Transport-Security.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Strict-Transport-Security\",\"mandatory\":\"false\",\"child_name\":\"Strict-Transport-Security_string\",\"uiUniqueId\":\"ed7467df-5bad-410d-85c8-2d28047219a0\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Strict-Transport-Security_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"bd666b38-1386-4f65-812e-19028a54185e\"}"},"x-envoy-upstream-service-time":["Any"],"x-envoy-upstream-service-time.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-envoy-upstream-service-time\",\"mandatory\":\"false\",\"child_name\":\"x-envoy-upstream-service-time_string\",\"uiUniqueId\":\"c0f35164-ea33-4069-9819-d6893b5364b1\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-envoy-upstream-service-time_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"0\",\"child_uiUniqueId\":\"72fdbfcf-81e7-4aee-bfb7-aafa9b7ac8e2\"}"},"x-content-type-options":["Any"],"x-content-type-options.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"x-content-type-options\",\"mandatory\":\"false\",\"child_name\":\"x-content-type-options_string\",\"uiUniqueId\":\"0ac4571b-7680-4d5b-995f-fe0444955206\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"x-content-type-options_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"0e582e28-4d26-4cfb-a999-d5aed30a8c1e\"}"},"apim-request-id":["Any"],"apim-request-id.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"apim-request-id\",\"mandatory\":\"false\",\"child_name\":\"apim-request-id_string\",\"uiUniqueId\":\"38274faa-2e3c-4c2b-a548-0096c9bd0471\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"apim-request-id_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"2fef688e-127e-4dc3-b06d-63c61f38435e\"}"},"Content-Length":["Any"],"Content-Length.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Content-Length\",\"mandatory\":\"false\",\"child_name\":\"Content-Length_string\",\"uiUniqueId\":\"228737db-5333-4af3-9b1d-750fe92f0d2f\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Content-Length_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"6\",\"max_length\":\"0\",\"child_uiUniqueId\":\"0e483294-4327-407b-a9ee-8eef39c730f3\"}"},"Operation-Location":["Any"],"Operation-Location.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Operation-Location\",\"mandatory\":\"false\",\"child_name\":\"Operation-Location_string\",\"uiUniqueId\":\"1cf404e8-be30-4dee-baeb-0a7ac47babc6\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Operation-Location_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"0\",\"child_uiUniqueId\":\"2d56a175-46d5-4e77-b83c-090ed8d280da\"}"},"Date":["Any"],"Date.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Date\",\"mandatory\":\"false\",\"child_name\":\"Date_string\",\"uiUniqueId\":\"3cb498e3-85f6-4394-ba57-2f1ee93d46b6\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Date_string\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"8\",\"max_length\":\"0\",\"child_uiUniqueId\":\"48f6af4b-7cd6-41a6-be03-3ccd997fb914\"}"}},"FlowDesigner:FD8061d453f6e5121068c5b9c529f5dc8f.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"579a027a-662d-4a4b-870e-d5e69cef4d61\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8061d453f6e5121068c5b9c529f5dc8f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4461d453c3e51210521ad72d0501318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD8061d453f6e5121068c5b9c529f5dc8f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=579a027a-662d-4a4b-870e-d5e69cef4d61</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">0c61d453c3e51210521ad72d0501318c</model>
+        <model_id>0c61d453c3e51210521ad72d0501318c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0c61d453c3e51210521ad72d0501318c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c061d453c3e51210521ad72d05013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0c61d453c3e51210521ad72d0501318c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0c61d453c3e51210521ad72d0501318c^sys_idNOT IN8861d453c3e51210521ad72d05013193"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0c61d453c3e51210521ad72d0501318c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8861d453c3e51210521ad72d05013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action>
+        <cid>a8b2da71-081c-431c-873f-5502e1bb21ed</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Initiate Transaction</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8061d453c3e51210521ad72d05013177</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8061d453c3e51210521ad72d05013177"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0061d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>multi-part</value>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0461d453c3e51210521ad72d05013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0861d453c3e51210521ad72d05013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0c61d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4061d453c3e51210521ad72d05013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api-version","value":"2023-07-31"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4461d453c3e51210521ad72d05013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Ocp-Apim-Subscription-Key","value":"1cc6f1f546824dc49465045fb0c8e5e2"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Disposition","value":"form-data"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4861d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8061d453c3e51210521ad72d05013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>[{"name":"file","type":"application/json","order":0,"value":"34f42f11c3e91250521ad72d05013167","itemType":"multi-part-data","part_type":"file","content_type":"application/json","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"file"}]</value>
+        <variable display_value="Multipart Body">b564608787d01300dd637d5e27cb0b7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8461d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>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</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8c61d453c3e51210521ad72d05013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c061d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c861d453c3e51210521ad72d05013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>https://rnd-document-intelligence.cognitiveservices.azure.com/formrecognizer/documentModels/prebuilt-invoice:analyze</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8061d453c3e51210521ad72d05013177</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>cc61d453c3e51210521ad72d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=8061d453c3e51210521ad72d05013177"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8061d453c3e51210521ad72d05013177"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8061d453c3e51210521ad72d05013177"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8061d453c3e51210521ad72d05013177"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8061d453c3e51210521ad72d05013177"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8061d453c3e51210521ad72d05013177"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action>
+        <cid>df52514a-ce2f-4eb8-9fdc-08127c34d602</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c061d453c3e51210521ad72d05013199</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c061d453c3e51210521ad72d05013199"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c061d453c3e51210521ad72d05013199</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8c61d453c3e51210521ad72d050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+var gr=JSON.stringify(inputs.apim_request);&#13;
+var replace = gr.replaceAll('"', '');&#13;
+var replace1 = replace.replaceAll('[','');&#13;
+outputs.apim_id = replace1.replaceAll(']','');&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c061d453c3e51210521ad72d05013199</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c861d453c3e51210521ad72d050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c061d453c3e51210521ad72d05013199"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apim_request</field>
+        <id>c061d453c3e51210521ad72d05013199</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4861d453c3e51210521ad72d050131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c061d453c3e51210521ad72d05013199</table>
+        <value>{{step[2e7fb75d-4fa9-4a73-a8f7-07fce2ffc3d5].root.apim-request-id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c061d453c3e51210521ad72d05013199</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8461d453c3e51210521ad72d050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c061d453c3e51210521ad72d05013199</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4861d453c3e51210521ad72d050131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c061d453c3e51210521ad72d05013199^id=c061d453c3e51210521ad72d05013199"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c061d453c3e51210521ad72d05013199"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c061d453c3e51210521ad72d05013199"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c061d453c3e51210521ad72d05013199^sys_idNOT IN8461d453c3e51210521ad72d0501319c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apim_request</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c061d453c3e51210521ad72d05013199</model>
+        <model_id>c061d453c3e51210521ad72d05013199</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c061d453c3e51210521ad72d05013199</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8461d453c3e51210521ad72d0501319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c061d453c3e51210521ad72d05013199^sys_idNOT IN8c61d453c3e51210521ad72d050131a0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d7de33dd-d8f4-4b28-8da7-f221ad24d71f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apim_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c061d453c3e51210521ad72d05013199</model>
+        <model_id>c061d453c3e51210521ad72d05013199</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c061d453c3e51210521ad72d05013199</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8c61d453c3e51210521ad72d050131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c061d453c3e51210521ad72d05013199"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c061d453c3e51210521ad72d05013199^sys_idNOT IN0c61d453c3e51210521ad72d050131a3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apim_id</element>
+        <help/>
+        <hint/>
+        <label>apim_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c061d453c3e51210521ad72d05013199</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0c61d453c3e51210521ad72d050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=0861d453c3e51210521ad72d0501316e^sys_idNOT IN0061d453c3e51210521ad72d05013172"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=file_attachment,uiTypeLabel=File Attachment,uiUniqueId=58f23073-c2e3-4621-9698-55144de37da1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>document</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">file_attachment</internal_type>
+        <label>Document</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</model>
+        <model_id>0861d453c3e51210521ad72d0501316e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0861d453c3e51210521ad72d0501316e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>0061d453c3e51210521ad72d05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0061d453c3e51210521ad72d05013172"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0861d453c3e51210521ad72d0501316e^sys_idNOT IN4c61d453c3e51210521ad72d050131b3,8061d453c3e51210521ad72d050131b0,c461d453c3e51210521ad72d050131ab"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=262f91fa-d85f-4b05-9efc-05fcf81abce7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</model>
+        <model_id>0861d453c3e51210521ad72d0501316e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4c61d453c3e51210521ad72d050131b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c61d453c3e51210521ad72d050131b3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4c61d453c3e51210521ad72d050131b3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4fd3df72-17e2-4a18-88e2-bb5542c78bc4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</model>
+        <model_id>0861d453c3e51210521ad72d0501316e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8061d453c3e51210521ad72d050131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8061d453c3e51210521ad72d050131b0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8061d453c3e51210521ad72d050131b0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=38821d65-04c9-4c7b-ba77-77d7874fb2dc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apim_request_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apim_request_id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</model>
+        <model_id>0861d453c3e51210521ad72d0501316e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c461d453c3e51210521ad72d050131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c461d453c3e51210521ad72d050131ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c461d453c3e51210521ad72d050131ab"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0861d453c3e51210521ad72d0501316e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0861d453c3e51210521ad72d0501316e^sys_idNOT INd061d453c3e51210521ad72d050131bd"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of AzureAIDocumentIntelligence">0861d453c3e51210521ad72d0501316e</action_type_id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:12</sys_created_on>
+        <sys_id>d061d453c3e51210521ad72d050131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:12</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d061d453c3e51210521ad72d050131bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0861d453c3e51210521ad72d0501316e^sys_idNOT IN4861d453c3e51210521ad72d05013175"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>document</element>
+        <help/>
+        <hint/>
+        <label>Document</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0861d453c3e51210521ad72d0501316e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>4861d453c3e51210521ad72d05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0861d453c3e51210521ad72d0501316e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e^sys_idNOT IN8061d453c3e51210521ad72d050131b3,c461d453c3e51210521ad72d050131af,d461d453c3e51210521ad72d050131b8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>8061d453c3e51210521ad72d050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apim_request_id</element>
+        <help/>
+        <hint/>
+        <label>apim_request_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>c461d453c3e51210521ad72d050131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-03 17:49:11</sys_created_on>
+        <sys_id>d461d453c3e51210521ad72d050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-03 17:49:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0861d453c3e51210521ad72d0501316e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>3b38f431c36d9250521ad72d05013186</sys_id>
+        <latest_snapshot>0861d453c3e51210521ad72d0501316e</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

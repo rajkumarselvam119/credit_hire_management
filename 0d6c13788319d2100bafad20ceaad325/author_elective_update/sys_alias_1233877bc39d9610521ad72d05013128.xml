@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_1523132_credit_0.AzureAIDocumentIntelligence</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>AzureAIDocumentIntelligence</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2024-10-24 09:47:48</sys_created_on>
+        <sys_id>1233877bc39d9610521ad72d05013128</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1523132_credit_0.AzureAIDocumentIntelligence</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_alias_1233877bc39d9610521ad72d05013128</sys_update_name>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2024-10-24 10:07:29</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</application>
+        <file_path/>
+        <instance_id>a22794dfdb9afd10ae4c9027c59619dc</instance_id>
+        <instance_name>dev209402</instance_name>
+        <name>sys_alias_1233877bc39d9610521ad72d05013128</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_1523132_credit_0.AzureAIDocumentIntelligence</id><is_internal>false</is_internal><multiple_connections>false</multiple_connections><name>AzureAIDocumentIntelligence</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>raj.selvam</sys_created_by><sys_created_on>2024-10-24 09:47:48</sys_created_on><sys_id>1233877bc39d9610521ad72d05013128</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_1523132_credit_0.AzureAIDocumentIntelligence</sys_name><sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package><sys_policy/><sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope><sys_update_name>sys_alias_1233877bc39d9610521ad72d05013128</sys_update_name><sys_updated_by>raj.selvam</sys_updated_by><sys_updated_on>2024-10-24 10:07:29</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>-8324795</payload_hash>
+        <record_name>x_1523132_credit_0.AzureAIDocumentIntelligence</record_name>
+        <reverted_from/>
+        <source>7d62cbb7c39d9610521ad72d050131ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2024-10-24 10:07:29</sys_created_on>
+        <sys_id>1fc7c3b3c3dd9610521ad72d0501316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192bdfedd530000001</sys_recorded_at>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2024-10-24 10:07:29</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>93c7c3b3dcdd96102fa4718860fd586b</update_guid>
+        <update_guid_history>93c7c3b3dcdd96102fa4718860fd586b:-8324795,51554b3f749d9610eb3fb182abbcacda:1298095454,59b307bb1f9d9610bec09b770d881083:-8324795,8b430b7b7a9d961080c01aeffbd1ed93:1298095454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2024-10-24 10:30:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>6b980c83ec7249d88f596e5d21acf640</sys_id>
+        <sys_metadata>1233877bc39d9610521ad72d05013128</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_credit_0.AzureAIDocumentIntelligence</sys_name>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_scope_delete display_value="">ad69f779c5c0407d9f93a7932f242739</sys_scope_delete>
+        <sys_update_name>sys_alias_1233877bc39d9610521ad72d05013128</sys_update_name>
+        <sys_update_version display_value="sys_alias_1233877bc39d9610521ad72d05013128">1fc7c3b3c3dd9610521ad72d0501316b</sys_update_version>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2024-10-24 10:30:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

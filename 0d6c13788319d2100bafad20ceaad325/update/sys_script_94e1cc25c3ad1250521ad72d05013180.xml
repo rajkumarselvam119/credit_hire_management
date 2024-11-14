@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1523132_credit_0_hire_details</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Hire Details</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    current.amount_due = "$1,699.48";
+    current.billing_address = "1234,Clients Street,City, California,90210,United States";
+    current.billing_address_recepient = "Claimant";
+    current.customer_name = "Claimant";
+    current.due_date = "25/4/2021";
+    current.invoice_date = "26/3/2021";
+    current.invoice_number = "INV-10012";
+    current.invoice_total = "$1699.48";
+    current.payment_term = "Please pay within 30 days using the link in your invoice email.";
+    current.sub_total = "$1,798.39";
+    current.total_discount = "$179.84";
+    current.total_tax = "$80.93";
+    current.vendor_address = "1234,Vendor Street,California - 90210,United States";
+    current.validate_document = " https://dev209402.service-now.com/x/1523132/claim-handler/document/x_1523132_credit_0_hire_details/" + current.sys_id;
+    current.update();
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:23:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94e1cc25c3ad1250521ad72d05013180</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Populate Hire Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_script_94e1cc25c3ad1250521ad72d05013180</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-04 09:38:39</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=94e1cc25c3ad1250521ad72d05013180"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>94e1cc25c3ad1250521ad72d05013180</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:23:02</sys_created_on>
+        <sys_id>18648069c3ad1250521ad72d0501310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:23:02</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

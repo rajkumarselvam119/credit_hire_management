@@ -11,7 +11,7 @@
         <column_label>Final Estimated Amount</column_label>
         <comments/>
         <create_roles/>
-        <default_value>9000</default_value>
+        <default_value>900</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
         <sys_update_name>sys_dictionary_x_1523132_credit_0_hire_details_final_estimated_amount</sys_update_name>
-        <sys_updated_by>sreeranjani.s</sys_updated_by>
-        <sys_updated_on>2024-10-24 16:48:03</sys_updated_on>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-06 16:28:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>azure__doc_extraction</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Azure - Doc Extraction</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 04:52:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adaf2715c32d1250521ad72d0501317b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Azure - Doc Extraction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_hub_flow_adaf2715c32d1250521ad72d0501317b</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=adaf2715c32d1250521ad72d0501317b^sys_idNOT INe1af2715c32d1250521ad72d0501317d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>adaf2715c32d1250521ad72d0501317b</id>
+        <name>Azure - Doc Extraction</name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 04:52:27</sys_created_on>
+        <sys_id>e1af2715c32d1250521ad72d0501317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 04:52:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e1af2715c32d1250521ad72d0501317d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=adaf2715c32d1250521ad72d0501317b^sys_idNOT IN18c14025c3ad1250521ad72d050131aa,dcc18825c3ad1250521ad72d050131f6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Azure - Doc Extraction">adaf2715c32d1250521ad72d0501317b</model>
+        <model_id>adaf2715c32d1250521ad72d0501317b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>18c14025c3ad1250521ad72d050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18c14025c3ad1250521ad72d050131aa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Azure - Doc Extraction">adaf2715c32d1250521ad72d0501317b</model>
+        <model_id>adaf2715c32d1250521ad72d0501317b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>dcc18825c3ad1250521ad72d050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dcc18825c3ad1250521ad72d050131f6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=adaf2715c32d1250521ad72d0501317b^sys_idNOT IN98c18825c3ad1250521ad72d050131fc"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Azure - Doc Extraction">adaf2715c32d1250521ad72d0501317b</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>98c18825c3ad1250521ad72d050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLetncUGSBPUTtuHIBUoaWgTpSlXopS4i/x7h7rYsi6Or0n2JYB5mzNHZ86Qefyuc+IC16/0B+Jy0Ds6ExJCQfjDcgE4LNWwI8hczc2J8IkMwqV+JcMYOnoQ+hDqV2ZHTwiPYbKMbnzchEvTHfl2PZ/G3y+O2bNs07YcLwSfScdwZiwExwdJGI9wpc+iBSfLP/MN33BWG61mvRnjfghCv3p86ugLEmIYqSB8r0xJhO9s5KbdZUkwhdCjHhlYYHgKi2UY1mXXdC9s17R8m4Bh4LoqMZWMZAM/azrgRYLwAUNRwiNooC4E4t8LvlytmCHzGXdz8hKx//D0S0Oto4BZeZDNebOAeXC/kCwQ2UgGKJsMeDwXdxlQxSVQEnNZcIkjcaS4XihsKloemk5mwfO4CPSViTSNfJIHHuGrX0TKkLmxhEhxThlH9p2MhCiIwxTm+Hp4Px45f315GH67Hjvj68nD+Gb4cD3SX9N8nH9jdWKGMMfiZOm8rgTwlQFXX0rEcxfRdPTIC9lCfvEkSyCH89pZ63cYCNSTYqWmYa+YijY1nKdUfDXDaJWxVzq8kPLf17/X5ZoNHqbSYRlmqtKLC0J8IC0qdWlJpeX0G0DLBibKeW/Taz6yi2C7hnFuyWbVc7Bi54EPfLQ+TsfJ6RQ1zMQiloqWZyJk5MjAIb7vlAhTSxHTWxLOcnt9U69hLHCDsyK+rtqUthV/tyxCuI9YcwU36ZE4T2/zI8ex0AL8QvhH8+IQqZFaYVf0Zk6mOaN0Ahw8Wfra9I+o/Os3FkVMTEuoV0FTDmoxV+FQNVqRUhY7OjL404ElW+c3qfBWKd3D67b4UGnNmialLlDL6KuKNQ3bpabRN3qE+rZheFapZusQW7HLiibOUrstlRulsuM7iKzKcI7SKOt+J8Ekm2orslViyA1ieBpo5omgWQpaxejsvZxupcpseLQpzm2pnbinEz8huMPf1fB29DrKg2c02QN8ziXeP9MwiIVfNR51psaEtl6h/ZTz9/MJPY8GIWwHsLnig9xuzXChUSKWZ/M5m5ruALpgoL3Z6GxubzBwPWJR2r/og2VWfG4NrhHx5/K3N3SVNAmzzesaJZI0KWsPlzsCYM3x9gZ4vNflumx0umzux/C05xkIB6GGDleuVbO2KWc+FHMH13UtSrKu5FPV9m2OX0WnlwOvZ/b7Xh9fHFjZtAsuMbtWjwz6F/Zlr1LZNXjboMsGYt7lHRItoxTIp3tCn1OaEUipmsv+PVfg9TPdQ7Igpb6nuNdS4whC7S4Qv9ys12kTwHaWvjhP1Xx3QYGHhdp5YbiBnNW6P4b+Fcc3QqtbYwsrH/kUqugh2UzrTE8h6F72BtRuNhI6aDKSNcR28J/nsrBjLSStVdV0a9hV2kljhbS2+QPEWlFJuf9vuaCcihTz5KRY5yPFPvpSVJRi6/vvELA/ULNKrwnHdCwVE5yAlm16FGg4oWEQjVEt/18fPufdpSZngJRyvP1iQE1FP9afy/2iDmWl4PcFkt2na30Lh7X8PvShLany1d/j5Qp+n/R6dsv9dlB9uTbBfCOLz9Og9tZ/0lROW7vUfudWz2zsUyVxbgpixw500qyb29BxWTc2oreyPr7FbHt3N6D4pM3j6X/laSR6th4AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=adaf2715c32d1250521ad72d0501317b^sys_idNOT IN90c18825c3ad1250521ad72d050131fe"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="AzureAIDocumentIntelligence">45a6afd1c3e91250521ad72d050131fe</action_type>
+        <action_type_parent display_value="AzureAIDocumentIntelligence">51a24ff7c39d9610521ad72d050131c7</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Azure - Doc Extraction">adaf2715c32d1250521ad72d0501317b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>90c18825c3ad1250521ad72d050131fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <ui_id>b211dbb1-1daf-4a30-8f92-4cf288bb0140</ui_id>
+        <values>H4sIAAAAAAAA/41RW2vbMBT+K0PPjrF8SZq8FUpgsK2wrX0pxZxIR4lAllxZSpuW/vcdOU5auhX2Jn3n8l3O3QvTkq2YaGCOSnJR4ZKXTdGUHOSilEVT8IoXJcuYhQ6pUzoRO7SBkD2YmKCqVnWp+CfD8wW1Sj30Bg630wQhYqeN9GjZ6u4+Yz14Wh/Qs9XLh1I49Nga2KChwbU2+OUyBBC7ScT/yj9tuHrT/7ejxEWIIpYW3rM4L5M2njF8CmglEqsCM2DGOrASgvMHtgo+EuAR5LU1h3PHTtOO0XQHT4N+Joq6SH0KyaU4B+K0wOs+aGePSICNORWdiZ39cRSc8kQF0YR3ecYBW4l90pbYJmr1a+cef56I1tqONqaicQLM+Ud+vd7EgEO6QdS/KYtvn8aOBtOr7aDvtd22vXd7PS4nrV2+NfTJlXGPJGrQW5uDSMZyigryNeFXI3wLXieX32kNDWcT7z9vEPWN1Q8Rv6aLNxeqrIpFNRMlVrN6XvLZcr68mDUNr2uJ1UICZ69jyO1DTDaPsU0BtceMqWEQXvfhktTtccri9f4PisInRhcDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b^sys_idNOT IN54c18825c3ad1250521ad72d050131f9,94c14025c3ad1250521ad72d050131ae"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>54c18825c3ad1250521ad72d050131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-10-29 06:11:34</sys_created_on>
+        <sys_id>94c14025c3ad1250521ad72d050131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:11:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_adaf2715c32d1250521ad72d0501317b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_adaf2715c32d1250521ad72d0501317b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_adaf2715c32d1250521ad72d0501317b"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=adaf2715c32d1250521ad72d0501317b"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=adaf2715c32d1250521ad72d0501317b"/>
+</record_update>

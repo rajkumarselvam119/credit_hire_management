@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="91f94889839916100bafad20ceaad349" label="Hire Details" max_length="40" name="x_1523132_credit_0_hire_details" text_index="true" type="collection">
+        <element label="Sub Total" max_length="40" name="sub_total" type="string"/>
+        <element label="Generated Invoice" max_length="40" name="generated_invoice" read_only="true" type="file_attachment"/>
         <element active="false" label="Hire Invoice" max_length="40" name="hire_invoice" type="glide_date"/>
         <element label="End" max_length="40" name="end" type="glide_date_time"/>
         <element label="Defendant Offer VAT" max_length="38" name="defendant_offer_vat" type="decimal"/>
@@ -11,7 +13,7 @@
         <element label="Body Type" max_length="40" name="body_type" type="string"/>
         <element label="Age" max_length="40" name="age" type="integer"/>
         <element label="Hire Document" max_length="40" name="hire_document" type="string"/>
-        <element default="10000" label="Rate" max_length="38" name="rate" type="decimal"/>
+        <element default="90" label="Rate" max_length="38" name="rate" type="decimal"/>
         <element default="500" label="Net Amount" max_length="38" name="net_amount" type="decimal"/>
         <element label="Engine Size" max_length="40" name="engine_size" type="string"/>
         <element label="Claimed Days" max_length="40" name="claimed_days" type="integer"/>
@@ -73,7 +75,7 @@
             </choice>
         </element>
         <element label="Discount" max_length="38" name="discount" type="decimal"/>
-        <element default="9000" label="Final Estimated Amount" max_length="38" name="final_estimated_amount" type="decimal"/>
+        <element default="900" label="Final Estimated Amount" max_length="38" name="final_estimated_amount" type="decimal"/>
         <element label="Allocated Amount" max_length="38" name="allocated_amount" type="decimal"/>
         <element label="Signed By" max_length="40" name="signed_by" type="string"/>
         <element active="false" label="Hire Decision" max_length="40" name="hire_decision" type="string"/>

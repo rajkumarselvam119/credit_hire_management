@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="197d1849839156100bafad20ceaad310" label="CHM_REPAIR_DETAILS" max_length="40" name="x_1523132_credit_0_repair_details" text_index="true" type="collection">
+        <element label="Repair Estimate" max_length="255" name="repair_estimate" type="file_attachment"/>
         <element label="Claim ID" max_length="32" name="claim_id" reference="x_1523132_credit_0_claim_details" type="reference"/>
         <element label="Defendant Offer Engineer Fees" max_length="38" name="defendant_offer_engineer_fees" type="decimal"/>
         <element label="Authorized Hours" max_length="40" name="authorized_hours" type="integer"/>
@@ -27,7 +28,7 @@
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Defendant Offer Final Amount" max_length="38" name="defendant_offer_final_amount" type="decimal"/>
         <element label="Repair Report Amount" max_length="40" name="repair_report_amount" type="decimal"/>
-        <element label="Repair Facility Name" max_length="40" name="repair_facility_name" type="string"/>
+        <element default="ABC Repair Facility" label="Repair Facility Name" max_length="40" name="repair_facility_name" type="string"/>
         <element label="Repair Reserve Estimate" max_length="38" name="repair_reserve_estimate" type="decimal"/>
         <element label="Temporary Repair" max_length="40" name="temporary_repair" type="boolean"/>
         <element label="Salvage Value" max_length="38" name="salvage_value" type="decimal"/>

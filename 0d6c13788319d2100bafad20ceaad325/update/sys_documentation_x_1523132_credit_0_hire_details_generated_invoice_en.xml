@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="final_estimated_amount" label="Final Estimated Amount" language="en" table="x_1523132_credit_0_hire_details">
+    <sys_documentation element="generated_invoice" label="Generated Invoice" language="en" table="x_1523132_credit_0_hire_details">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>final_estimated_amount</element>
+            <element>generated_invoice</element>
             <help/>
             <hint/>
-            <label>Final Estimated Amount</label>
+            <label>Generated Invoice</label>
             <language>en</language>
             <name>x_1523132_credit_0_hire_details</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>nauman.ansari</sys_created_by>
-            <sys_created_on>2024-10-15 07:32:42</sys_created_on>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_name>Final Estimated Amount</sys_name>
+            <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+            <sys_created_on>2024-11-06 16:15:06</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Generated Invoice</sys_name>
             <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
             <sys_policy/>
             <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
-            <sys_update_name>sys_documentation_x_1523132_credit_0_hire_details_final_estimated_amount_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1523132_credit_0_hire_details_generated_invoice_en</sys_update_name>
             <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
-            <sys_updated_on>2024-11-06 16:28:46</sys_updated_on>
+            <sys_updated_on>2024-11-06 16:30:54</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

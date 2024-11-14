@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1523132_credit_0_claim_details</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1523132_credit_0_claim_details">stage=3^service_typeINhire,hire_insurance_claim^EQ<item display_value="Indemnity and Liability Investigation" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="hire,hire_insurance_claim" endquery="false" field="service_type" goto="false" newquery="false" operator="IN" or="false" value="hire,hire_insurance_claim"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Hire Invoice Generation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord('x_1523132_credit_0_hire_charge_details');
+    gr.addQuery('sys_id', '25e3f731c3d99210521ad72d05013126');
+    gr.query();
+    if (gr.next()) {
+        var html = current.template.template;
+        var x = html.replace(" ###reg_number###", gr.reg_number);
+        var a = x.replace(' ###days###', gr.number_of_days_vehicle_hired);
+        var b = a.replace(' ###unit_price###', gr.unit_price_per_day);
+        var c = b.replace('###per_day_price###', gr.defendant_offer_per_day_unit_price);
+        var d = c.replace('###per_day_value###', gr.defendant_offer_per_day_value);
+        var e = d.replace('###def_total_due_amount###', gr.defendant_total_due_amount);
+        var f = e.replace('###total_amount###', gr.total_due_amount);
+        var targetTable = "x_1523132_credit_0_claim_details";
+        var targetTableSysId = current.sys_id;
+        var pdfName = "Generated Invoice -" + current.number;
+        var v = new sn_pdfgeneratorutils.PDFGenerationAPI;
+        var result = v.convertToPDF(f, targetTable, targetTableSysId, pdfName);
+        //current.reviewed_by = JSON.stringify(result);
+        current.hire_id.generated_invoice = result.attachment_id;
+        current.update();
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-06 16:07:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f86557c0c3f19610521ad72d05013175</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Hire Invoice Generation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Hire Management" source="x_1523132_credit_0">0d6c13788319d2100bafad20ceaad325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Hire Management">0d6c13788319d2100bafad20ceaad325</sys_scope>
+        <sys_update_name>sys_script_f86557c0c3f19610521ad72d05013175</sys_update_name>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-06 16:47:14</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f86557c0c3f19610521ad72d05013175"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f86557c0c3f19610521ad72d05013175</id>
+        <sys_created_by>sushmithaa.sivakumar</sys_created_by>
+        <sys_created_on>2024-11-06 16:07:12</sys_created_on>
+        <sys_id>9bc69b44c3f19610521ad72d0501312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushmithaa.sivakumar</sys_updated_by>
+        <sys_updated_on>2024-11-06 16:07:12</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
